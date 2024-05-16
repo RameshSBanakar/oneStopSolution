@@ -1,0 +1,65 @@
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+    /* height:50px; */
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    font-size: 1.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__item {
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar__toggle {
+    display: none;
+    /* Hide the menu toggle icon by default */
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #555;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar__item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Media query to show/hide the sidebar toggle icon */
+@media (max-width: 768px) {
+    .navbar__menu {
+        display: none;
+        /* Hide the menu items */
+    }
+
+    .navbar__toggle {
+        display: block;
+        /* Show the menu toggle icon */
+    }
+}

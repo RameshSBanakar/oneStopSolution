@@ -1,0 +1,29 @@
+.common{
+    border: 1px solid black;
+    width:95%;
+    height: 500px;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+}
+.home{
+ margin-left: 2.5%;
+ margin-top: 2%;
+}
+.imagediv{
+    width:10%;
+    /* border:1px solid black; */
+    height: 60px;
+    margin-top: -1.5%;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+
+}
+.imagediv img{
+  width: 100px;
+  height: 40px;
+  margin-top: 3px;
+  margin-left: 10px;
+}
