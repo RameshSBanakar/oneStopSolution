@@ -11,8 +11,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__container">
-        <div className="navbar__logo">Your Logo</div>
-        <div className={`navbar__menu ${isMenuOpen ? "active" : ""}`}>
+        <div className="navbar__logo">
+          One Step Solution for All MRM
+        </div>
+       
+        {/* <div className={`navbar__menu ${isMenuOpen ? "active" : ""}`}>
           <a href="#" className="navbar__item">
             Home
           </a>
@@ -25,7 +28,7 @@ const Navbar = () => {
           <a href="#" className="navbar__item">
             Contact
           </a>
-        </div>
+        </div> */}
         <div className="navbar__toggle" onClick={toggleMenu}>
           <i className={`fas ${isMenuOpen ? "fa-times" : "fa-bars"}`}></i>
         </div>
