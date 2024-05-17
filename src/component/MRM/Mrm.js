@@ -14,6 +14,8 @@ import INTRODUCTION_TO_MRM from "../Assets/MRM/Intorduction_to_Modular_Model_and
 import EXE_DESIGN_PROCESS from "../Assets/MRM/Execution_and_Design_Processes.pdf";
 import DATA_MANAGMENT_BROCHER from "../Assets/MRM/data_management_brochure.pdf";
 import DIFFRENCE_BTW_FBDM_SBDM from "../Assets/MRM/Difference_FBDM_ServerBasedDM.docx"
+
+
 const Mrm = () => {
   return (
     <div className="common">
@@ -71,7 +73,8 @@ const Mrm = () => {
               <img src={pdf_logo} className="pdf-logo" alt="" />
             </a>
           </div>
-        </div>
+              </div>
+              
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">Modular Model Run Managment</span>

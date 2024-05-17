@@ -3,11 +3,16 @@ import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import beta_logo from "../Assets/beta_logo.png"
+import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
 const Pdm = () => {
   return (
     <div className="common">
       <div className="imagediv">
-        <img src={beta_logo} alt="ansers_logo" style={{width:"13px",height:"13px",paddingLeft:"90px"}}/>
+        <img
+          src={beta_logo}
+          alt="ansers_logo"
+          style={{ width: "13px", height: "13px", paddingLeft: "90px" }}
+        />
         <div style={{ paddingLeft: "10px" }}>PDM TO CAD</div>
       </div>
 
@@ -15,15 +20,15 @@ const Pdm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              simulation model assembly and management of iterations
+              RENAULT:CAE model generation from CAD and PDM info
             </span>
           </div>
           <div>
             <a
-              href="https://www.youtube.com/watch?v=F6XmKCHOj_M"
-              target="_black"
+              href={CAE_MODEL_GENERATION_PDM_AND_CAD}
+              download="cae_model_generation_pdm_and_cad"
             >
-              <img src={youtube_logo} className="link-logo" alt="" />
+              <img src={pdf_logo} className="pdf-logo" alt="" />
             </a>
           </div>
         </div>

@@ -85,7 +85,7 @@ const Spdrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              Unlocking the power of process management with SPDRM
+              power of process management with SPDRM
             </span>
           </div>
           <div>
