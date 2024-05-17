@@ -1,6 +1,6 @@
 import React from "react";
 import "./Mrm.css";
-import ansers_log from "../Assets/ANSERS/logo_ansers.png";
+
 
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg"
@@ -290,6 +290,38 @@ const Mrm = () => {
           <div>
             <a
               href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266405/Modular%20Run%20Management%20for%20Durability.pdf"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              Model migration and Loadcase setup
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266399/20200424_Honda_NA_Modular_Run_Management.pdf"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              BIW Decomposition and integration in a Simulation Model
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/112265693/GES_NVH_Modular_Approach__demo_notes.pptx"
               target="_blank"
             >
               <img src={link_logo} className="link-logo" />
