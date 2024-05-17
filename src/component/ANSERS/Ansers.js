@@ -21,8 +21,8 @@ const Ansers = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              ANSERS: The single point-of-truth for simulation and physical
-              test data
+              ANSERS: The single point-of-truth for simulation and physical test
+              data
             </span>
           </div>
           <div>
@@ -36,7 +36,7 @@ const Ansers = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">Ansers brochure</span>
+            <span className="colorAndFont">ANSERS brochure</span>
           </div>
           <div>
             <a href={ANSERS_BROCHERS} download="ansers_brochers">
@@ -46,7 +46,7 @@ const Ansers = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">Ansers Q&A</span>
+            <span className="colorAndFont">ANSERS Q&A</span>
           </div>
           <div>
             <a href={ANSERS_QA} download="ansers_qa">

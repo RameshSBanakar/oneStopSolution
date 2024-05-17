@@ -25,7 +25,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              simulation model assembly and management of iterations
+              model assembly and iterations management
             </span>
           </div>
           <div>
@@ -40,9 +40,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">
-              Modular Run Management in ANSA
-            </span>
+            <span className="colorAndFont">Modular Run Management in ANSA</span>
           </div>
           <div>
             <a
@@ -118,9 +116,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">
-              White Papers & Presentations
-            </span>
+            <span className="colorAndFont">White Papers & Presentations</span>
           </div>
           <div>
             <a href="https://www.beta-cae.com/resources.htm" target="_blank">
@@ -131,9 +127,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">
-              Difference between FBDM & SBDM
-            </span>
+            <span className="colorAndFont">Difference between FBDM & SBDM</span>
           </div>
           <div>
             <a
@@ -164,8 +158,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              Implementation of a Simulation Process and Data Management
-              system at CEVT
+              Simulation Process_Data Management at CEVT
             </span>
           </div>
           <div>

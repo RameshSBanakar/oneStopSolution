@@ -1,5 +1,5 @@
 import React from "react";
-import "./Komvos.css"
+import "./Komvos.css";
 import ansers_log from "../Assets/ANSERS/logo_ansers.png";
 import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
 import komvos_logo from "../Assets/KOMVOS/logo_cropped_komvos.png";
@@ -40,6 +40,9 @@ const Komvos = () => {
             </a>
           </div>
         </div>
+
+       
+
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">KOMVOS Tutorials</span>
@@ -139,22 +142,20 @@ const Komvos = () => {
           </div>
         </div>
 
-       
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">Machine Learning in KOMVOS</span>
-            </div>
-            <div>
-              <a
-                href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
-                target="_black"
-              >
-                <img src={youtube_logo} className="link-logo" alt="" />
-              </a>
-            </div>
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Machine Learning in KOMVOS</span>
           </div>
-             
-              
+          <div>
+            <a
+              href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" alt="" />
+            </a>
+          </div>
+        </div>
+
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">KOMVOS prdouct site</span>

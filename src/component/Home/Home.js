@@ -15,7 +15,7 @@ const Home = () => {
         <Mrm />
         <Ansers />
         <Pdm />
-        <Conference/>
+        {/* <Conference/> */}
       </div>
       <div className="firstROw">
         <Komvos />
