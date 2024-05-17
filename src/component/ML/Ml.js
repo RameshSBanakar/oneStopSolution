@@ -31,7 +31,7 @@ const Ml = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              Machine Learning in feature detection for meshing applications
+              ML in feature detection for meshing
             </span>
           </div>
           <div>
@@ -47,7 +47,7 @@ const Ml = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              training dataset and perform Machine Learning and Design
+              training dataset and perform ML and Design
             </span>
           </div>
           <div>
@@ -63,7 +63,7 @@ const Ml = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              Machine Learning in Feature Detection
+              ML in Feature Detection
             </span>
           </div>
           <div>
@@ -94,7 +94,7 @@ const Ml = () => {
           <div>
             <span className="colorAndFont">
               SEAT: How to optimize the design of a car-body-structure by using
-              Machine Learning
+              ML
             </span>
           </div>
           <div>

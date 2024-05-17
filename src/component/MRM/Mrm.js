@@ -27,8 +27,36 @@ const Mrm = () => {
         />
         <div style={{ paddingLeft: "40px" }}>MRM</div>
       </div>
-      <div></div>
+
       <div className="datadiv">
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Why MRM?</span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Presentations</span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/Presentations"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
@@ -73,8 +101,8 @@ const Mrm = () => {
               <img src={pdf_logo} className="pdf-logo" alt="" />
             </a>
           </div>
-              </div>
-              
+        </div>
+
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">Modular Model Run Managment</span>
@@ -135,6 +163,22 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
+            <span className="colorAndFont">
+              Modular Run Management (MRM) confluence
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018685"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
             <span className="colorAndFont">Difference between FBDM & SBDM</span>
           </div>
           <div>
@@ -175,6 +219,20 @@ const Mrm = () => {
               target="_black"
             >
               <img src={youtube_logo} className="link-logo" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Trainings</span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/Trainings"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
             </a>
           </div>
         </div>
