@@ -21,7 +21,7 @@ const Ansers = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              1.ANSERS: The single point-of-truth for simulation and physical
+              ANSERS: The single point-of-truth for simulation and physical
               test data
             </span>
           </div>
@@ -36,7 +36,7 @@ const Ansers = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">2.Ansers brochure</span>
+            <span className="colorAndFont">Ansers brochure</span>
           </div>
           <div>
             <a href={ANSERS_BROCHERS} download="ansers_brochers">
@@ -46,7 +46,7 @@ const Ansers = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">3.Ansers Q&A</span>
+            <span className="colorAndFont">Ansers Q&A</span>
           </div>
           <div>
             <a href={ANSERS_QA} download="ansers_qa">
@@ -56,7 +56,7 @@ const Ansers = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">4.ANSERS product site</span>
+            <span className="colorAndFont">ANSERS product site</span>
           </div>
           <div>
             <a href="https://www.beta-cae.com/ansers.htm" target="_blank">

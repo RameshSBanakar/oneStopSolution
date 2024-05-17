@@ -28,7 +28,7 @@ const Komvos = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              1.KOMVOS - The innovative SDM platform
+              KOMVOS - The innovative SDM platform
             </span>
           </div>
           <div>
@@ -42,7 +42,7 @@ const Komvos = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">2.KOMVOS Tutorials</span>
+            <span className="colorAndFont">KOMVOS Tutorials</span>
           </div>
           <div>
             <a
@@ -55,7 +55,7 @@ const Komvos = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">3.Introduction to KOMVOS</span>
+            <span className="colorAndFont">Introduction to KOMVOS</span>
           </div>
           <div>
             <a href={KOMVOS_INTRODUCTIOn_PDF} download="introduction_to_komvos">
@@ -65,7 +65,7 @@ const Komvos = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">4.KOMVOS UI walkthrough</span>
+            <span className="colorAndFont">KOMVOS UI walkthrough</span>
           </div>
           <div>
             <a href={KOMVOS_UI_WALKTHROUGH} download="komvos_ui_walkthrough">
@@ -75,7 +75,7 @@ const Komvos = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">5.KOMVOS user guide</span>
+            <span className="colorAndFont">KOMVOS user guide</span>
           </div>
           <div>
             <a href={KOMVOS_USERGUIDE} download="komvos_userguide">
@@ -85,7 +85,7 @@ const Komvos = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">6.KOMVOS brochure</span>
+            <span className="colorAndFont">KOMVOS brochure</span>
           </div>
           <div>
             <a href={KOMVOS_BROCHER} download="komvos_brochers">
@@ -95,7 +95,7 @@ const Komvos = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">7.KOMVOS system requirements</span>
+            <span className="colorAndFont">KOMVOS system requirements</span>
           </div>
           <div>
             <a
@@ -108,7 +108,7 @@ const Komvos = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">8.KOMVOS explained</span>
+            <span className="colorAndFont">KOMVOS explained</span>
           </div>
           <div>
             <a href={KMOVOS_EXPLAIND} download="komvos_explained">
@@ -119,7 +119,7 @@ const Komvos = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">9.KOMVOS Q&A</span>
+            <span className="colorAndFont">KOMVOS Q&A</span>
           </div>
           <div>
             <a href={KOMVOS_QA} download="komvos_qa">
@@ -130,7 +130,7 @@ const Komvos = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">10.KOMVOS short notes</span>
+            <span className="colorAndFont">KOMVOS short notes</span>
           </div>
           <div>
             <a href={KOMVOS_SHORT_NOTES} download="komvos_short_notes">
@@ -138,9 +138,26 @@ const Komvos = () => {
             </a>
           </div>
         </div>
+
+       
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">Machine Learning in KOMVOS</span>
+            </div>
+            <div>
+              <a
+                href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
+                target="_black"
+              >
+                <img src={youtube_logo} className="link-logo" alt="" />
+              </a>
+            </div>
+          </div>
+             
+              
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">11.KOMVOS prdouct site</span>
+            <span className="colorAndFont">KOMVOS prdouct site</span>
           </div>
           <div>
             <a href="https://www.beta-cae.com/komvos.htm" target="_blank">

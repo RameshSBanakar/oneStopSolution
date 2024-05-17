@@ -14,7 +14,7 @@ const Pdm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              1.simulation model assembly and management of iterations
+              simulation model assembly and management of iterations
             </span>
           </div>
           <div>

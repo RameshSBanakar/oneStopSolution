@@ -25,7 +25,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              1.simulation model assembly and management of iterations
+              simulation model assembly and management of iterations
             </span>
           </div>
           <div>
@@ -41,7 +41,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              2.Modular Run Management in ANSA
+              Modular Run Management in ANSA
             </span>
           </div>
           <div>
@@ -57,7 +57,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              3.Introduction to Modular Model Run Managment
+              Introduction to Modular Model Run Managment
             </span>
           </div>
           <div>
@@ -71,7 +71,7 @@ const Mrm = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">4.Modular Model Run Managment</span>
+            <span className="colorAndFont">Modular Model Run Managment</span>
           </div>
           <div>
             <a href={MRM_PDF} download="Modular_Model_and_Run_Management">
@@ -82,7 +82,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">5.Data Managment</span>
+            <span className="colorAndFont">Data Managment</span>
           </div>
           <div>
             <a href={DATA_MANAGMENT} download="Data_managment">
@@ -93,7 +93,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">6.Data Managment brochure</span>
+            <span className="colorAndFont">Data Managment brochure</span>
           </div>
           <div>
             <a href={DATA_MANAGMENT_BROCHER} download="Data_managment_brochure">
@@ -104,7 +104,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">7.Execution and process design</span>
+            <span className="colorAndFont">Execution and process design</span>
           </div>
           <div>
             <a
@@ -119,7 +119,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              8. White Papers & Presentations
+              White Papers & Presentations
             </span>
           </div>
           <div>
@@ -132,7 +132,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              9.Difference between FBDM & SBDM
+              Difference between FBDM & SBDM
             </span>
           </div>
           <div>
@@ -141,6 +141,39 @@ const Mrm = () => {
               download="diffrence_btw_FBDM_SBDM"
             >
               <img src={document_logo} className="doc-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              Model Assembly to Loadcase Set-up: An holistic approach
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/watch?v=9nSnRavh_Fc"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              Implementation of a Simulation Process and Data Management
+              system at CEVT
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/watch?v=67lnE2tJLes"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" alt="" />
             </a>
           </div>
         </div>

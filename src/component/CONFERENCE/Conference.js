@@ -14,7 +14,7 @@ const Conference = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              1.9th BEFORE REALITY Conference
+              9th BEFORE REALITY Conference
             </span>
           </div>
           <div>

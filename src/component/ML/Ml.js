@@ -14,7 +14,7 @@ const Ml = () => {
       <div className="datadiv">
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">1.Machine Learning in KOMVOS</span>
+            <span className="colorAndFont">Machine Learning in KOMVOS</span>
           </div>
           <div>
             <a

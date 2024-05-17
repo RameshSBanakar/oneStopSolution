@@ -24,7 +24,7 @@ const Spdrm = () => {
       <div className="datadiv">
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">1.SPDRM brochure</span>
+            <span className="colorAndFont">SPDRM brochure</span>
           </div>
           <div>
             <a href={SPDRM_BROCHER} download="spderm_brochers">
@@ -34,7 +34,7 @@ const Spdrm = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">2.SPDRM system requirements</span>
+            <span className="colorAndFont">SPDRM system requirements</span>
           </div>
           <div>
             <a
@@ -47,7 +47,7 @@ const Spdrm = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">3.SPDRM Q&A</span>
+            <span className="colorAndFont">SPDRM Q&A</span>
           </div>
           <div>
             <a href={SPDRM_QA} download="spdrm_qa">
@@ -57,7 +57,7 @@ const Spdrm = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">4.SPDRM superiority</span>
+            <span className="colorAndFont">SPDRM superiority</span>
           </div>
           <div>
             <a href={SPDRM_SUPERIORITY} download="spdrm_superiority">
@@ -69,7 +69,7 @@ const Spdrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              5.Vehicle collision simulation process management using SPDRM
+              Vehicle collision simulation process management using SPDRM
             </span>
           </div>
           <div>
@@ -85,7 +85,7 @@ const Spdrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              6.Unlocking the power of process management with SPDRM
+              Unlocking the power of process management with SPDRM
             </span>
           </div>
           <div>
@@ -100,7 +100,7 @@ const Spdrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">7.SPDRM product site</span>
+            <span className="colorAndFont">SPDRM product site</span>
           </div>
           <div>
             <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
