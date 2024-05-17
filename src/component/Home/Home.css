@@ -1,9 +1,12 @@
-
+.body{
+    background-image: url("../Assets/backgroundImage.png");
+}
 .home{
  margin-left: 2.5%;
  margin-top: .5%;
  display: flex;
  width:97%;
+ 
 
  /* border: 1px solid red; */
  /* flex-direction: column; */
@@ -30,3 +33,4 @@
     }
     
 }
+
