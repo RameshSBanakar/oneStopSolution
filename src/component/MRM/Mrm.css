@@ -24,11 +24,11 @@
     box-shadow: 1px 1px 1px 1px;
 
 }
-.imagediv span{
+.imagediv div{
   color:blue;
   font-weight: 500;
   padding-left: 40px;
-  margin-top: 100%;
+  padding-top: 15px;
 }
 
 /* .imagediv img {

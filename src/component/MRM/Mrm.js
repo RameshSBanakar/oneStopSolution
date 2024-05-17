@@ -3,7 +3,7 @@ import "./Mrm.css";
 import ansers_log from "../Assets/ANSERS/logo_ansers.png";
 
 import pdf_logo from "../Assets/pdf_logo.webp";
-
+import link_logo from "../Assets/link_logo.jpg"
 import youtube_logo from "../Assets/youtube_logo.png";
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
@@ -15,8 +15,8 @@ const Mrm = () => {
   return (
     <div className="common">
       <div className="imagediv">
-              {/* <img src={ansers_log} alt="ansers_logo" /> */}
-              <span >MRM</span>
+        {/* <img src={ansers_log} alt="ansers_logo" /> */}
+        <div>MRM</div>
       </div>
       <div></div>
       <div className="datadiv">
@@ -59,8 +59,8 @@ const Mrm = () => {
               <img src={pdf_logo} className="pdf-logo" alt="" />
             </a>
           </div>
-              </div>
-              
+        </div>
+
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">4.Data Managment</span>
@@ -93,6 +93,19 @@ const Mrm = () => {
               download="Execution_and_Design_Processes.pdf"
             >
               <img src={pdf_logo} className="pdf-logo" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              7. White Papers & Presentations
+            </span>
+          </div>
+          <div>
+            <a href="https://www.beta-cae.com/resources.htm" target="_blank">
+              <img src={link_logo} className="link-logo" />
             </a>
           </div>
         </div>
