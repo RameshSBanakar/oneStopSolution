@@ -6,6 +6,7 @@ import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg"
 import youtube_logo from "../Assets/youtube_logo.png";
 import document_logo from "../Assets/document_logo.png"
+import beta_logo from "../Assets/beta_logo.png"
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
 import DATA_MANAGMENT from "../Assets/MRM/1data_management.pdf";
@@ -17,8 +18,12 @@ const Mrm = () => {
   return (
     <div className="common">
       <div className="imagediv">
-        {/* <img src={ansers_log} alt="ansers_logo" /> */}
-        <div>MRM</div>
+        <img
+          src={beta_logo}
+          alt="ansers_logo"
+          style={{ width: "13px", height: "13px", paddingLeft: "90px" }}
+        />
+        <div style={{ paddingLeft: "40px" }}>MRM</div>
       </div>
       <div></div>
       <div className="datadiv">

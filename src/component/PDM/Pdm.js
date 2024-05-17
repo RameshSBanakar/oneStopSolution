@@ -2,14 +2,15 @@ import React from 'react'
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
+import beta_logo from "../Assets/beta_logo.png"
 const Pdm = () => {
   return (
     <div className="common">
       <div className="imagediv">
-        {/* <img src={ansers_log} alt="ansers_logo" /> */}
-        <div>PDM</div>
+        <img src={beta_logo} alt="ansers_logo" style={{width:"13px",height:"13px",paddingLeft:"90px"}}/>
+        <div style={{ paddingLeft: "10px" }}>PDM TO CAD</div>
       </div>
-     
+
       <div className="datadiv">
         <div className="innerdivs">
           <div>
@@ -26,8 +27,6 @@ const Pdm = () => {
             </a>
           </div>
         </div>
-        
-
       </div>
     </div>
   );

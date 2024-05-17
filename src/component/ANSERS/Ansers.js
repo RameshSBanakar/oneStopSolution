@@ -21,8 +21,7 @@ const Ansers = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              ANSERS: The single point-of-truth for simulation and physical test
-              data
+              ANSERS:Introduction
             </span>
           </div>
           <div>
