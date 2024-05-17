@@ -1,5 +1,5 @@
 import React from "react";
-import "./Spdrm.css"
+import "./Spdrm.css";
 import ansers_log from "../Assets/ANSERS/logo_ansers.png";
 import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
 import komvos_logo from "../Assets/KOMVOS/logo_cropped_komvos.png";
@@ -13,7 +13,7 @@ import SPDRM_BROCHER from "../Assets/SPDRM/spdrm_brochure.pdf";
 import SPDRM_QA from "../Assets/SPDRM/spdrm_qa.pdf";
 import SPDRM_SYSTEM_REQUIREMENT from "../Assets/SPDRM/system_requirements (1).pdf";
 import SPDRM_SUPERIORITY from "../Assets/SPDRM/spdrm_superiority.pdf";
-
+import SPDRM_VEHICLE_COLLISION from "../Assets/SPDRM/vehicle_collision.pdf";
 const Spdrm = () => {
   return (
     <div className="common">
@@ -64,9 +64,26 @@ const Spdrm = () => {
             </a>
           </div>
         </div>
+
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">5. SPDRM product site</span>
+            <span className="colorAndFont">
+              5.Vehicle collision simulation process management using SPDRM
+            </span>
+          </div>
+          <div>
+            <a
+              href={SPDRM_VEHICLE_COLLISION}
+              download="Vehicle_collision_simulation_process_management_using_SPDRM"
+            >
+              <img src={pdf_logo} className="pdf-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">6.SPDRM product site</span>
           </div>
           <div>
             <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
