@@ -68,3 +68,23 @@
 .firstROw{
     display: flex;
 }
+@media screen and (max-width: 1080px) {
+    .imagediv {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 800px) {
+.imagediv {
+    width:32%;
+}
+}
+@media screen and (max-width: 600px) {
+.firstROw {
+    width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+        .common{
+            width: 95%;
+        }
+}
