@@ -37,10 +37,27 @@ const Mrm = () => {
             </a>
           </div>
         </div>
+
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              2.Introduction to Modular Model Run Managment
+              2.Modular Run Management in ANSA
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              3.Introduction to Modular Model Run Managment
             </span>
           </div>
           <div>
@@ -54,7 +71,7 @@ const Mrm = () => {
         </div>
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">3.Modular Model Run Managment</span>
+            <span className="colorAndFont">4.Modular Model Run Managment</span>
           </div>
           <div>
             <a href={MRM_PDF} download="Modular_Model_and_Run_Management">
@@ -65,7 +82,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">4.Data Managment</span>
+            <span className="colorAndFont">5.Data Managment</span>
           </div>
           <div>
             <a href={DATA_MANAGMENT} download="Data_managment">
@@ -76,7 +93,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">5.Data Managment brochure</span>
+            <span className="colorAndFont">6.Data Managment brochure</span>
           </div>
           <div>
             <a href={DATA_MANAGMENT_BROCHER} download="Data_managment_brochure">
@@ -87,7 +104,7 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">6.Execution and process design</span>
+            <span className="colorAndFont">7.Execution and process design</span>
           </div>
           <div>
             <a
@@ -102,7 +119,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              7. White Papers & Presentations
+              8. White Papers & Presentations
             </span>
           </div>
           <div>
@@ -114,10 +131,15 @@ const Mrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">8.Difference between FBDM & SBDM</span>
+            <span className="colorAndFont">
+              9.Difference between FBDM & SBDM
+            </span>
           </div>
           <div>
-            <a href={DIFFRENCE_BTW_FBDM_SBDM} download="diffrence_btw_FBDM_SBDM">
+            <a
+              href={DIFFRENCE_BTW_FBDM_SBDM}
+              download="diffrence_btw_FBDM_SBDM"
+            >
               <img src={document_logo} className="doc-logo" />
             </a>
           </div>

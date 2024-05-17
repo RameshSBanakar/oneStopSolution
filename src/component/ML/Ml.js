@@ -10,25 +10,21 @@ const Ml = () => {
         {/* <img src={ansers_log} alt="ansers_logo" /> */}
         <div>ML</div>
       </div>
-      <div></div>
+     
       <div className="datadiv">
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">
-              1.simulation model assembly and management of iterations
-            </span>
+            <span className="colorAndFont">1.Machine Learning in KOMVOS</span>
           </div>
           <div>
             <a
-              href="https://www.youtube.com/watch?v=F6XmKCHOj_M"
+              href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
               target="_black"
             >
               <img src={youtube_logo} className="link-logo" alt="" />
             </a>
           </div>
         </div>
-        
-
       </div>
     </div>
   );

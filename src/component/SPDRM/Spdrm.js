@@ -14,6 +14,7 @@ import SPDRM_QA from "../Assets/SPDRM/spdrm_qa.pdf";
 import SPDRM_SYSTEM_REQUIREMENT from "../Assets/SPDRM/system_requirements (1).pdf";
 import SPDRM_SUPERIORITY from "../Assets/SPDRM/spdrm_superiority.pdf";
 import SPDRM_VEHICLE_COLLISION from "../Assets/SPDRM/vehicle_collision.pdf";
+import POWER_OF_PROCESS_MANAGMENT from "../Assets/SPDRM/Unlocking_the_power_of_process_management_with_SPDRM.pdf"
 const Spdrm = () => {
   return (
     <div className="common">
@@ -83,7 +84,23 @@ const Spdrm = () => {
 
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">6.SPDRM product site</span>
+            <span className="colorAndFont">
+              6.Unlocking the power of process management with SPDRM
+            </span>
+          </div>
+          <div>
+            <a
+              href={POWER_OF_PROCESS_MANAGMENT}
+              download="Unlocking_the_power_of_process_management_with_SPDRM"
+            >
+              <img src={pdf_logo} className="pdf-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">7.SPDRM product site</span>
           </div>
           <div>
             <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
