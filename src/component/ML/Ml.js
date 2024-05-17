@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import beta_logo from "../Assets/beta_logo.png"
-import ML_FASTNER from "../Assets/ML/ML_fasteners.pdf"
+import beta_logo from "../Assets/beta_logo.png";
+import ML_FASTNER from "../Assets/ML/ML_fasteners.pdf";
 const Ml = () => {
   return (
     <div className="common">
@@ -109,6 +109,6 @@ const Ml = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Ml
+export default Ml;
