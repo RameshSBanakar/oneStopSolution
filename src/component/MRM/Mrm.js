@@ -236,6 +236,66 @@ const Mrm = () => {
             </a>
           </div>
         </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              Run history and Changeset Management
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266332/20220606_Run_history_and_Changeset_Management_v22.1.3.pdf"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">How to set up MEPs in DM</span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266339/Set_Up_Modular_Environment_Profiles.pdf"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Update of Subsystems</span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266341/Update_Of_Subsystems.pdf"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              Modular Run Management for Durability
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266405/Modular%20Run%20Management%20for%20Durability.pdf"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

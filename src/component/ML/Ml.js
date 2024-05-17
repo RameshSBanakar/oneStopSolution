@@ -93,7 +93,7 @@ const Ml = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              SEAT: How to optimize the design of a car-body-structure by using
+              SEAT:optimize the design of a car-body-structure using
               ML
             </span>
           </div>
