@@ -39,14 +39,8 @@
 
 
 /* Media query to show/hide the sidebar toggle icon */
-@media (max-width: 768px) {
-    .navbar__menu {
-        display: none;
-        /* Hide the menu items */
-    }
-
-    .navbar__toggle {
-        display: block;
-        /* Show the menu toggle icon */
-    }
+@media (max-width: 600px) {
+.navbar__logo{
+    padding-left: 12%;
+}
 }

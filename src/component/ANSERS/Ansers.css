@@ -1,0 +1,101 @@
+.common {
+    border: 1px solid black;
+    width: 95%;
+    /* height: 500px; */
+    margin-top: 6%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+    padding-left: 2%;
+    margin-right: 2%;
+    /* background: linear-gradient(to bottom right,#D6FA0F,white);
+     */
+}
+
+
+.imagediv {
+    width: 18%;
+    /* border:1px solid black; */
+    height: 60px;
+    margin-top: -6%;
+    /* margin-left: 2%; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.imagediv img {
+    width: 100px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.datadiv {
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 2%;
+}
+
+.innerdivs {
+    width: 98%;
+    display: flex;
+    border: 1px solid rgb(196, 194, 194);
+    /* justify-content: space-between; */
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 1px;
+}
+
+.innerdivs div a {
+    text-decoration: none;
+}
+
+.innerdivs div a:hover {
+    font-weight: 500;
+}
+
+.pdf-logo {
+    width: 25px;
+}
+
+.doc-logo {
+    width: 20px;
+}
+
+.link-logo {
+    width: 19px;
+}
+
+/* .firstROw {
+    display: flex;
+} */
+
+.colorAndFont {
+
+    color: #63666A;
+    font-weight: 500;
+
+}
+
+@media screen and (max-width: 1080px) {
+    .imagediv {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .imagediv {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .common {
+        width: 95%;
+        margin-top: 6%;
+    }
+}
