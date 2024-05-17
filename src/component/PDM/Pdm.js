@@ -11,7 +11,7 @@ const Pdm = () => {
         <img
           src={beta_logo}
           alt="ansers_logo"
-          style={{ width: "13px", height: "13px", paddingLeft: "90px" }}
+          style={{ width: "18px", height: "18px", paddingLeft: "90px" }}
         />
         <div style={{ paddingLeft: "10px" }}>PDM TO CAD</div>
       </div>
