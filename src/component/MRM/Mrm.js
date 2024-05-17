@@ -1,20 +1,18 @@
 import React from "react";
 import "./Mrm.css";
 
-
 import pdf_logo from "../Assets/pdf_logo.webp";
-import link_logo from "../Assets/link_logo.jpg"
+import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import document_logo from "../Assets/document_logo.png"
-import beta_logo from "../Assets/beta_logo.png"
+import document_logo from "../Assets/document_logo.png";
+import beta_logo from "../Assets/beta_logo.png";
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
 import DATA_MANAGMENT from "../Assets/MRM/1data_management.pdf";
 import INTRODUCTION_TO_MRM from "../Assets/MRM/Intorduction_to_Modular_Model_and_Run_management.pdf";
 import EXE_DESIGN_PROCESS from "../Assets/MRM/Execution_and_Design_Processes.pdf";
 import DATA_MANAGMENT_BROCHER from "../Assets/MRM/data_management_brochure.pdf";
-import DIFFRENCE_BTW_FBDM_SBDM from "../Assets/MRM/Difference_FBDM_ServerBasedDM.docx"
-
+import DIFFRENCE_BTW_FBDM_SBDM from "../Assets/MRM/Difference_FBDM_ServerBasedDM.docx";
 
 const Mrm = () => {
   return (
