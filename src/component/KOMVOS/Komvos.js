@@ -27,37 +27,6 @@ const Komvos = () => {
       <div className="datadiv">
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">
-              KOMVOS - The innovative SDM platform
-            </span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/embed/mq4HrOafuO0?rel=0"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-
-       
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS Tutorials</span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUd96uYCP7pV_ekfM6JPvCvu"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="innerdivs">
-          <div>
             <span className="colorAndFont">Introduction to KOMVOS</span>
           </div>
           <div>
@@ -138,6 +107,36 @@ const Komvos = () => {
           <div>
             <a href={KOMVOS_SHORT_NOTES} download="komvos_short_notes">
               <img src={document_logo} className="doc-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              KOMVOS - The innovative SDM platform
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/embed/mq4HrOafuO0?rel=0"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">KOMVOS Tutorials</span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUd96uYCP7pV_ekfM6JPvCvu"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" />
             </a>
           </div>
         </div>

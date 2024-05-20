@@ -21,70 +21,12 @@ const Mrm = () => {
         <img
           src={beta_logo}
           alt="ansers_logo"
-          style={{ width: "18px", height: "18px", paddingLeft: "90px" }}
+          style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
         <div style={{ paddingLeft: "40px" }}>MRM</div>
       </div>
 
       <div className="datadiv">
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">Why MRM?</span>
-          </div>
-          <div>
-            <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"
-              target="_blank"
-            >
-              <img src={link_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">Presentations</span>
-          </div>
-          <div>
-            <a
-              href="https://kb.beta-cae.com/display/MRM/Presentations"
-              target="_blank"
-            >
-              <img src={link_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">
-              model assembly and iterations management
-            </span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/watch?v=F6XmKCHOj_M"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" alt="" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">Modular Run Management in ANSA</span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" alt="" />
-            </a>
-          </div>
-        </div>
-
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
@@ -147,34 +89,6 @@ const Mrm = () => {
             </a>
           </div>
         </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">White Papers & Presentations</span>
-          </div>
-          <div>
-            <a href="https://www.beta-cae.com/resources.htm" target="_blank">
-              <img src={link_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">
-              Modular Run Management (MRM) confluence
-            </span>
-          </div>
-          <div>
-            <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018685"
-              target="_blank"
-            >
-              <img src={link_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">Difference between FBDM & SBDM</span>
@@ -188,11 +102,39 @@ const Mrm = () => {
             </a>
           </div>
         </div>
-
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              Model Assembly to Loadcase Set-up: An holistic approach
+              model assembly and iterations management
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/watch?v=F6XmKCHOj_M"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Modular Run Management in ANSA</span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" alt="" />
+            </a>
+          </div>
+        </div>
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              Model Assembly to Loadcase Set-up
             </span>
           </div>
           <div>
@@ -217,6 +159,61 @@ const Mrm = () => {
               target="_black"
             >
               <img src={youtube_logo} className="link-logo" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Why MRM?</span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">Presentations</span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/display/MRM/Presentations"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">White Papers & Presentations</span>
+          </div>
+          <div>
+            <a href="https://www.beta-cae.com/resources.htm" target="_blank">
+              <img src={link_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">
+              Modular Run Management (MRM) confluence
+            </span>
+          </div>
+          <div>
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018685"
+              target="_blank"
+            >
+              <img src={link_logo} className="link-logo" />
             </a>
           </div>
         </div>
@@ -314,7 +311,7 @@ const Mrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              BIW Decomposition and integration in a Simulation Model
+              BIW Decomposition and integration
             </span>
           </div>
           <div>

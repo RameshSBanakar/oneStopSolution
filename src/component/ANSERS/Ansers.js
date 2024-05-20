@@ -20,21 +20,6 @@ const Ansers = () => {
       <div className="datadiv">
         <div className="innerdivs">
           <div>
-            <span className="colorAndFont">
-              ANSERS:Introduction
-            </span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/watch?v=Titc8XDynk4&t=2s"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="innerdivs">
-          <div>
             <span className="colorAndFont">ANSERS brochure</span>
           </div>
           <div>
@@ -53,6 +38,21 @@ const Ansers = () => {
             </a>
           </div>
         </div>
+
+        <div className="innerdivs">
+          <div>
+            <span className="colorAndFont">ANSERS:Introduction</span>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/watch?v=Titc8XDynk4&t=2s"
+              target="_black"
+            >
+              <img src={youtube_logo} className="link-logo" />
+            </a>
+          </div>
+        </div>
+
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">ANSERS product site</span>

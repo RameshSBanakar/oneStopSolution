@@ -12,7 +12,7 @@ const Pdm = () => {
         <img
           src={beta_logo}
           alt="ansers_logo"
-          style={{ width: "18px", height: "18px", paddingLeft: "90px" }}
+          style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
         <div style={{ paddingLeft: "10px" }}>PDM TO CAD</div>
       </div>
@@ -21,7 +21,7 @@ const Pdm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              RENAULT:CAE model generation from CAD and PDM info
+              RENAULT:CAE model generation from CAD and PDM
             </span>
           </div>
           <div>
@@ -37,7 +37,7 @@ const Pdm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              RENAULT:CAE model generation from CAD and PDM info
+              Streamline data extraction from TC
             </span>
           </div>
           <div>

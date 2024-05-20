@@ -69,7 +69,7 @@ const Spdrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              Vehicle collision in Jiangling Motors using SPDRM 
+              Vehicle collision in Jiangling Motors in SPDRM 
              
             </span>
           </div>

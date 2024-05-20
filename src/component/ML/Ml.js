@@ -11,7 +11,7 @@ const Ml = () => {
         <img
           src={beta_logo}
           alt="ansers_logo"
-          style={{ width: "18px", height: "18px", paddingLeft: "90px" }}
+          style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
         <div style={{ paddingLeft: "50px" }}>ML</div>
       </div>
@@ -93,7 +93,7 @@ const Ml = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              SEAT:optimize the design of a car-body-structure using
+              SEAT:optimize the design of a car-body-structure by
               ML
             </span>
           </div>

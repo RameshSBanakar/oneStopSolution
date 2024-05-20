@@ -13,15 +13,18 @@ const Home = () => {
     <div className="home">
       <div className="firstROw">
         <Mrm />
-        <Ansers />
-        <Pdm />
+
         {/* <Conference/> */}
       </div>
       <div className="firstROw">
         <Komvos />
 
         <Spdrm />
-        <Ml/>
+      </div>
+      <div className="firstROw">
+        <Ansers />
+        <Ml />
+        <Pdm />
       </div>
     </div>
   );
