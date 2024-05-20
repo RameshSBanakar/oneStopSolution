@@ -13,7 +13,7 @@
 
 
 .imagediv {
-    width: 22%;
+    width: 25%;
     /* border:1px solid black; */
     height: 60px;
     margin-top: -6%;
@@ -30,7 +30,30 @@
     margin-top: 3px;
     margin-left: 10px;
 }
+.pdfFilesdiv {
+    border: 2px dotted blue;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    /* border-radius: 3px; */
+}
 
+.youtubeDiv {
+    border: 2px dotted red;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.youtube-logo {
+    margin: auto;
+    width: 23px;
+}
+.linkDiv {
+    border: 2px dotted black;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
 .datadiv {
     /* border: 1px solid blue; */
     margin-top: 20px;
@@ -39,7 +62,7 @@
 }
 
 .innerdivs {
-    width: 98%;
+    width: 95%;
     display: flex;
     border: 1px solid rgb(196, 194, 194);
     /* justify-content: space-between; */

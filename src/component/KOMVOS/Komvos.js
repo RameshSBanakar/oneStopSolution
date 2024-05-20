@@ -25,144 +25,152 @@ const Komvos = () => {
         <img src={komvos_logo} />
       </div>
       <div className="datadiv">
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">Introduction to KOMVOS</span>
+        <div className="pdfFilesdiv">
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">Introduction to KOMVOS</span>
+            </div>
+            <div>
+              <a
+                href={KOMVOS_INTRODUCTIOn_PDF}
+                download="introduction_to_komvos"
+              >
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href={KOMVOS_INTRODUCTIOn_PDF} download="introduction_to_komvos">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS UI walkthrough</span>
+            </div>
+            <div>
+              <a href={KOMVOS_UI_WALKTHROUGH} download="komvos_ui_walkthrough">
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS UI walkthrough</span>
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS user guide</span>
+            </div>
+            <div>
+              <a href={KOMVOS_USERGUIDE} download="komvos_userguide">
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href={KOMVOS_UI_WALKTHROUGH} download="komvos_ui_walkthrough">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS brochure</span>
+            </div>
+            <div>
+              <a href={KOMVOS_BROCHER} download="komvos_brochers">
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS user guide</span>
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS system requirements</span>
+            </div>
+            <div>
+              <a
+                href={KOMVOS_SYSTEM_REQUIREMENT}
+                download="komvos_system_requirement"
+              >
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href={KOMVOS_USERGUIDE} download="komvos_userguide">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS explained</span>
+            </div>
+            <div>
+              <a href={KMOVOS_EXPLAIND} download="komvos_explained">
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS brochure</span>
-          </div>
-          <div>
-            <a href={KOMVOS_BROCHER} download="komvos_brochers">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS system requirements</span>
-          </div>
-          <div>
-            <a
-              href={KOMVOS_SYSTEM_REQUIREMENT}
-              download="komvos_system_requirement"
-            >
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS explained</span>
-          </div>
-          <div>
-            <a href={KMOVOS_EXPLAIND} download="komvos_explained">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
-          </div>
-        </div>
 
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS Q&A</span>
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS Q&A</span>
+            </div>
+            <div>
+              <a href={KOMVOS_QA} download="komvos_qa">
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href={KOMVOS_QA} download="komvos_qa">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS short notes</span>
+            </div>
+            <div>
+              <a href={KOMVOS_SHORT_NOTES} download="komvos_short_notes">
+                <img src={document_logo} className="doc-logo" />
+              </a>
+            </div>
           </div>
         </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS short notes</span>
+        <div className="youtubeDiv">
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">
+                KOMVOS - The innovative SDM platform
+              </span>
+            </div>
+            <div>
+              <a
+                href="https://www.youtube.com/embed/mq4HrOafuO0?rel=0"
+                target="_black"
+              >
+                <img src={youtube_logo} className="youtube-logo" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href={KOMVOS_SHORT_NOTES} download="komvos_short_notes">
-              <img src={document_logo} className="doc-logo" />
-            </a>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS Tutorials</span>
+            </div>
+            <div>
+              <a
+                href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUd96uYCP7pV_ekfM6JPvCvu"
+                target="_black"
+              >
+                <img src={youtube_logo} className="youtube-logo" />
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">Machine Learning in KOMVOS</span>
+            </div>
+            <div>
+              <a
+                href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
+                target="_black"
+              >
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </a>
+            </div>
           </div>
         </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">
-              KOMVOS - The innovative SDM platform
-            </span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/embed/mq4HrOafuO0?rel=0"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS Tutorials</span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUd96uYCP7pV_ekfM6JPvCvu"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">Machine Learning in KOMVOS</span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" alt="" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">KOMVOS prdouct site</span>
-          </div>
-          <div>
-            <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
-              <img src={link_logo} className="link-logo" />
-            </a>
+        <div className="linkDiv">
+          {" "}
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">KOMVOS prdouct site</span>
+            </div>
+            <div>
+              <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
+                <img src={link_logo} className="link-logo" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

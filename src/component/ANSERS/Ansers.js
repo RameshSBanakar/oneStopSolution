@@ -18,49 +18,54 @@ const Ansers = () => {
         <img src={ansers_log} alt="ansers_logo" />
       </div>
       <div className="datadiv">
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">ANSERS brochure</span>
+        <div className="pdfFilesdiv">
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">ANSERS brochure</span>
+            </div>
+            <div>
+              <a href={ANSERS_BROCHERS} download="ansers_brochers">
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href={ANSERS_BROCHERS} download="ansers_brochers">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">ANSERS Q&A</span>
-          </div>
-          <div>
-            <a href={ANSERS_QA} download="ansers_qa">
-              <img src={pdf_logo} className="pdf-logo" />
-            </a>
-          </div>
-        </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">ANSERS:Introduction</span>
-          </div>
-          <div>
-            <a
-              href="https://www.youtube.com/watch?v=Titc8XDynk4&t=2s"
-              target="_black"
-            >
-              <img src={youtube_logo} className="link-logo" />
-            </a>
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">ANSERS Q&A</span>
+            </div>
+            <div>
+              <a href={ANSERS_QA} download="ansers_qa">
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
           </div>
         </div>
-
-        <div className="innerdivs">
-          <div>
-            <span className="colorAndFont">ANSERS product site</span>
+        <div className="youtubeDiv">
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">ANSERS:Introduction</span>
+            </div>
+            <div>
+              <a
+                href="https://www.youtube.com/watch?v=Titc8XDynk4&t=2s"
+                target="_black"
+              >
+                <img src={youtube_logo} className="youtube-logo" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href="https://www.beta-cae.com/ansers.htm" target="_blank">
-              <img src={link_logo} className="link-logo" />
-            </a>
+        </div>
+        <div className="linkDiv">
+          {" "}
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">ANSERS product site</span>
+            </div>
+            <div>
+              <a href="https://www.beta-cae.com/ansers.htm" target="_blank">
+                <img src={link_logo} className="link-logo" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
