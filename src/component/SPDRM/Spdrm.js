@@ -69,7 +69,8 @@ const Spdrm = () => {
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">
-              Vehicle collision simulation process management using SPDRM
+              Vehicle collision in Jiangling Motors using SPDRM 
+             
             </span>
           </div>
           <div>
