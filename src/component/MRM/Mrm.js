@@ -205,7 +205,7 @@ const Mrm = () => {
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
-                model assembly and iterations management
+                Model assembly and iterations management
               </span>
             </div>
             <div>
