@@ -13,7 +13,11 @@ import INTRODUCTION_TO_MRM from "../Assets/MRM/Intorduction_to_Modular_Model_and
 import EXE_DESIGN_PROCESS from "../Assets/MRM/Execution_and_Design_Processes.pdf";
 import DATA_MANAGMENT_BROCHER from "../Assets/MRM/data_management_brochure.pdf";
 import DIFFRENCE_BTW_FBDM_SBDM from "../Assets/MRM/Difference_FBDM_ServerBasedDM.docx";
-
+import MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING from "../Assets/MRM/multivariant_multidiscipline_ansa_modeling.pdf"
+import MODULAR_RUN_MANGMENT_2 from "../Assets/MRM/modular_run_management.pdf"
+import SIMMANAGER_BETA_SUITE_INTRACTION from "../Assets/MRM/simmanager-beta_suite-interaction.pdf"
+import MODEL_COMPARISION_IN_ANSA_META from "../Assets/MRM/ansa_model_comparison.pdf"
+import ANSA_TC_SIM_WHITE_PAPER from "../Assets/MRM/ansa_tc_sim_white_paper.pdf"
 const Mrm = () => {
   return (
     <div className="common">
@@ -94,6 +98,83 @@ const Mrm = () => {
               </a>
             </div>
           </div>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">
+                Multidiscipline ansa modeling
+              </span>
+            </div>
+            <div>
+              <a
+                href={MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING}
+                download="multivariant_multidiscipline_ansa_modeling"
+              >
+                <img src={pdf_logo} className="doc-logo" />
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">Modular run managament</span>
+            </div>
+            <div>
+              <a
+                href={MODULAR_RUN_MANGMENT_2}
+                download="modular_run_management"
+              >
+                <img src={pdf_logo} className="doc-logo" />
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">
+                Simmanager-beta_suite-interaction
+              </span>
+            </div>
+            <div>
+              <a
+                href={SIMMANAGER_BETA_SUITE_INTRACTION}
+                download="simmanager-beta_suite-interaction"
+              >
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">
+                Model comparison in ANSA & META
+              </span>
+            </div>
+            <div>
+              <a
+                href={MODEL_COMPARISION_IN_ANSA_META}
+                download="ansa_model_comparison"
+              >
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">Ansa tc sim white papers</span>
+            </div>
+            <div>
+              <a
+                href={ANSA_TC_SIM_WHITE_PAPER}
+                download="ansa_tc_sim_white_paper"
+              >
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
+          </div>
+
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
@@ -109,6 +190,7 @@ const Mrm = () => {
               </a>
             </div>
           </div>
+          
         </div>
         <div className="youtubeDiv">
           <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
