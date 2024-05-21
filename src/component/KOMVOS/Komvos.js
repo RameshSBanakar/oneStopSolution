@@ -17,6 +17,7 @@ import KOMVOS_SYSTEM_REQUIREMENT from "../Assets/KOMVOS/system_requirements.pdf"
 import KMOVOS_EXPLAIND from "../Assets/KOMVOS/komvos_explained.pdf";
 import KOMVOS_QA from "../Assets/KOMVOS/komvos_qa.pdf";
 import KOMVOS_SHORT_NOTES from "../Assets/KOMVOS/KOMVOS_shortened.docx";
+import REINTRO_KOMVOS_AS_DESKTOP_CLIENT from "../Assets/KOMVOS/reintroduce KOMVOS as a simulation data and process managemenet desktop client.pdf"
 
 const Komvos = () => {
   return (
@@ -107,6 +108,20 @@ const Komvos = () => {
 
           <div className="innerdivs">
             <div>
+              <span className="colorAndFont">Reintro KOMVOS as desktop client</span>
+            </div>
+            <div>
+              <a
+                href={REINTRO_KOMVOS_AS_DESKTOP_CLIENT}
+                download="reintroduce KOMVOS as a simulation data and process managemenet desktop client"
+              >
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
               <span className="colorAndFont">KOMVOS short notes</span>
             </div>
             <div>
@@ -164,7 +179,7 @@ const Komvos = () => {
         </div>
         <div className="linkDiv">
           <spna style={{ fontWeight: "700", color: "black" }}>Links</spna>
-          <div style={{borderLeft:"5px solid red"}}>
+          <div style={{ borderLeft: "5px solid red" }}>
             <div className="innerdivs">
               <div>
                 <span className="colorAndFont">KOMVOS prdouct site</span>

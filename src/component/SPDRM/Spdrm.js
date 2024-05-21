@@ -15,6 +15,8 @@ import SPDRM_SYSTEM_REQUIREMENT from "../Assets/SPDRM/system_requirements (1).pd
 import SPDRM_SUPERIORITY from "../Assets/SPDRM/spdrm_superiority.pdf";
 import SPDRM_VEHICLE_COLLISION from "../Assets/SPDRM/vehicle_collision.pdf";
 import POWER_OF_PROCESS_MANAGMENT from "../Assets/SPDRM/Unlocking_the_power_of_process_management_with_SPDRM.pdf"
+import MULTI_SITE_COLLABRATION from "../Assets/SPDRM/multisite_collabration.pdf"
+
 const Spdrm = () => {
   return (
     <div className="common">
@@ -96,6 +98,36 @@ const Spdrm = () => {
                 download="Unlocking_the_power_of_process_management_with_SPDRM"
               >
                 <img src={pdf_logo} className="pdf-logo" />
+              </a>
+
+              <a
+                href="https://www.youtube.com/embed/cE-xJgHnfaE?rel=0"
+                target="_blank"
+              >
+                <img src={youtube_logo} className="youtube-logo" />
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
+              <span className="colorAndFont">
+                Multi-site collaboration to unite global teams
+              </span>
+            </div>
+            <div>
+              <a
+                href={MULTI_SITE_COLLABRATION}
+                download="multisite_collabration"
+              >
+                <img src={pdf_logo} className="pdf-logo" />
+              </a>
+
+              <a
+                href="https://www.youtube.com/embed/UiSqSQYlUjE?rel=0"
+                target="_blank"
+              >
+                <img src={youtube_logo} className="youtube-logo" />
               </a>
             </div>
           </div>
