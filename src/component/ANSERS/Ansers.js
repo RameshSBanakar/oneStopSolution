@@ -7,7 +7,7 @@ import pdf_logo from "../Assets/pdf_logo.webp"
 import document_logo from "../Assets/document_logo.png"
 import link_logo from "../Assets/link_logo.jpg"
 import youtube_logo from "../Assets/youtube_logo.png"
-
+import static_youtube_logo from "../Assets/static_youtube_logo.png"
 
 import ANSERS_BROCHERS from "../Assets/ANSERS/ansers_brochure.pdf";
 import ANSERS_QA from "../Assets/ANSERS/ansers_qa.pdf";
@@ -42,7 +42,16 @@ const Ansers = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
+          <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
+            <img
+              src={static_youtube_logo}
+              alt=""
+              style={{
+                width: "60px",
+              }}
+            />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">ANSERS:Introduction</span>

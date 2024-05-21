@@ -8,6 +8,8 @@ import pdf_logo from "../Assets/pdf_logo.webp";
 import document_logo from "../Assets/document_logo.png";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
+import static_youtube_logo from "../Assets/static_youtube_logo.png"
+
 
 import KOMVOS_INTRODUCTIOn_PDF from "../Assets/KOMVOS/20231016_introduction_to_KOMVOS.pdf";
 import KOMVOS_UI_WALKTHROUGH from "../Assets/KOMVOS/20220700_KOMVOS_UI_walkthrough.pdf";
@@ -108,7 +110,9 @@ const Komvos = () => {
 
           <div className="innerdivs">
             <div>
-              <span className="colorAndFont">Reintro KOMVOS as desktop client</span>
+              <span className="colorAndFont">
+                Reintro KOMVOS as desktop client
+              </span>
             </div>
             <div>
               <a
@@ -132,7 +136,16 @@ const Komvos = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
+          <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
+            <img
+              src={static_youtube_logo}
+              alt=""
+              style={{
+                width: "60px",
+              }}
+            />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">

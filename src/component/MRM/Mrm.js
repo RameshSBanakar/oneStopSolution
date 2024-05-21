@@ -6,6 +6,7 @@ import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import document_logo from "../Assets/document_logo.png";
 import beta_logo from "../Assets/beta_logo.png";
+import static_youtube_logo from "../Assets/static_youtube_logo.png"
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
 import DATA_MANAGMENT from "../Assets/MRM/1data_management.pdf";
@@ -18,6 +19,7 @@ import MODULAR_RUN_MANGMENT_2 from "../Assets/MRM/modular_run_management.pdf"
 import SIMMANAGER_BETA_SUITE_INTRACTION from "../Assets/MRM/simmanager-beta_suite-interaction.pdf"
 import MODEL_COMPARISION_IN_ANSA_META from "../Assets/MRM/ansa_model_comparison.pdf"
 import ANSA_TC_SIM_WHITE_PAPER from "../Assets/MRM/ansa_tc_sim_white_paper.pdf"
+
 const Mrm = () => {
   return (
     <div className="common">
@@ -201,7 +203,11 @@ const Mrm = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
+          <div style={{marginTop:"-22px",marginLeft:"-20px"}}>
+            <img src={static_youtube_logo} alt="" style={{
+              width:"60px"}} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">

@@ -2,6 +2,7 @@ import React from "react";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
+import static_youtube_logo from "../Assets/static_youtube_logo.png"
 import beta_logo from "../Assets/beta_logo.png";
 import ML_FASTNER from "../Assets/ML/ML_fasteners.pdf";
 const Ml = () => {
@@ -13,7 +14,11 @@ const Ml = () => {
           alt="ansers_logo"
           style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
-        <div style={{ paddingLeft: "40px" ,marginTop:"-15px",fontSize:"25px"}}>ML</div>
+        <div
+          style={{ paddingLeft: "40px", marginTop: "-15px", fontSize: "25px" }}
+        >
+          ML
+        </div>
       </div>
 
       <div className="datadiv">
@@ -31,7 +36,16 @@ const Ml = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
+          <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
+            <img
+              src={static_youtube_logo}
+              alt=""
+              style={{
+                width: "60px",
+              }}
+            />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
