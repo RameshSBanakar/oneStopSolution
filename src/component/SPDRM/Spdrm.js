@@ -23,6 +23,7 @@ const Spdrm = () => {
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
+          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">SPDRM brochure</span>
@@ -86,7 +87,7 @@ const Spdrm = () => {
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
-                power of process management with SPDRM
+                Power of process management with SPDRM
               </span>
             </div>
             <div>
@@ -100,15 +101,18 @@ const Spdrm = () => {
           </div>
         </div>
         <div className="linkDiv">
-          {" "}
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">SPDRM product site</span>
-            </div>
-            <div>
-              <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
-                <img src={link_logo} className="link-logo" alt="" />
-              </a>
+          <spna style={{ fontWeight: "700", color: "black" }}>Links</spna>
+          <div style={{ borderLeft: "5px solid red" }}>
+            {" "}
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">SPDRM product site</span>
+              </div>
+              <div>
+                <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
+                  <img src={link_logo} className="link-logo" alt="" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

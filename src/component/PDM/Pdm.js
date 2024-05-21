@@ -18,6 +18,7 @@ const Pdm = () => {
       </div>
 
       <div className="datadiv">
+        <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">

@@ -15,7 +15,7 @@
 .imagediv {
     width: 25%;
     /* border:1px solid black; */
-    height: 60px;
+    height: 45px;
     margin-top: -6%;
     /* margin-left: 2%; */
     background-color: white;
@@ -31,7 +31,7 @@
     margin-left: 10px;
 }
 .pdfFilesdiv {
-    border: 2px dotted blue;
+    border: 2px dashed blue;
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;
@@ -39,7 +39,7 @@
 }
 
 .youtubeDiv {
-    border: 2px dotted red;
+    border: 2px dashed red;
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;
@@ -49,7 +49,7 @@
     width: 23px;
 }
 .linkDiv {
-    border: 2px dotted black;
+    border: 2px dashed black;
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;

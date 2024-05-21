@@ -18,7 +18,7 @@ const Ml = () => {
 
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          {" "}
+          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">ML fasteners</span>
@@ -31,6 +31,7 @@ const Ml = () => {
           </div>
         </div>
         <div className="youtubeDiv">
+          <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
@@ -50,7 +51,7 @@ const Ml = () => {
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
-                training dataset and perform ML and Design
+                Training dataset and perform ML and Design
               </span>
             </div>
             <div>

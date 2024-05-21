@@ -26,6 +26,7 @@ const Komvos = () => {
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
+          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">Introduction to KOMVOS</span>
@@ -116,6 +117,7 @@ const Komvos = () => {
           </div>
         </div>
         <div className="youtubeDiv">
+          <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
@@ -161,15 +163,17 @@ const Komvos = () => {
           </div>
         </div>
         <div className="linkDiv">
-          {" "}
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS prdouct site</span>
-            </div>
-            <div>
-              <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
-                <img src={link_logo} className="link-logo" />
-              </a>
+          <spna style={{ fontWeight: "700", color: "black" }}>Links</spna>
+          <div style={{borderLeft:"5px solid red"}}>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">KOMVOS prdouct site</span>
+              </div>
+              <div>
+                <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

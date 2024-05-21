@@ -28,6 +28,7 @@ const Mrm = () => {
 
       <div className="datadiv">
         <div className="pdfFilesdiv">
+          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
@@ -110,6 +111,7 @@ const Mrm = () => {
           </div>
         </div>
         <div className="youtubeDiv">
+          <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
@@ -174,164 +176,158 @@ const Mrm = () => {
           </div>
         </div>
         <div className="linkDiv">
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">Why MRM?</span>
-            </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
+          <spna style={{ fontWeight: "700", color: "black" }}>Links</spna>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">Presentations</span>
+          {/* confluence links */}
+          <div style={{ borderLeft: "5px solid blue" }}>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">Why MRM?</span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/Presentations"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">White Papers & Presentations</span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">Presentations</span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/Presentations"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a href="https://www.beta-cae.com/resources.htm" target="_blank">
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                Modular Run Management (MRM) confluence
-              </span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">
+                  Modular Run Management (MRM) confluence
+                </span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018685"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018685"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">Trainings</span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">Trainings</span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/Trainings"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/Trainings"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                Run history and Changeset Management
-              </span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">
+                  Run history and Changeset Management
+                </span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266332/20220606_Run_history_and_Changeset_Management_v22.1.3.pdf"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266332/20220606_Run_history_and_Changeset_Management_v22.1.3.pdf"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">How to set up MEPs in DM</span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">How to set up MEPs in DM</span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266339/Set_Up_Modular_Environment_Profiles.pdf"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266339/Set_Up_Modular_Environment_Profiles.pdf"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">Update of Subsystems</span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">Update of Subsystems</span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266341/Update_Of_Subsystems.pdf"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266341/Update_Of_Subsystems.pdf"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                Modular Run Management for Durability
-              </span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">
+                  Modular Run Management for Durability
+                </span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266405/Modular%20Run%20Management%20for%20Durability.pdf"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266405/Modular%20Run%20Management%20for%20Durability.pdf"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                Model migration and Loadcase setup
-              </span>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">
+                  Model migration and Loadcase setup
+                </span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266399/20200424_Honda_NA_Modular_Run_Management.pdf"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266399/20200424_Honda_NA_Modular_Run_Management.pdf"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
-            </div>
-          </div>
 
-          <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                BIW Decomposition and integration
-              </span>
-            </div>
-            <div>
-              <a
-                href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/112265693/GES_NVH_Modular_Approach__demo_notes.pptx"
-                target="_blank"
-              >
-                <img src={link_logo} className="link-logo" />
-              </a>
+            <div className="innerdivs">
+              <div>
+                <span className="colorAndFont">
+                  BIW Decomposition and integration
+                </span>
+              </div>
+              <div>
+                <a
+                  href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/112265693/GES_NVH_Modular_Approach__demo_notes.pptx"
+                  target="_blank"
+                >
+                  <img src={link_logo} className="link-logo" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
