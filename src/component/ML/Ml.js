@@ -13,7 +13,7 @@ const Ml = () => {
           alt="ansers_logo"
           style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
-        <div style={{ paddingLeft: "50px" }}>ML</div>
+        <div style={{ paddingLeft: "40px" ,marginTop:"-15px",fontSize:"25px"}}>ML</div>
       </div>
 
       <div className="datadiv">

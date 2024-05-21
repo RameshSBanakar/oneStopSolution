@@ -14,7 +14,11 @@ const Pdm = () => {
           alt="ansers_logo"
           style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
-        <div style={{ paddingLeft: "10px" }}>PDM TO CAD</div>
+        <div
+          style={{ paddingLeft: "10px", marginTop: "-10px", fontSize: "15px",fontWeight:"700" }}
+        >
+          PDM TO CAD
+        </div>
       </div>
 
       <div className="datadiv">

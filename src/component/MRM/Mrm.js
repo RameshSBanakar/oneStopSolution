@@ -27,7 +27,16 @@ const Mrm = () => {
           alt="ansers_logo"
           style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
-        <div style={{ paddingLeft: "40px" }}>MRM</div>
+        <div
+          style={{
+            paddingLeft: "30px",
+            marginTop: "-10px",
+            fontSize: "20px",
+            fontWeight: "700",
+          }}
+        >
+          MRM
+        </div>
       </div>
 
       <div className="datadiv">
@@ -190,7 +199,6 @@ const Mrm = () => {
               </a>
             </div>
           </div>
-          
         </div>
         <div className="youtubeDiv">
           <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna>
