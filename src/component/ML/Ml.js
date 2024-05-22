@@ -30,22 +30,20 @@ const Ml = () => {
 
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
             <img src={document_main} style={{ width: "25px" }} />
-          </div>
+          </div> */}
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
-          <div className="innerdivs">
-          
-              <a href={ML_FASTNER} download="ML_fasteners">
-                <span className="colorAndFont">
-                  ML fasteners <img src={pdf_logo} className="pdf-logo" />
-                </span>
-              </a>
-           
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={ML_FASTNER} download="ML_fasteners">
+              <span className="colorAndFont">
+                ML fasteners <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
           </div>
         </div>
         <div className="youtubeDiv">
-          <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
+          {/* <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
             <img
               src={static_youtube_logo}
               alt=""
@@ -53,79 +51,66 @@ const Ml = () => {
                 width: "60px",
               }}
             />
-          </div>
+          </div> */}
           {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
-          <div className="innerdivs">
-          
-              <a
-                href="https://www.youtube.com/watch?app=desktop&v=46cnjoS9zNM"
-                target="_black"
-              >
-                <span className="colorAndFont">
-                  ML in feature detection for meshing{" "}
-                  <img src={youtube_logo} className="youtube-logo" alt="" />
-                </span>
-              </a>
-           
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?app=desktop&v=46cnjoS9zNM"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                ML in feature detection for meshing{" "}
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
           </div>
 
-          <div className="innerdivs">
-            
-              <a
-                href="https://www.youtube.com/watch?v=0JnzxLrmgLQ"
-                target="_black"
-              >
-                <span className="colorAndFont">
-                  Training dataset and perform ML and Design{" "}
-                  <img src={youtube_logo} className="youtube-logo" alt="" />
-                </span>
-              </a>
-            
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?v=0JnzxLrmgLQ"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                Training dataset and perform ML and Design{" "}
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
           </div>
 
-          <div className="innerdivs">
-           
-         
-              <a
-                href="https://www.youtube.com/watch?v=CbyqwVCM3xM"
-                target="_black"
-              >
-                <span className="colorAndFont">
-                  ML in Feature Detection{" "}
-                  <img src={youtube_logo} className="youtube-logo" alt="" />
-                </span>
-              </a>
-            
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?v=CbyqwVCM3xM"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                ML in Feature Detection{" "}
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
           </div>
 
-          <div className="innerdivs">
-           
-         
-              <a
-                href="https://www.youtube.com/watch?app=desktop&v=WshD4GT6ycc"
-                target="_black"
-              >
-                <span className="colorAndFont">
-                  Model Parameterization in ANSA
-                  <img src={youtube_logo} className="youtube-logo" alt="" />
-                </span>
-              </a>
-           
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?app=desktop&v=WshD4GT6ycc"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                Model Parameterization in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
           </div>
 
-          <div className="innerdivs">
-           
-             
-              <a
-                href="https://www.youtube.com/watch?app=desktop&v=_OBhv8WXFqc"
-                target="_black"
-              >
-                <span className="colorAndFont">
-                  SEAT:optimize design of a car-body-structure by ML{" "}
-                  <img src={youtube_logo} className="youtube-logo" alt="" />
-                </span>
-              </a>
-           
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?app=desktop&v=_OBhv8WXFqc"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                SEAT:optimize design of a car-body-structure by ML{" "}
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
           </div>
         </div>
       </div>

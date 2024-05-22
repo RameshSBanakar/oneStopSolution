@@ -32,49 +32,42 @@ const Pdm = () => {
       <div className="datadiv">
         {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
         <div className="pdfFilesdiv">
-          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
             <img src={document_main} style={{ width: "25px" }} />
+          </div> */}
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              href={CAE_MODEL_GENERATION_PDM_AND_CAD}
+              download="cae_model_generation_pdm_and_cad"
+            >
+              <span className="colorAndFont">
+                RENAULT:CAE model generation from CAD & PDM{" "}
+                <img src={pdf_logo} className="pdf-logo" alt="" />
+              </span>
+            </a>
           </div>
-          <div className="innerdivs">
-       
-              <a
-                href={CAE_MODEL_GENERATION_PDM_AND_CAD}
-                download="cae_model_generation_pdm_and_cad"
-              >
-                <span className="colorAndFont">
-                  RENAULT:CAE model generation from CAD & PDM{" "}
-                  <img src={pdf_logo} className="pdf-logo" alt="" />
-                </span>
-              </a>
-           
-       
-          </div>
-          <div className="innerdivs">
-            
-              <a
-                href={STREAM_LINE_DATA_EXT_FROM_TC}
-                download="stream_line_data_extraction_from_tc"
-              >
-                <span className="colorAndFont">
-                  Streamline data extraction from TC{" "}
-                  <img src={pdf_logo} className="pdf-logo" alt="" />
-                </span>
-              </a>
-           
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              href={STREAM_LINE_DATA_EXT_FROM_TC}
+              download="stream_line_data_extraction_from_tc"
+            >
+              <span className="colorAndFont">
+                Streamline data extraction from TC{" "}
+                <img src={pdf_logo} className="pdf-logo" alt="" />
+              </span>
+            </a>
           </div>
 
-          <div className="innerdivs">
-          
-              <a
-                href={ANSA_TC_SIM_WHITE_PAPER}
-                download="ansa_tc_sim_white_paper"
-              >
-                <span className="colorAndFont">
-                  Ansa tc sim white papers{" "}
-                  <img src={pdf_logo} className="pdf-logo" />
-                </span>
-              </a>
-         
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              href={ANSA_TC_SIM_WHITE_PAPER}
+              download="ansa_tc_sim_white_paper"
+            >
+              <span className="colorAndFont">
+                Ansa tc sim white papers{" "}
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
           </div>
         </div>
       </div>

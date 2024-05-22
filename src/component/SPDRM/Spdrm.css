@@ -23,6 +23,9 @@
     box-shadow: 1px 1px 1px 1px;
 
 }
+.pdfFilesMarginLeft {
+    border-left: 4px solid greenyellow;
+}
 
 .imagediv img {
     width: 100px;

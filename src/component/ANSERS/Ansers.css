@@ -11,7 +11,12 @@
      */
 }
 
-
+#pdfFilesMarginLeft {
+    border-left: 4px solid greenyellow;
+}
+#docFilesMarginLeft{
+    border-left: 4px solid green;
+}
 .imagediv {
     width: 25%;
     /* border:1px solid black; */

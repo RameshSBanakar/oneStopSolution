@@ -24,6 +24,21 @@
     font-size: 20px;
 
 }
+#pdfFilesMarginLeft{
+    border-left: 4px solid greenyellow;
+}
+#docFilesMarginLeft {
+    border-left: 4px solid green;
+}
+#youtubeFilesMarginLeft{
+    border-left: 4px solid red;
+}
+#confluenceFilesMarginLeft{
+    border-left: 4px solid blue;
+}
+#productFilesMarginLeft{
+    border-left: 4px solid orange;
+}
 
 .imagediv img {
     width: 100px;

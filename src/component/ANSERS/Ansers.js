@@ -24,7 +24,7 @@ const Ansers = () => {
             <img src={document_main} style={{ width: "25px" }} />
           </div> */}
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={ANSERS_BROCHERS} download="ansers_brochers">
               <span className="colorAndFont">
                 ANSERS brochure
@@ -32,7 +32,7 @@ const Ansers = () => {
               </span>
             </a>
           </div>
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={ANSERS_QA} download="ansers_qa">
               <span className="colorAndFont">
                 ANSERS Q&A
@@ -42,7 +42,7 @@ const Ansers = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
+          {/* <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
             <img
               src={static_youtube_logo}
               alt=""
@@ -50,9 +50,9 @@ const Ansers = () => {
                 width: "60px",
               }}
             />
-          </div>
+          </div> */}
           {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
-          <div className="innerdivs">
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
               href="https://www.youtube.com/watch?v=Titc8XDynk4&t=2s"
               target="_black"
@@ -65,9 +65,9 @@ const Ansers = () => {
           </div>
         </div>
         <div className="linkDiv">
-          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
             <img src={link_main} style={{ width: "25px" }} />
-          </div>
+          </div> */}
           {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
           <div style={{ borderLeft: "5px solid orange" }}>
             <div className="innerdivs">

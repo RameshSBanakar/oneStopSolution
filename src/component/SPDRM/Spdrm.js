@@ -34,7 +34,7 @@ const Spdrm = () => {
             <img src={document_main} style={{ width: "25px" }} />
           </div>
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_ADM_GUIDE} download="spderm_administartor_guide">
               <span className="colorAndFont">
                 SPDRM administrators guide{" "}
@@ -43,7 +43,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={SPDRM_INSTALLATION_GUIDE}
               download="spdrm_installation_guide"
@@ -55,7 +55,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_USER_GUIDE} download="spdrm_users_guide">
               <span className="colorAndFont">
                 SPDRM user guide <img src={pdf_logo} className="pdf-logo" />
@@ -63,14 +63,14 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_BROCHER} download="spderm_brochers">
               <span className="colorAndFont">
                 SPDRM brochure <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
           </div>
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={SPDRM_SYSTEM_REQUIREMENT}
               download="spdrm_system_requirements"
@@ -81,7 +81,7 @@ const Spdrm = () => {
               </span>
             </a>
           </div>
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_QA} download="spdrm_qa">
               <span className="colorAndFont">
                 SPDRM Q&A
@@ -89,7 +89,7 @@ const Spdrm = () => {
               </span>
             </a>
           </div>
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_SUPERIORITY} download="spdrm_superiority">
               <span className="colorAndFont">
                 SPDRM superiority
@@ -98,7 +98,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={SPDRM_VEHICLE_COLLISION}
               download="Vehicle_collision_simulation_process_management_using_SPDRM"
@@ -110,7 +110,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={POWER_OF_PROCESS_MANAGMENT}
               download="Unlocking_the_power_of_process_management_with_SPDRM"
@@ -129,7 +129,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={MULTI_SITE_COLLABRATION} download="multisite_collabration">
               <span className="colorAndFont">
                 Multi-site collaboration to unite global teams
@@ -150,9 +150,9 @@ const Spdrm = () => {
             <img src={link_main} style={{ width: "25px" }} />
           </div>
           {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
-          <div style={{ borderLeft: "5px solid orange" }}>
+          {/* <div style={{ borderLeft: "5px solid orange" }}> */}
             {" "}
-            <div className="innerdivs">
+            <div className="innerdivs" id="productFilesMarginLeft">
               <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
                 <span className="colorAndFont">
                   SPDRM product site{" "}
@@ -163,7 +163,7 @@ const Spdrm = () => {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 

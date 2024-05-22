@@ -72,7 +72,9 @@
     margin: auto;
     width: 23px;
 }
-
+.pdfFilesMarginLeft {
+    border-left: 4px solid greenyellow;
+}
 /* .firstROw {
     display: flex;
 } */
