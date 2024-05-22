@@ -42,6 +42,9 @@
 #tutorialsFilesMarginLeft {
     border-left: 4px solid rgb(59, 240, 240);
 }
+#whiteFilesMarginLeft {
+    border-left: 4px solid brown;
+}
 
 .imagediv img {
     width: 100px;
@@ -117,6 +120,13 @@
 }
 .totirial{
     border: 2px dashed green;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.guides {
+    border: 2px dashed brown;
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;

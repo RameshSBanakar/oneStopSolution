@@ -21,7 +21,8 @@ import KMOVOS_EXPLAIND from "../Assets/KOMVOS/komvos_explained.pdf";
 import KOMVOS_QA from "../Assets/KOMVOS/komvos_qa.pdf";
 import KOMVOS_SHORT_NOTES from "../Assets/KOMVOS/KOMVOS_shortened.docx";
 import REINTRO_KOMVOS_AS_DESKTOP_CLIENT from "../Assets/KOMVOS/reintroduce KOMVOS as a simulation data and process managemenet desktop client.pdf"
-
+import MODELBUILD_SIMPLIFIED from "../Assets/KOMVOS/model_build_simplified.pdf"
+import MACHINE_LEARNING from "../Assets/KOMVOS/Machine_Learning.pdf"
 const Komvos = () => {
   return (
     <div className="common">
@@ -98,7 +99,7 @@ const Komvos = () => {
               download="reintroduce KOMVOS as a simulation data and process managemenet desktop client"
             >
               <span className="colorAndFont">
-                Reintro KOMVOS as desktop client
+                Re-intro KOMVOS as desktop client
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
@@ -109,6 +110,28 @@ const Komvos = () => {
               <span className="colorAndFont">
                 KOMVOS short notes
                 <img src={document_logo} className="doc-logo" />
+              </span>
+            </a>
+          </div>
+        </div>
+        <div className="totirial">
+          <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
+            Tutorials
+          </span>
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={MODELBUILD_SIMPLIFIED} download="model_build_simplified">
+              <span className="colorAndFont">
+                Model build simplified
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={MACHINE_LEARNING} download="Machine_Learning">
+              <span className="colorAndFont">
+                Machine Learning in KOMVOS
+                <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
           </div>
@@ -165,19 +188,18 @@ const Komvos = () => {
             <img src={link_main} style={{ width: "25px" }} />
           </div> */}
           {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
-        
-            <div className="innerdivs" id="productFilesMarginLeft">
-              <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
-                <span className="colorAndFont">
-                  KOMVOS prdouct site
-                  <img src={link_logo} className="link-logo" />
-                </span>
-              </a>
-            </div>
+
+          <div className="innerdivs" id="productFilesMarginLeft">
+            <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
+              <span className="colorAndFont">
+                KOMVOS prdouct site
+                <img src={link_logo} className="link-logo" />
+              </span>
+            </a>
           </div>
         </div>
       </div>
-    
+    </div>
   );
 };
 

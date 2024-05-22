@@ -9,7 +9,7 @@ import beta_logo from "../Assets/beta_logo.png";
 import static_youtube_logo from "../Assets/static_youtube_logo.png";
 import link_main from "../Assets/link_main.jpg";
 import document_main from "../Assets/doument_main.png";
-
+import white_paper from "../Assets/white_paper.jpg"
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
 import DATA_MANAGMENT from "../Assets/MRM/1data_management.pdf";
 import INTRODUCTION_TO_MRM from "../Assets/MRM/Intorduction_to_Modular_Model_and_Run_management.pdf";
@@ -103,35 +103,35 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="whiteFilesMarginLeft">
             <a
               href={MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING}
               download="multivariant_multidiscipline_ansa_modeling"
             >
               <span className="colorAndFont">
                 Multidiscipline ansa modeling{" "}
-                <img src={pdf_logo} className="doc-logo" />
+                <img src={white_paper} className="doc-logo" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="whiteFilesMarginLeft">
             <a href={MODULAR_RUN_MANGMENT_2} download="modular_run_management">
               <span className="colorAndFont">
                 Modular run managament
-                <img src={pdf_logo} className="doc-logo" />
+                <img src={white_paper} className="doc-logo" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="whiteFilesMarginLeft">
             <a
               href={SIMMANAGER_BETA_SUITE_INTRACTION}
               download="simmanager-beta_suite-interaction"
             >
               <span className="colorAndFont">
                 Simmanager-beta_suite-interaction{" "}
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={white_paper} className="doc-logo" />
               </span>
             </a>
           </div>
@@ -345,6 +345,9 @@ const Mrm = () => {
           </div>
         </div>
         <div className="totirial">
+          <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
+            Tutorials
+          </span>
           <div className="innerdivs" id="tutorialsFilesMarginLeft">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693859"

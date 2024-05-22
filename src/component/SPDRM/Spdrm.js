@@ -34,34 +34,6 @@ const Spdrm = () => {
             <img src={document_main} style={{ width: "25px" }} />
           </div> */}
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
-          <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={SPDRM_ADM_GUIDE} download="spderm_administartor_guide">
-              <span className="colorAndFont">
-                SPDRM administrators guide{" "}
-                <img src={pdf_logo} className="pdf-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a
-              href={SPDRM_INSTALLATION_GUIDE}
-              download="spdrm_installation_guide"
-            >
-              <span className="colorAndFont">
-                SPDRM installation guide{" "}
-                <img src={pdf_logo} className="pdf-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={SPDRM_USER_GUIDE} download="spdrm_users_guide">
-              <span className="colorAndFont">
-                SPDRM user guide <img src={pdf_logo} className="pdf-logo" />
-              </span>
-            </a>
-          </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_BROCHER} download="spderm_brochers">
@@ -145,24 +117,54 @@ const Spdrm = () => {
             </a>
           </div>
         </div>
+        <div className="guides">
+          <span style={{ fontWeight: "700", color: "brown" }}>Guides</span>
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={SPDRM_ADM_GUIDE} download="spderm_administartor_guide">
+              <span className="colorAndFont">
+                SPDRM administrators guide{" "}
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              href={SPDRM_INSTALLATION_GUIDE}
+              download="spdrm_installation_guide"
+            >
+              <span className="colorAndFont">
+                SPDRM installation guide{" "}
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={SPDRM_USER_GUIDE} download="spdrm_users_guide">
+              <span className="colorAndFont">
+                SPDRM user guide <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+        </div>
         <div className="linkDiv">
           {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
             <img src={link_main} style={{ width: "25px" }} />
           </div> */}
           {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
-          {/* <div style={{ borderLeft: "5px solid orange" }}> */}
-            {" "}
-            <div className="innerdivs" id="productFilesMarginLeft">
-              <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
-                <span className="colorAndFont">
-                  SPDRM product site{" "}
-                  <img src={link_logo} className="link-logo" alt="" />
-                </span>
-              </a>
-            </div>
+          {/* <div style={{ borderLeft: "5px solid orange" }}> */}{" "}
+          <div className="innerdivs" id="productFilesMarginLeft">
+            <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
+              <span className="colorAndFont">
+                SPDRM product site{" "}
+                <img src={link_logo} className="link-logo" alt="" />
+              </span>
+            </a>
           </div>
         </div>
       </div>
+    </div>
     // </div>
   );
 };

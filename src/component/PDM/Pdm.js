@@ -3,7 +3,7 @@ import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import document_main from "../Assets/doument_main.png";
-
+import white_paper from "../Assets/white_paper.jpg"
 import beta_logo from "../Assets/beta_logo.png"
 import STREAM_LINE_DATA_EXT_FROM_TC from "../Assets/PDM/Streamlining data extraction from.pdf"
 import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
@@ -59,22 +59,25 @@ const Pdm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="whiteFilesMarginLeft">
             <a
               href={ANSA_TC_SIM_WHITE_PAPER}
               download="ansa_tc_sim_white_paper"
             >
               <span className="colorAndFont">
                 Ansa tc sim white papers{" "}
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={white_paper} className="doc-logo" />
               </span>
             </a>
           </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={TEAMCENTRE_UTILITIES_PLUGIN} download="TeamcenterUtilities">
+            <a
+              href={TEAMCENTRE_UTILITIES_PLUGIN}
+              download="TeamcenterUtilities"
+            >
               <span className="colorAndFont">
-               Teamcentre utilities plugin{" "}
+                Teamcentre utilities plugin{" "}
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
