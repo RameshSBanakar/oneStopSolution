@@ -18,6 +18,9 @@ import SPDRM_SUPERIORITY from "../Assets/SPDRM/spdrm_superiority.pdf";
 import SPDRM_VEHICLE_COLLISION from "../Assets/SPDRM/vehicle_collision.pdf";
 import POWER_OF_PROCESS_MANAGMENT from "../Assets/SPDRM/Unlocking_the_power_of_process_management_with_SPDRM.pdf";
 import MULTI_SITE_COLLABRATION from "../Assets/SPDRM/multisite_collabration.pdf";
+import SPDRM_ADM_GUIDE from "../Assets/SPDRM/spdrm_administrators_guide.pdf"
+import SPDRM_USER_GUIDE from "../Assets/SPDRM/spdrm_users_guide.pdf"
+import SPDRM_INSTALLATION_GUIDE from "../Assets/SPDRM/spdrm_installation_guide.pdf"
 
 const Spdrm = () => {
   return (
@@ -31,6 +34,35 @@ const Spdrm = () => {
             <img src={document_main} style={{ width: "25px" }} />
           </div>
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
+          <div className="innerdivs">
+            <a href={SPDRM_ADM_GUIDE} download="spderm_administartor_guide">
+              <span className="colorAndFont">
+                SPDRM administrators guide{" "}
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs">
+            <a
+              href={SPDRM_INSTALLATION_GUIDE}
+              download="spdrm_installation_guide"
+            >
+              <span className="colorAndFont">
+                SPDRM installation guide{" "}
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs">
+            <a href={SPDRM_USER_GUIDE} download="spdrm_users_guide">
+              <span className="colorAndFont">
+                SPDRM user guide <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
           <div className="innerdivs">
             <a href={SPDRM_BROCHER} download="spderm_brochers">
               <span className="colorAndFont">
@@ -98,25 +130,19 @@ const Spdrm = () => {
           </div>
 
           <div className="innerdivs">
-           
-              <a
-                href={MULTI_SITE_COLLABRATION}
-                download="multisite_collabration"
-              >
-                <span className="colorAndFont">
-                  Multi-site collaboration to unite global teams
-                  <img src={pdf_logo} className="pdf-logo" />
-                </span>
-              </a>
-            
-           
-              <a
-                href="https://www.youtube.com/embed/UiSqSQYlUjE?rel=0"
-                target="_blank"
-              >
-                <img src={youtube_logo} className="youtube-logo" />
-              </a>
-          
+            <a href={MULTI_SITE_COLLABRATION} download="multisite_collabration">
+              <span className="colorAndFont">
+                Multi-site collaboration to unite global teams
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+
+            <a
+              href="https://www.youtube.com/embed/UiSqSQYlUjE?rel=0"
+              target="_blank"
+            >
+              <img src={youtube_logo} className="youtube-logo" />
+            </a>
           </div>
         </div>
         <div className="linkDiv">
@@ -127,14 +153,12 @@ const Spdrm = () => {
           <div style={{ borderLeft: "5px solid orange" }}>
             {" "}
             <div className="innerdivs">
-            
-                <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
-                  <span className="colorAndFont">
-                    SPDRM product site{" "}
-                    <img src={link_logo} className="link-logo" alt="" />
-                  </span>
-                </a>
-             
+              <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
+                <span className="colorAndFont">
+                  SPDRM product site{" "}
+                  <img src={link_logo} className="link-logo" alt="" />
+                </span>
+              </a>
             </div>
           </div>
         </div>
