@@ -35,108 +35,101 @@ const Komvos = () => {
           </div>
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">Introduction to KOMVOS</span>
-            </div>
-            <div>
+         
               <a
                 href={KOMVOS_INTRODUCTIOn_PDF}
                 download="introduction_to_komvos"
               >
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  Introduction to KOMVOS{" "}
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-            </div>
+           
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS UI walkthrough</span>
-            </div>
-            <div>
+           
               <a href={KOMVOS_UI_WALKTHROUGH} download="komvos_ui_walkthrough">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  KOMVOS UI walkthrough{" "}
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-            </div>
+            
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS user guide</span>
-            </div>
-            <div>
+          
               <a href={KOMVOS_USERGUIDE} download="komvos_userguide">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  KOMVOS user guide <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-            </div>
+          
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS brochure</span>
-            </div>
-            <div>
+           
               <a href={KOMVOS_BROCHER} download="komvos_brochers">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  KOMVOS brochure <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-            </div>
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS system requirements</span>
-            </div>
-            <div>
+           
               <a
                 href={KOMVOS_SYSTEM_REQUIREMENT}
                 download="komvos_system_requirement"
               >
-                <img src={pdf_logo} className="pdf-logo" />
-              </a>
-            </div>
+                <span className="colorAndFont">
+                  KOMVOS system requirements{" "}
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
+              </a> 
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS explained</span>
-            </div>
-            <div>
+           
               <a href={KMOVOS_EXPLAIND} download="komvos_explained">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  KOMVOS explained <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-            </div>
+          
           </div>
 
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS Q&A</span>
-            </div>
-            <div>
+          
               <a href={KOMVOS_QA} download="komvos_qa">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  KOMVOS Q&A
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-            </div>
+            
           </div>
 
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                Reintro KOMVOS as desktop client
-              </span>
-            </div>
-            <div>
+           
               <a
                 href={REINTRO_KOMVOS_AS_DESKTOP_CLIENT}
                 download="reintroduce KOMVOS as a simulation data and process managemenet desktop client"
               >
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  Reintro KOMVOS as desktop client
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-            </div>
+          
           </div>
 
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS short notes</span>
-            </div>
-            <div>
+          
               <a href={KOMVOS_SHORT_NOTES} download="komvos_short_notes">
-                <img src={document_logo} className="doc-logo" />
+                <span className="colorAndFont">
+                  KOMVOS short notes
+                  <img src={document_logo} className="doc-logo" />
+                </span>
               </a>
-            </div>
+           
           </div>
         </div>
         <div className="youtubeDiv">
@@ -151,47 +144,45 @@ const Komvos = () => {
           </div>
           {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                KOMVOS - The innovative SDM platform
-              </span>
-            </div>
-            <div>
+       
               <a
                 href="https://www.youtube.com/embed/mq4HrOafuO0?rel=0"
                 target="_black"
               >
-                <img src={youtube_logo} className="youtube-logo" />
+                <span className="colorAndFont">
+                  KOMVOS - The innovative SDM platform{" "}
+                  <img src={youtube_logo} className="youtube-logo" />
+                </span>
               </a>
-            </div>
+           
           </div>
 
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">KOMVOS Tutorials</span>
-            </div>
-            <div>
+           
               <a
                 href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUd96uYCP7pV_ekfM6JPvCvu"
                 target="_black"
               >
-                <img src={youtube_logo} className="youtube-logo" />
+                <span className="colorAndFont">
+                  KOMVOS Tutorials
+                  <img src={youtube_logo} className="youtube-logo" />
+                </span>
               </a>
-            </div>
+          
           </div>
 
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">Machine Learning in KOMVOS</span>
-            </div>
-            <div>
+           
               <a
                 href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
                 target="_black"
               >
-                <img src={youtube_logo} className="youtube-logo" alt="" />
+                <span className="colorAndFont">
+                  Machine Learning in KOMVOS{" "}
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </span>
               </a>
-            </div>
+            
           </div>
         </div>
         <div className="linkDiv">
@@ -201,14 +192,16 @@ const Komvos = () => {
           {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
           <div style={{ borderLeft: "5px solid orange" }}>
             <div className="innerdivs">
-              <div>
-                <span className="colorAndFont">KOMVOS prdouct site</span>
-              </div>
-              <div>
+           
+              
                 <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
-                  <img src={link_logo} className="link-logo" />
+                  <span className="colorAndFont">
+                    KOMVOS prdouct site
+                    <img src={link_logo} className="link-logo" />
+                  </span>
                 </a>
-              </div>
+              
+             
             </div>
           </div>
         </div>

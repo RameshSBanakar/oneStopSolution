@@ -36,21 +36,21 @@ const Pdm = () => {
             <img src={document_main} style={{ width: "25px" }} />
           </div>
           <div className="innerdivs">
-            <div>
+       
               <a
                 href={CAE_MODEL_GENERATION_PDM_AND_CAD}
                 download="cae_model_generation_pdm_and_cad"
               >
                 <span className="colorAndFont">
-                  RENAULT:CAE model generation from CAD and PDM{" "}
+                  RENAULT:CAE model generation from CAD & PDM{" "}
                   <img src={pdf_logo} className="pdf-logo" alt="" />
                 </span>
               </a>
-            </div>
+           
        
           </div>
           <div className="innerdivs">
-            <div>
+            
               <a
                 href={STREAM_LINE_DATA_EXT_FROM_TC}
                 download="stream_line_data_extraction_from_tc"
@@ -60,11 +60,11 @@ const Pdm = () => {
                   <img src={pdf_logo} className="pdf-logo" alt="" />
                 </span>
               </a>
-            </div>
+           
           </div>
 
           <div className="innerdivs">
-            <div>
+          
               <a
                 href={ANSA_TC_SIM_WHITE_PAPER}
                 download="ansa_tc_sim_white_paper"
@@ -74,7 +74,7 @@ const Pdm = () => {
                   <img src={pdf_logo} className="pdf-logo" />
                 </span>
               </a>
-            </div>
+         
           </div>
         </div>
       </div>
