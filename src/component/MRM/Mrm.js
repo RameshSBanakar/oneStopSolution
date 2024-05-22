@@ -345,7 +345,7 @@ const Mrm = () => {
           </div>
         </div>
         <div className="totirial">
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft ">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693859"
               target="_blank"
@@ -356,7 +356,7 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft ">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693849"
               target="_blank"
@@ -368,7 +368,7 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft ">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693857"
               target="_blank"
@@ -380,7 +380,7 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft ">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693851"
               target="_blank"
@@ -392,7 +392,7 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft ">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693855"
               target="_blank"
@@ -404,13 +404,13 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft ">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693853"
               target="_blank"
             >
               <span className="colorAndFont">
-                Modular set-up of crash simulation for PAM-CRASH{" "}
+                Modular set-up of crash simulation for PAM-CRASH
                 <img src={link_logo} className="link-logo" />
               </span>
             </a>
