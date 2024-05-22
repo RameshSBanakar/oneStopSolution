@@ -2,6 +2,8 @@ import React from 'react'
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
+import document_main from "../Assets/doument_main.png";
+
 import beta_logo from "../Assets/beta_logo.png"
 import STREAM_LINE_DATA_EXT_FROM_TC from "../Assets/PDM/Streamlining data extraction from.pdf"
 import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
@@ -15,14 +17,22 @@ const Pdm = () => {
           style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
         <div
-          style={{ paddingLeft: "10px", marginTop: "-10px", fontSize: "15px",fontWeight:"700" }}
+          style={{
+            paddingLeft: "10px",
+            marginTop: "-10px",
+            fontSize: "15px",
+            fontWeight: "700",
+          }}
         >
           PDM TO CAD
         </div>
       </div>
 
       <div className="datadiv">
-        <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
+        <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+          <img src={document_main} style={{ width: "25px" }} />
+        </div>
+        {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
         <div className="innerdivs">
           <div>
             <span className="colorAndFont">

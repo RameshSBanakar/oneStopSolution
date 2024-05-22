@@ -7,6 +7,8 @@ import youtube_logo from "../Assets/youtube_logo.png";
 import document_logo from "../Assets/document_logo.png";
 import beta_logo from "../Assets/beta_logo.png";
 import static_youtube_logo from "../Assets/static_youtube_logo.png"
+import link_main from "../Assets/link_main.jpg"
+import document_main from "../Assets/doument_main.png"
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
 import DATA_MANAGMENT from "../Assets/MRM/1data_management.pdf";
@@ -43,7 +45,10 @@ const Mrm = () => {
 
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
+          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+            <img src={document_main} style={{ width: "25px" }} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">
@@ -203,9 +208,14 @@ const Mrm = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          <div style={{marginTop:"-22px",marginLeft:"-20px"}}>
-            <img src={static_youtube_logo} alt="" style={{
-              width:"60px"}} />
+          <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
+            <img
+              src={static_youtube_logo}
+              alt=""
+              style={{
+                width: "60px",
+              }}
+            />
           </div>
           {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
           <div className="innerdivs">
@@ -272,7 +282,10 @@ const Mrm = () => {
           </div>
         </div>
         <div className="linkDiv">
-          <spna style={{ fontWeight: "700", color: "black" }}>Links</spna>
+          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+            <img src={link_main} style={{ width: "25px" }} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
 
           {/* confluence links */}
           <div style={{ borderLeft: "5px solid blue" }}>

@@ -8,6 +8,8 @@ import pdf_logo from "../Assets/pdf_logo.webp";
 import document_logo from "../Assets/document_logo.png";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
+import link_main from "../Assets/link_main.jpg"
+import document_main from "../Assets/doument_main.png";
 
 import SPDRM_BROCHER from "../Assets/SPDRM/spdrm_brochure.pdf";
 import SPDRM_QA from "../Assets/SPDRM/spdrm_qa.pdf";
@@ -25,7 +27,10 @@ const Spdrm = () => {
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
+          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+            <img src={document_main} style={{ width: "25px" }} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">SPDRM brochure</span>
@@ -133,8 +138,11 @@ const Spdrm = () => {
           </div>
         </div>
         <div className="linkDiv">
-          <spna style={{ fontWeight: "700", color: "black" }}>Links</spna>
-          <div style={{ borderLeft: "5px solid red" }}>
+          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+            <img src={link_main} style={{ width: "25px" }} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
+          <div style={{ borderLeft: "5px solid orange" }}>
             {" "}
             <div className="innerdivs">
               <div>

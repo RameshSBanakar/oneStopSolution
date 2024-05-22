@@ -9,7 +9,8 @@ import document_logo from "../Assets/document_logo.png";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import static_youtube_logo from "../Assets/static_youtube_logo.png"
-
+import link_main from "../Assets/link_main.jpg";
+import document_main from "../Assets/doument_main.png";
 
 import KOMVOS_INTRODUCTIOn_PDF from "../Assets/KOMVOS/20231016_introduction_to_KOMVOS.pdf";
 import KOMVOS_UI_WALKTHROUGH from "../Assets/KOMVOS/20220700_KOMVOS_UI_walkthrough.pdf";
@@ -29,7 +30,10 @@ const Komvos = () => {
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
+          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+            <img src={document_main} style={{ width: "25px" }} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">Introduction to KOMVOS</span>
@@ -191,8 +195,11 @@ const Komvos = () => {
           </div>
         </div>
         <div className="linkDiv">
-          <spna style={{ fontWeight: "700", color: "black" }}>Links</spna>
-          <div style={{ borderLeft: "5px solid red" }}>
+          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+            <img src={link_main} style={{ width: "25px" }} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
+          <div style={{ borderLeft: "5px solid orange" }}>
             <div className="innerdivs">
               <div>
                 <span className="colorAndFont">KOMVOS prdouct site</span>

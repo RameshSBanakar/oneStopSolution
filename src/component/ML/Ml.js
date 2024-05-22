@@ -1,6 +1,8 @@
 import React from "react";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
+import document_main from "../Assets/doument_main.png";
+
 import youtube_logo from "../Assets/youtube_logo.png";
 import static_youtube_logo from "../Assets/static_youtube_logo.png"
 import beta_logo from "../Assets/beta_logo.png";
@@ -23,7 +25,10 @@ const Ml = () => {
 
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna>
+          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+            <img src={document_main} style={{ width: "25px" }} />
+          </div>
+          {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs">
             <div>
               <span className="colorAndFont">ML fasteners</span>
