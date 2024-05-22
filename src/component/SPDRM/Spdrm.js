@@ -30,9 +30,9 @@ const Spdrm = () => {
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
             <img src={document_main} style={{ width: "25px" }} />
-          </div>
+          </div> */}
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_ADM_GUIDE} download="spderm_administartor_guide">
@@ -146,9 +146,9 @@ const Spdrm = () => {
           </div>
         </div>
         <div className="linkDiv">
-          <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
+          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
             <img src={link_main} style={{ width: "25px" }} />
-          </div>
+          </div> */}
           {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
           {/* <div style={{ borderLeft: "5px solid orange" }}> */}
             {" "}

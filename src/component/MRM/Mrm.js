@@ -344,6 +344,78 @@ const Mrm = () => {
             </a>
           </div>
         </div>
+        <div className="totirial">
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693859"
+              target="_blank"
+            >
+              <span className="colorAndFont">
+                Subsystem Build <img src={link_logo} className="link-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693849"
+              target="_blank"
+            >
+              <span className="colorAndFont">
+                Model Organization with the Model Browser
+                <img src={link_logo} className="link-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693857"
+              target="_blank"
+            >
+              <span className="colorAndFont">
+                Modular set-up of a static simulation for EPILYSIS{" "}
+                <img src={link_logo} className="link-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693851"
+              target="_blank"
+            >
+              <span className="colorAndFont">
+                Modular set-up of a static simulation for ABAQUS{" "}
+                <img src={link_logo} className="link-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693855"
+              target="_blank"
+            >
+              <span className="colorAndFont">
+                Modular set-up of a crash simulation for LS-DYNA{" "}
+                <img src={link_logo} className="link-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a
+              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693853"
+              target="_blank"
+            >
+              <span className="colorAndFont">
+                Modular set-up of crash simulation for PAM-CRASH{" "}
+                <img src={link_logo} className="link-logo" />
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     // </div>
