@@ -17,7 +17,7 @@ const Ml = () => {
           style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
         <div
-          style={{ paddingLeft: "40px", marginTop: "-15px", fontSize: "25px" }}
+          style={{ paddingLeft: "40px", marginTop: "-15px", fontSize: "20px" ,fontWeight:"700"}}
         >
           ML
         </div>

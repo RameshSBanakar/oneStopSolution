@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar__container">
         <div className="navbar__logo">
-          One Step Solution for All MRM
+          One Stop Solution for All MRM
         </div>
        
         {/* <div className={`navbar__menu ${isMenuOpen ? "active" : ""}`}>

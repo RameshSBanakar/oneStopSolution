@@ -49,12 +49,12 @@
     margin-top: 1px;
 }
 
-.innerdivs div a {
+.innerdivs  a {
     text-decoration: none;
 }
 
-.innerdivs div a:hover {
-    font-weight: 500;
+.innerdivs a:hover {
+    color: blue;
 }
 
 .pdf-logo {
@@ -100,6 +100,8 @@
 
     color: #63666A;
     font-weight: 500;
+    
+    
 
 }
 

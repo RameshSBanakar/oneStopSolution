@@ -33,78 +33,77 @@ const Spdrm = () => {
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs">
             <div>
-              <span className="colorAndFont">SPDRM brochure</span>
-            </div>
-            <div>
+              {" "}
               <a href={SPDRM_BROCHER} download="spderm_brochers">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  SPDRM brochure <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
             </div>
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">SPDRM system requirements</span>
-            </div>
             <div>
               <a
                 href={SPDRM_SYSTEM_REQUIREMENT}
                 download="spdrm_system_requirements"
               >
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  SPDRM system requirements{" "}
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
             </div>
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">SPDRM Q&A</span>
-            </div>
             <div>
               <a href={SPDRM_QA} download="spdrm_qa">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  SPDRM Q&A
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
             </div>
           </div>
           <div className="innerdivs">
             <div>
-              <span className="colorAndFont">SPDRM superiority</span>
-            </div>
-            <div>
+              {" "}
               <a href={SPDRM_SUPERIORITY} download="spdrm_superiority">
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  SPDRM superiority
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
             </div>
           </div>
 
           <div className="innerdivs">
             <div>
-              <span className="colorAndFont">
-                Vehicle collision in Jiangling Motors in SPDRM
-              </span>
-            </div>
-            <div>
+              {" "}
               <a
                 href={SPDRM_VEHICLE_COLLISION}
                 download="Vehicle_collision_simulation_process_management_using_SPDRM"
               >
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  Vehicle collision in Jiangling Motors in SPDRM{" "}
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
             </div>
           </div>
 
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                Power of process management with SPDRM
-              </span>
-            </div>
             <div>
               <a
                 href={POWER_OF_PROCESS_MANAGMENT}
                 download="Unlocking_the_power_of_process_management_with_SPDRM"
               >
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  Power of process management with SPDRM{" "}
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-
+            </div>
+            <div>
               <a
                 href="https://www.youtube.com/embed/cE-xJgHnfaE?rel=0"
                 target="_blank"
@@ -116,18 +115,18 @@ const Spdrm = () => {
 
           <div className="innerdivs">
             <div>
-              <span className="colorAndFont">
-                Multi-site collaboration to unite global teams
-              </span>
-            </div>
-            <div>
+              {" "}
               <a
                 href={MULTI_SITE_COLLABRATION}
                 download="multisite_collabration"
               >
-                <img src={pdf_logo} className="pdf-logo" />
+                <span className="colorAndFont">
+                  Multi-site collaboration to unite global teams
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
-
+            </div>
+            <div>
               <a
                 href="https://www.youtube.com/embed/UiSqSQYlUjE?rel=0"
                 target="_blank"
@@ -146,13 +145,14 @@ const Spdrm = () => {
             {" "}
             <div className="innerdivs">
               <div>
-                <span className="colorAndFont">SPDRM product site</span>
-              </div>
-              <div>
                 <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
-                  <img src={link_logo} className="link-logo" alt="" />
+                  <span className="colorAndFont">
+                    SPDRM product site{" "}
+                    <img src={link_logo} className="link-logo" alt="" />
+                  </span>
                 </a>
               </div>
+              
             </div>
           </div>
         </div>

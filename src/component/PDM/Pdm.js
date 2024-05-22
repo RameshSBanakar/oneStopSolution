@@ -7,6 +7,7 @@ import document_main from "../Assets/doument_main.png";
 import beta_logo from "../Assets/beta_logo.png"
 import STREAM_LINE_DATA_EXT_FROM_TC from "../Assets/PDM/Streamlining data extraction from.pdf"
 import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
+import ANSA_TC_SIM_WHITE_PAPER from "../Assets/PDM/ansa_tc_sim_white_paper.pdf"
 const Pdm = () => {
   return (
     <div className="common">
@@ -20,11 +21,11 @@ const Pdm = () => {
           style={{
             paddingLeft: "10px",
             marginTop: "-10px",
-            fontSize: "15px",
+            fontSize: "16px",
             fontWeight: "700",
           }}
         >
-          PDM TO CAD
+          PDM TO CAE
         </div>
       </div>
 
@@ -36,31 +37,42 @@ const Pdm = () => {
           </div>
           <div className="innerdivs">
             <div>
-              <span className="colorAndFont">
-                RENAULT:CAE model generation from CAD and PDM
-              </span>
-            </div>
-            <div>
               <a
                 href={CAE_MODEL_GENERATION_PDM_AND_CAD}
                 download="cae_model_generation_pdm_and_cad"
               >
-                <img src={pdf_logo} className="pdf-logo" alt="" />
+                <span className="colorAndFont">
+                  RENAULT:CAE model generation from CAD and PDM{" "}
+                  <img src={pdf_logo} className="pdf-logo" alt="" />
+                </span>
               </a>
             </div>
+       
           </div>
           <div className="innerdivs">
-            <div>
-              <span className="colorAndFont">
-                Streamline data extraction from TC
-              </span>
-            </div>
             <div>
               <a
                 href={STREAM_LINE_DATA_EXT_FROM_TC}
                 download="stream_line_data_extraction_from_tc"
               >
-                <img src={pdf_logo} className="pdf-logo" alt="" />
+                <span className="colorAndFont">
+                  Streamline data extraction from TC{" "}
+                  <img src={pdf_logo} className="pdf-logo" alt="" />
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div className="innerdivs">
+            <div>
+              <a
+                href={ANSA_TC_SIM_WHITE_PAPER}
+                download="ansa_tc_sim_white_paper"
+              >
+                <span className="colorAndFont">
+                  Ansa tc sim white papers{" "}
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
               </a>
             </div>
           </div>
