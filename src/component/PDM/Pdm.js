@@ -59,7 +59,7 @@ const Pdm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="whiteFilesMarginLeft">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={ANSA_TC_SIM_WHITE_PAPER}
               download="ansa_tc_sim_white_paper"

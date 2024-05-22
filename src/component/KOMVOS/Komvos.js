@@ -11,6 +11,7 @@ import youtube_logo from "../Assets/youtube_logo.png";
 import static_youtube_logo from "../Assets/static_youtube_logo.png"
 import link_main from "../Assets/link_main.jpg";
 import document_main from "../Assets/doument_main.png";
+import brochers_logo from "../Assets/brochers.png";
 
 import KOMVOS_INTRODUCTIOn_PDF from "../Assets/KOMVOS/20231016_introduction_to_KOMVOS.pdf";
 import KOMVOS_UI_WALKTHROUGH from "../Assets/KOMVOS/20220700_KOMVOS_UI_walkthrough.pdf";
@@ -61,7 +62,8 @@ const Komvos = () => {
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={KOMVOS_BROCHER} download="komvos_brochers">
               <span className="colorAndFont">
-                KOMVOS brochure <img src={pdf_logo} className="pdf-logo" />
+                KOMVOS brochure{" "}
+                <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
           </div>

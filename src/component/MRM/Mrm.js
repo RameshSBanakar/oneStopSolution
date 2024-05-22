@@ -10,6 +10,8 @@ import static_youtube_logo from "../Assets/static_youtube_logo.png";
 import link_main from "../Assets/link_main.jpg";
 import document_main from "../Assets/doument_main.png";
 import white_paper from "../Assets/white_paper.jpg"
+import brochers_logo from "../Assets/brochers.png"
+
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
 import DATA_MANAGMENT from "../Assets/MRM/1data_management.pdf";
 import INTRODUCTION_TO_MRM from "../Assets/MRM/Intorduction_to_Modular_Model_and_Run_management.pdf";
@@ -67,7 +69,7 @@ const Mrm = () => {
           >
             <a href={MRM_PDF} download="Modular_Model_and_Run_Management">
               <span className="colorAndFont">
-                Modular Model Run Managment
+                Modular Model and Run Managment
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -85,8 +87,8 @@ const Mrm = () => {
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={DATA_MANAGMENT_BROCHER} download="Data_managment_brochure">
               <span className="colorAndFont">
-                Data Managment brochure{" "}
-                <img src={pdf_logo} className="pdf-logo" alt="" />
+                Data Management brochure{" "}
+                <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
           </div>
@@ -103,7 +105,7 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="whiteFilesMarginLeft">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING}
               download="multivariant_multidiscipline_ansa_modeling"
@@ -115,16 +117,16 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="whiteFilesMarginLeft">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={MODULAR_RUN_MANGMENT_2} download="modular_run_management">
               <span className="colorAndFont">
-                Modular run managament
+                Modular run management
                 <img src={white_paper} className="doc-logo" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="whiteFilesMarginLeft">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={SIMMANAGER_BETA_SUITE_INTRACTION}
               download="simmanager-beta_suite-interaction"

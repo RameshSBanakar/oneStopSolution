@@ -10,6 +10,7 @@ import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import link_main from "../Assets/link_main.jpg";
 import document_main from "../Assets/doument_main.png";
+import brochers_logo from "../Assets/brochers.png";
 
 import SPDRM_BROCHER from "../Assets/SPDRM/spdrm_brochure.pdf";
 import SPDRM_QA from "../Assets/SPDRM/spdrm_qa.pdf";
@@ -38,7 +39,8 @@ const Spdrm = () => {
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_BROCHER} download="spderm_brochers">
               <span className="colorAndFont">
-                SPDRM brochure <img src={pdf_logo} className="pdf-logo" />
+                SPDRM brochure{" "}
+                <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
           </div>
@@ -159,6 +161,13 @@ const Spdrm = () => {
               <span className="colorAndFont">
                 SPDRM product site{" "}
                 <img src={link_logo} className="link-logo" alt="" />
+              </span>
+            </a>
+          </div>
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a href="https://kb.beta-cae.com/display/SS/SPDRM" target="_blank">
+              <span className="colorAndFont">
+                SPDRM space <img src={link_logo} className="link-logo" alt="" />
               </span>
             </a>
           </div>
