@@ -8,6 +8,7 @@ import beta_logo from "../Assets/beta_logo.png"
 import STREAM_LINE_DATA_EXT_FROM_TC from "../Assets/PDM/Streamlining data extraction from.pdf"
 import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
 import ANSA_TC_SIM_WHITE_PAPER from "../Assets/PDM/ansa_tc_sim_white_paper.pdf"
+import TEAMCENTRE_UTILITIES_PLUGIN from "../Assets/PDM/TeamcenterUtilities.pdf"
 const Pdm = () => {
   return (
     <div className="common">
@@ -65,6 +66,15 @@ const Pdm = () => {
             >
               <span className="colorAndFont">
                 Ansa tc sim white papers{" "}
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={TEAMCENTRE_UTILITIES_PLUGIN} download="TeamcenterUtilities">
+              <span className="colorAndFont">
+               Teamcentre utilities plugin{" "}
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
