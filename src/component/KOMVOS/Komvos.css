@@ -1,29 +1,24 @@
 .common {
     border: 1px solid black;
     width: 95%;
-    /* height: 500px; */
     margin-top: 6%;
     border-radius: 10px;
     box-shadow: 1px 1px 1px;
     padding-left: 2%;
     margin-right: 2%;
     font-size: 12px;
-    /* background: linear-gradient(to bottom right,#D6FA0F,white);
-     */
+  
 }
 
 
 .imagediv {
     width: 35%;
-    /* border:1px solid black; */
     height: 45px;
     margin-top: -6%;
-    /* margin-left: 2%; */
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px;
     font-size: 20px;
-
 }
 #pdfFilesMarginLeft{
     border-left: 4px solid greenyellow;
@@ -55,7 +50,7 @@
 }
 
 .datadiv {
-    /* border: 1px solid blue; */
+  
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 2%;
@@ -65,11 +60,14 @@
     width: 95%;
     display: flex;
     border: 1px solid rgb(196, 194, 194);
-    /* justify-content: space-between; */
+   
     margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 1px;
+}
+.innerdivs:hover{
+    cursor: pointer;
 }
 
 .innerdivs  a {
@@ -92,9 +90,6 @@
     width: 17px;
 }
 
-/* .firstROw {
-    display: flex;
-} */
 .pdfFilesdiv {
     border: 2px dashed blue;
     width: 100%;
