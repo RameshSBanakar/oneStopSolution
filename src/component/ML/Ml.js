@@ -43,16 +43,7 @@ const Ml = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          {/* <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
-            <img
-              src={static_youtube_logo}
-              alt=""
-              style={{
-                width: "60px",
-              }}
-            />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
+        
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
               href="https://www.youtube.com/watch?app=desktop&v=46cnjoS9zNM"
@@ -107,11 +98,13 @@ const Ml = () => {
               target="_black"
             >
               <span className="colorAndFont">
-                SEAT:optimize design of a car-body-structure by ML{" "}
+                SEAT:optimize design of car-body-structure by ML{" "}
                 <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
+
+
         </div>
       </div>
     </div>

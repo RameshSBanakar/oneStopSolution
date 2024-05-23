@@ -6,7 +6,6 @@ import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import document_logo from "../Assets/document_logo.png";
 import beta_logo from "../Assets/beta_logo.png";
-
 import white_paper from "../Assets/white_paper.jpg"
 import brochers_logo from "../Assets/brochers.png"
 import ppt_logo from "../Assets/ppt_logo.png"
@@ -49,7 +48,6 @@ const Mrm = () => {
           <div
             className="innerdivs "
             id="pdfFilesMarginLeft"
-            // style={{ borderLeft: "4px solid greenyellow" }}
           >
             <a
               href={INTRODUCTION_TO_MRM}
@@ -65,7 +63,6 @@ const Mrm = () => {
           <div
             className="innerdivs pdfFilesMarginLeft"
             id="pdfFilesMarginLeft"
-            // style={{ borderLeft: "4px solid greenyellow" }}
           >
             <a href={MRM_PDF} download="Modular_Model_and_Run_Management">
               <span className="colorAndFont">
@@ -76,9 +73,9 @@ const Mrm = () => {
           </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={DATA_MANAGMENT} download="Data_managment">
+            <a href={DATA_MANAGMENT} download="Data_management">
               <span className="colorAndFont">
-                Data Managment{" "}
+                Data Management
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -87,7 +84,7 @@ const Mrm = () => {
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={DATA_MANAGMENT_BROCHER} download="Data_managment_brochure">
               <span className="colorAndFont">
-                Data Management brochure{" "}
+                Data Management brochure
                 <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
@@ -99,7 +96,7 @@ const Mrm = () => {
               download="multivariant_multidiscipline_ansa_modeling"
             >
               <span className="colorAndFont">
-                Multidiscipline ansa modeling{" "}
+                Multidiscipline ANSA modeling
                 <img src={white_paper} className="doc-logo" />
               </span>
             </a>
@@ -120,7 +117,7 @@ const Mrm = () => {
               download="simmanager-beta_suite-interaction"
             >
               <span className="colorAndFont">
-                Simmanager-beta_suite-interaction{" "}
+                Simmanager-beta_suite-interaction
                 <img src={white_paper} className="doc-logo" />
               </span>
             </a>
@@ -132,7 +129,7 @@ const Mrm = () => {
               download="ansa_model_comparison"
             >
               <span className="colorAndFont">
-                Model comparison in ANSA & META{" "}
+                Model comparison in ANSA & META
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
@@ -144,30 +141,21 @@ const Mrm = () => {
               download="diffrence_btw_FBDM_SBDM"
             >
               <span className="colorAndFont">
-                Difference between FBDM & SBDM{" "}
+                Difference between FBDM & SBDM
                 <img src={document_logo} className="doc-logo" />
               </span>
             </a>
           </div>
         </div>
         <div className="youtubeDiv">
-          {/* <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
-            <img
-              src={static_youtube_logo}
-              alt=""
-              style={{
-                width: "60px",
-              }}
-            />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
+          
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
               href="https://www.youtube.com/watch?v=F6XmKCHOj_M"
               target="_black"
             >
               <span className="colorAndFont">
-                Model assembly and iterations management{" "}
+                Model assembly and iterations management
                 <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
@@ -179,7 +167,7 @@ const Mrm = () => {
               target="_black"
             >
               <span className="colorAndFont">
-                Modular Run Management in ANSA{" "}
+                Modular Run Management in ANSA
                 <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
@@ -190,7 +178,7 @@ const Mrm = () => {
               target="_black"
             >
               <span className="colorAndFont">
-                Model Assembly to Loadcase Set-up{" "}
+                Model Assembly to Loadcase Set-up
                 <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
@@ -202,20 +190,13 @@ const Mrm = () => {
               target="_black"
             >
               <span className="colorAndFont">
-                Simulation Process_Data Management at CEVT{" "}
+                Simulation Process_Data Management at CEVT
                 <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
         </div>
         <div className="linkDiv">
-          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
-            <img src={link_main} style={{ width: "25px" }} />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
-
-          {/* confluence links */}
-          {/* <div style={{ borderLeft: "5px solid blue" }}> */}
           <div className="innerdivs" id="confluenceFilesMarginLeft">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"
@@ -316,7 +297,7 @@ const Mrm = () => {
               target="_blank"
             >
               <span className="colorAndFont">
-                Model migration and Loadcase setup{" "}
+                Model migration and Loadcase setup
                 <img src={link_logo} className="link-logo" />
               </span>
             </a>
@@ -367,7 +348,7 @@ const Mrm = () => {
               target="_blank"
             >
               <span className="colorAndFont">
-                Modular set-up of a static simulation for EPILYSIS{" "}
+                Modular set-up of a static simulation for EPILYSIS
                 <img src={link_logo} className="link-logo" />
               </span>
             </a>
@@ -379,7 +360,7 @@ const Mrm = () => {
               target="_blank"
             >
               <span className="colorAndFont">
-                Modular set-up of a static simulation for ABAQUS{" "}
+                Modular set-up of a static simulation for ABAQUS
                 <img src={link_logo} className="link-logo" />
               </span>
             </a>
@@ -391,7 +372,7 @@ const Mrm = () => {
               target="_blank"
             >
               <span className="colorAndFont">
-                Modular set-up of a crash simulation for LS-DYNA{" "}
+                Modular set-up of a crash simulation for LS-DYNA
                 <img src={link_logo} className="link-logo" />
               </span>
             </a>

@@ -1,16 +1,13 @@
 import React from "react";
 import "./Komvos.css";
-import ansers_log from "../Assets/ANSERS/logo_ansers.png";
-import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
+
 import komvos_logo from "../Assets/KOMVOS/logo_cropped_komvos.png";
-import ansa_logo from "../Assets/ANSADM/logo_cropped_ansa.png";
+
 import pdf_logo from "../Assets/pdf_logo.webp";
 import document_logo from "../Assets/document_logo.png";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import static_youtube_logo from "../Assets/static_youtube_logo.png"
-import link_main from "../Assets/link_main.jpg";
-import document_main from "../Assets/doument_main.png";
+
 import brochers_logo from "../Assets/brochers.png";
 import ppt_logo from "../Assets/ppt_logo.png";
 
@@ -33,10 +30,7 @@ const Komvos = () => {
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
-            <img src={document_main} style={{ width: "25px" }} />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
+        
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={KOMVOS_INTRODUCTIOn_PDF} download="introduction_to_komvos">
               <span className="colorAndFont">
@@ -140,16 +134,7 @@ const Komvos = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          {/* <div style={{ marginTop: "-22px", marginLeft: "-20px" }}>
-            <img
-              src={static_youtube_logo}
-              alt=""
-              style={{
-                width: "60px",
-              }}
-            />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "red" }}>Videos</spna> */}
+         
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
               href="https://www.youtube.com/embed/mq4HrOafuO0?rel=0"
@@ -187,10 +172,6 @@ const Komvos = () => {
           </div>
         </div>
         <div className="linkDiv">
-          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
-            <img src={link_main} style={{ width: "25px" }} />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
 
           <div className="innerdivs" id="productFilesMarginLeft">
             <a href="https://www.beta-cae.com/komvos.htm" target="_blank">

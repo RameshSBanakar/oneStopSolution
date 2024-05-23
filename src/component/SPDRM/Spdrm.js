@@ -1,14 +1,10 @@
 import React from "react";
 import "./Spdrm.css";
-import ansers_log from "../Assets/ANSERS/logo_ansers.png";
+
 import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
-import komvos_logo from "../Assets/KOMVOS/logo_cropped_komvos.png";
-import ansa_logo from "../Assets/ANSADM/logo_cropped_ansa.png";
 import pdf_logo from "../Assets/pdf_logo.webp";
-import document_logo from "../Assets/document_logo.png";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import link_main from "../Assets/link_main.jpg";
 import ppt_logo from "../Assets/ppt_logo.png"
 import brochers_logo from "../Assets/brochers.png";
 import video_logo from "../Assets/video.png"
@@ -28,6 +24,8 @@ import INTRODUCTION_TO_SPDRM from "../Assets/SPDRM/20240300_introduction_to_SPDR
 import SPDRM_TUTORIAL from "../Assets/SPDRM/spdrm_tutorial.pdf"
 import HM_FROM_SPDRM_VIDEO from "../Assets/SPDRM/Edit in HM from SPDRM.avi"
 import TC_SPDRM_VIDEO from "../Assets/SPDRM/TC-SPDRM.avi"
+
+
 const Spdrm = () => {
   return (
     <div className="common">

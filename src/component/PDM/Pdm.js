@@ -1,10 +1,8 @@
 import React from 'react'
 import pdf_logo from "../Assets/pdf_logo.webp";
-import link_logo from "../Assets/link_logo.jpg";
-import youtube_logo from "../Assets/youtube_logo.png";
-import document_main from "../Assets/doument_main.png";
 import white_paper from "../Assets/white_paper.jpg"
 import beta_logo from "../Assets/beta_logo.png"
+import ppt_logo from "../Assets/ppt_logo.png"
 import STREAM_LINE_DATA_EXT_FROM_TC from "../Assets/PDM/Streamlining data extraction from.pdf"
 import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
 import ANSA_TC_SIM_WHITE_PAPER from "../Assets/PDM/ansa_tc_sim_white_paper.pdf"
@@ -31,11 +29,8 @@ const Pdm = () => {
       </div>
 
       <div className="datadiv">
-        {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
         <div className="pdfFilesdiv">
-          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
-            <img src={document_main} style={{ width: "25px" }} />
-          </div> */}
+       
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={CAE_MODEL_GENERATION_PDM_AND_CAD}
@@ -53,8 +48,8 @@ const Pdm = () => {
               download="stream_line_data_extraction_from_tc"
             >
               <span className="colorAndFont">
-                Streamline data extraction from TC{" "}
-                <img src={pdf_logo} className="pdf-logo" alt="" />
+                Streamline data extraction from TC
+                <img src={ppt_logo} className="doc-logo" alt="" />
               </span>
             </a>
           </div>
@@ -65,8 +60,8 @@ const Pdm = () => {
               download="ansa_tc_sim_white_paper"
             >
               <span className="colorAndFont">
-                ANSA tc sim white papers{" "}
-                <img src={white_paper} className="doc-logo" />
+                ANSA tc sim white papers
+                <img src={white_paper} className="doc-logo" alt=''/>
               </span>
             </a>
           </div>
