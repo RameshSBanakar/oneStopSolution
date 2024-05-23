@@ -45,10 +45,7 @@ const Mrm = () => {
 
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          <div
-            className="innerdivs "
-            id="pdfFilesMarginLeft"
-          >
+          <div className="innerdivs " id="pdfFilesMarginLeft">
             <a
               href={INTRODUCTION_TO_MRM}
               download="Introduction_to_Modular_Model_and_Run_management"
@@ -60,10 +57,7 @@ const Mrm = () => {
             </a>
           </div>
 
-          <div
-            className="innerdivs pdfFilesMarginLeft"
-            id="pdfFilesMarginLeft"
-          >
+          <div className="innerdivs pdfFilesMarginLeft" id="pdfFilesMarginLeft">
             <a href={MRM_PDF} download="Modular_Model_and_Run_Management">
               <span className="colorAndFont">
                 Modular Model and Run Managment
@@ -148,7 +142,6 @@ const Mrm = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-          
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
               href="https://www.youtube.com/watch?v=F6XmKCHOj_M"
@@ -196,202 +189,124 @@ const Mrm = () => {
             </a>
           </div>
         </div>
-        <div className="linkDiv">
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Why MRM? <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
 
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/Presentations"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Presentations
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018685"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Modular Run Management (MRM) confluence{" "}
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/Trainings"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Trainings <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266332/20220606_Run_history_and_Changeset_Management_v22.1.3.pdf"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Run history and Changeset Management{" "}
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266339/Set_Up_Modular_Environment_Profiles.pdf"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                How to set up MEPs in DM{" "}
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266341/Update_Of_Subsystems.pdf"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Update of Subsystems{" "}
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266405/Modular%20Run%20Management%20for%20Durability.pdf"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Modular Run Management for Durability{" "}
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/81266399/20200424_Honda_NA_Modular_Run_Management.pdf"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                Model migration and Loadcase setup
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a
-              href="https://kb.beta-cae.com/display/MRM/How-to+guides?preview=/81266327/112265693/GES_NVH_Modular_Approach__demo_notes.pptx"
-              target="_blank"
-            >
-              <span className="colorAndFont">
-                BIW Decomposition and integration
-                <img src={link_logo} className="link-logo" />
-              </span>
-            </a>
-          </div>
-        </div>
         <div className="totirial">
-          <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
-            Tutorials
+          <span style={{ fontWeight: "700", color: "red" }}>
+            Playlist
           </span>
-          <div className="innerdivs" id="tutorialsFilesMarginLeft">
+
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693859"
-              target="_blank"
+              href="https://www.youtube.com/watch?v=f2q2BPy9zw4&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=1"
+              target="_black"
             >
               <span className="colorAndFont">
-                Subsystem Build <img src={link_logo} className="link-logo" />
+                Elevated Includes Management
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="tutorialsFilesMarginLeft">
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693849"
-              target="_blank"
+              href="https://www.youtube.com/watch?v=NVcDgnDtxnM&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=2"
+              target="_black"
             >
               <span className="colorAndFont">
-                Model Organization with the Model Browser
-                <img src={link_logo} className="link-logo" />
+                Model Validation and Verification in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
+          </div>
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?v=ETYY07pNv90&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=3"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                Key features of modular Model Assembly in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="tutorialsFilesMarginLeft">
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693857"
-              target="_blank"
+              href="https://www.youtube.com/watch?v=ASU_YbaPZ9Q&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=4"
+              target="_black"
             >
               <span className="colorAndFont">
-                Modular set-up of a static simulation for EPILYSIS
-                <img src={link_logo} className="link-logo" />
+                How to assemble modular models in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="tutorialsFilesMarginLeft">
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693851"
-              target="_blank"
+              href="https://www.youtube.com/watch?v=ASU_YbaPZ9Q&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=4"
+              target="_black"
             >
               <span className="colorAndFont">
-                Modular set-up of a static simulation for ABAQUS
-                <img src={link_logo} className="link-logo" />
+                How to assemble modular models in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="tutorialsFilesMarginLeft">
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693855"
-              target="_blank"
+              href="https://www.youtube.com/watch?v=-dnn9ImZfMc&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=5"
+              target="_black"
             >
               <span className="colorAndFont">
-                Modular set-up of a crash simulation for LS-DYNA
-                <img src={link_logo} className="link-logo" />
+                Introduction to Loadcase setup in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
 
-          <div className="innerdivs" id="tutorialsFilesMarginLeft">
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
-              href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693853"
-              target="_blank"
+              href="https://www.youtube.com/watch?v=GFStod6LtxI&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=6"
+              target="_black"
             >
               <span className="colorAndFont">
-                Modular set-up of crash simulation for PAM-CRASH
-                <img src={link_logo} className="link-logo" />
+                Regular Loadcases setup in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?v=0ezvZvJN_vk&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=7"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                Loadcase Header Loadcases setup in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://www.youtube.com/watch?v=A4oFIwxfBwU&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=8"
+              target="_black"
+            >
+              <span className="colorAndFont">
+                Target Points Loadcases setup in ANSA
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
         </div>
       </div>
+
+      <div></div>
     </div>
+    // </div>
     // </div>
   );
 };
