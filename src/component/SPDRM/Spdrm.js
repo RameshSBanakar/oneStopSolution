@@ -59,7 +59,7 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              // href={SPDRM_TUTORIAL}
+            
               onClick={() => handleDownload(SPDRM_TUTORIAL)}
               download="spdrm_tutorial"
             >
@@ -72,7 +72,7 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              // href={SPDRM_BROCHER}
+            
               onClick={() => handleDownload(SPDRM_BROCHER)}
               download="spderm_brochers"
             >
@@ -85,7 +85,7 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              // href={SPDRM_SYSTEM_REQUIREMENT}
+             
               onClick={() => handleDownload(SPDRM_SYSTEM_REQUIREMENT)}
               download="spdrm_system_requirements"
             >
@@ -98,7 +98,7 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              // href={SPDRM_QA}
+            
               onClick={() => handleDownload(SPDRM_QA)}
               download="spdrm_qa"
             >
@@ -111,7 +111,7 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              // href={SPDRM_SUPERIORITY}
+            
               onClick={() => handleDownload(SPDRM_SUPERIORITY)}
               download="spdrm_superiority"
             >
@@ -124,7 +124,7 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              // href={SPDRM_VEHICLE_COLLISION}
+            
               onClick={() => handleDownload(SPDRM_VEHICLE_COLLISION)}
               download="Vehicle_collision_simulation_process_management_using_SPDRM"
             >
