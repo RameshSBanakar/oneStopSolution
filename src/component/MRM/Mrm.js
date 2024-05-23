@@ -6,16 +6,16 @@ import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import document_logo from "../Assets/document_logo.png";
 import beta_logo from "../Assets/beta_logo.png";
-import static_youtube_logo from "../Assets/static_youtube_logo.png";
-import link_main from "../Assets/link_main.jpg";
-import document_main from "../Assets/doument_main.png";
+
 import white_paper from "../Assets/white_paper.jpg"
 import brochers_logo from "../Assets/brochers.png"
+import ppt_logo from "../Assets/ppt_logo.png"
+
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
 import DATA_MANAGMENT from "../Assets/MRM/1data_management.pdf";
 import INTRODUCTION_TO_MRM from "../Assets/MRM/Intorduction_to_Modular_Model_and_Run_management.pdf";
-import EXE_DESIGN_PROCESS from "../Assets/MRM/Execution_and_Design_Processes.pdf";
+
 import DATA_MANAGMENT_BROCHER from "../Assets/MRM/data_management_brochure.pdf";
 import DIFFRENCE_BTW_FBDM_SBDM from "../Assets/MRM/Difference_FBDM_ServerBasedDM.docx";
 import MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING from "../Assets/MRM/multivariant_multidiscipline_ansa_modeling.pdf";
@@ -53,11 +53,11 @@ const Mrm = () => {
           >
             <a
               href={INTRODUCTION_TO_MRM}
-              download="Intorduction_to_Modular_Model_and_Run_management"
+              download="Introduction_to_Modular_Model_and_Run_management"
             >
               <span className="colorAndFont">
-                Introduction to Modular Model Run Managment
-                <img src={pdf_logo} className="pdf-logo" alt="" />
+                MRM for handling the complex models
+                <img src={ppt_logo} className="doc-logo" alt="" />
               </span>
             </a>
           </div>
@@ -89,18 +89,6 @@ const Mrm = () => {
               <span className="colorAndFont">
                 Data Management brochure{" "}
                 <img src={brochers_logo} className="doc-logo" alt="" />
-              </span>
-            </a>
-          </div>
-
-          <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a
-              href={EXE_DESIGN_PROCESS}
-              download="Execution_and_Design_Processes.pdf"
-            >
-              <span className="colorAndFont">
-                Execution and process design
-                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>

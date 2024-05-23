@@ -12,6 +12,7 @@ import static_youtube_logo from "../Assets/static_youtube_logo.png"
 import link_main from "../Assets/link_main.jpg";
 import document_main from "../Assets/doument_main.png";
 import brochers_logo from "../Assets/brochers.png";
+import ppt_logo from "../Assets/ppt_logo.png";
 
 import KOMVOS_INTRODUCTIOn_PDF from "../Assets/KOMVOS/20231016_introduction_to_KOMVOS.pdf";
 import KOMVOS_UI_WALKTHROUGH from "../Assets/KOMVOS/20220700_KOMVOS_UI_walkthrough.pdf";
@@ -40,7 +41,7 @@ const Komvos = () => {
             <a href={KOMVOS_INTRODUCTIOn_PDF} download="introduction_to_komvos">
               <span className="colorAndFont">
                 Introduction to KOMVOS{" "}
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={ppt_logo} className="doc-logo" />
               </span>
             </a>
           </div>
@@ -48,7 +49,7 @@ const Komvos = () => {
             <a href={KOMVOS_UI_WALKTHROUGH} download="komvos_ui_walkthrough">
               <span className="colorAndFont">
                 KOMVOS UI walkthrough{" "}
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={ppt_logo} className="doc-logo" />
               </span>
             </a>
           </div>
@@ -102,7 +103,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 Re-intro KOMVOS as desktop client
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={ppt_logo} className="doc-logo" />
               </span>
             </a>
           </div>

@@ -18,13 +18,14 @@ const Home = () => {
       </div>
       <div className="firstROw">
         <Komvos />
-
+      </div>
+      <div className="firstROw">
         <Spdrm />
       </div>
       <div className="firstROw">
         <Ansers />
-        <Ml />
         <Pdm />
+        <Ml />
       </div>
     </div>
   );

@@ -65,7 +65,7 @@ const Pdm = () => {
               download="ansa_tc_sim_white_paper"
             >
               <span className="colorAndFont">
-                Ansa tc sim white papers{" "}
+                ANSA tc sim white papers{" "}
                 <img src={white_paper} className="doc-logo" />
               </span>
             </a>

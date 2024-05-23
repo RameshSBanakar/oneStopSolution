@@ -9,8 +9,9 @@ import document_logo from "../Assets/document_logo.png";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import link_main from "../Assets/link_main.jpg";
-import document_main from "../Assets/doument_main.png";
+import ppt_logo from "../Assets/ppt_logo.png"
 import brochers_logo from "../Assets/brochers.png";
+import video_logo from "../Assets/video.png"
 
 import SPDRM_BROCHER from "../Assets/SPDRM/spdrm_brochure.pdf";
 import SPDRM_QA from "../Assets/SPDRM/spdrm_qa.pdf";
@@ -22,7 +23,11 @@ import MULTI_SITE_COLLABRATION from "../Assets/SPDRM/multisite_collabration.pdf"
 import SPDRM_ADM_GUIDE from "../Assets/SPDRM/spdrm_administrators_guide.pdf"
 import SPDRM_USER_GUIDE from "../Assets/SPDRM/spdrm_users_guide.pdf"
 import SPDRM_INSTALLATION_GUIDE from "../Assets/SPDRM/spdrm_installation_guide.pdf"
-
+import EXE_DESIGN_PROCESS from "../Assets/SPDRM/Execution_and_Design_Processes.pdf"
+import INTRODUCTION_TO_SPDRM from "../Assets/SPDRM/20240300_introduction_to_SPDRM.pdf"
+import SPDRM_TUTORIAL from "../Assets/SPDRM/spdrm_tutorial.pdf"
+import HM_FROM_SPDRM_VIDEO from "../Assets/SPDRM/Edit in HM from SPDRM.avi"
+import TC_SPDRM_VIDEO from "../Assets/SPDRM/TC-SPDRM.avi"
 const Spdrm = () => {
   return (
     <div className="common">
@@ -31,10 +36,24 @@ const Spdrm = () => {
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
-            <img src={document_main} style={{ width: "25px" }} />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
+          
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={INTRODUCTION_TO_SPDRM} download="introduction_to_SPDRM">
+              <span className="colorAndFont">
+                Introduction to SPDRM
+                <img src={ppt_logo} className="doc-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={SPDRM_TUTORIAL} download="spdrm_tutorial">
+              <span className="colorAndFont">
+                SPDRM tutorial
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_BROCHER} download="spderm_brochers">
@@ -44,6 +63,7 @@ const Spdrm = () => {
               </span>
             </a>
           </div>
+
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={SPDRM_SYSTEM_REQUIREMENT}
@@ -55,6 +75,7 @@ const Spdrm = () => {
               </span>
             </a>
           </div>
+
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_QA} download="spdrm_qa">
               <span className="colorAndFont">
@@ -63,6 +84,7 @@ const Spdrm = () => {
               </span>
             </a>
           </div>
+
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_SUPERIORITY} download="spdrm_superiority">
               <span className="colorAndFont">
@@ -80,6 +102,18 @@ const Spdrm = () => {
               <span className="colorAndFont">
                 Vehicle collision in Jiangling Motors in SPDRM{" "}
                 <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              href={EXE_DESIGN_PROCESS}
+              download="Execution_and_Design_Processes.pdf"
+            >
+              <span className="colorAndFont">
+                Execution and process design
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -110,12 +144,27 @@ const Spdrm = () => {
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
-
             <a
               href="https://www.youtube.com/embed/UiSqSQYlUjE?rel=0"
               target="_blank"
             >
               <img src={youtube_logo} className="youtube-logo" />
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={HM_FROM_SPDRM_VIDEO} download="edit_hm_from_spdrm">
+              <span className="colorAndFont">
+                Edit HM from SPDRM <img src={video_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a href={TC_SPDRM_VIDEO} download="tc_spdrm">
+              <span className="colorAndFont">
+                TC SPDRM <img src={video_logo} className="pdf-logo" />
+              </span>
             </a>
           </div>
         </div>
@@ -124,7 +173,7 @@ const Spdrm = () => {
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={SPDRM_ADM_GUIDE} download="spderm_administartor_guide">
               <span className="colorAndFont">
-                SPDRM administrators guide{" "}
+                SPDRM administrators guide
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
@@ -136,7 +185,7 @@ const Spdrm = () => {
               download="spdrm_installation_guide"
             >
               <span className="colorAndFont">
-                SPDRM installation guide{" "}
+                SPDRM installation guide
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
@@ -150,24 +199,33 @@ const Spdrm = () => {
             </a>
           </div>
         </div>
+
         <div className="linkDiv">
-          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
-            <img src={link_main} style={{ width: "25px" }} />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "black" }}>Links</spna> */}
-          {/* <div style={{ borderLeft: "5px solid orange" }}> */}{" "}
           <div className="innerdivs" id="productFilesMarginLeft">
             <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
               <span className="colorAndFont">
-                SPDRM product site{" "}
+                SPDRM product site
+                <img src={link_logo} className="link-logo" alt="" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="confluenceFilesMarginLeft">
+            <a href="https://kb.beta-cae.com/display/SS/SPDRM" target="_blank">
+              <span className="colorAndFont">
+                SPDRM confluence space{" "}
                 <img src={link_logo} className="link-logo" alt="" />
               </span>
             </a>
           </div>
           <div className="innerdivs" id="confluenceFilesMarginLeft">
-            <a href="https://kb.beta-cae.com/display/SS/SPDRM" target="_blank">
+            <a
+              href="https://kb.beta-cae.com/display/SPDM/SPDM+Team"
+              target="_blank"
+            >
               <span className="colorAndFont">
-                SPDRM space <img src={link_logo} className="link-logo" alt="" />
+                SPDM team space
+                <img src={link_logo} className="link-logo" alt="" />
               </span>
             </a>
           </div>
