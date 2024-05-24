@@ -58,7 +58,7 @@ const Pdm = () => {
               download="stream_line_data_extraction_from_tc"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                <div className="colorAndFont" style={{ marginTop: "6px" }}>
                   Streamline data extraction from TC
                 </div>
                 <div>

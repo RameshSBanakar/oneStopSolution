@@ -51,7 +51,7 @@ const Spdrm = () => {
               download="introduction_to_SPDRM"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                <div className="colorAndFont" style={{ marginTop: "6px" }}>
                   Introduction to SPDRM
                 </div>
                 <div>

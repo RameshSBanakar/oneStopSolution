@@ -43,7 +43,7 @@ const Komvos = () => {
               download="introduction_to_komvos"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                <div className="colorAndFont" style={{ marginTop: "6px" }}>
                   Introduction to KOMVOS{" "}
                 </div>
                 <div>
@@ -59,7 +59,7 @@ const Komvos = () => {
               download="komvos_ui_walkthrough"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                <div className="colorAndFont" style={{ marginTop: "6px" }}>
                   KOMVOS UI walkthrough{" "}
                 </div>
                 <div>
