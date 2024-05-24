@@ -106,7 +106,7 @@ const Home = () => {
             <img src={brocher} style={{ width: "15px", marginRight: "4px" }} />
           </div>
           <span className="legendtext" style={{ marginLeft: "13px" }}>
-            Brochers
+            Brochure
           </span>
         </div>
       </div>
