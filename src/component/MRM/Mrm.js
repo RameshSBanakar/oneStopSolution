@@ -11,7 +11,7 @@ import document_logo from "../Assets/document_logo.png";
 import beta_logo from "../Assets/beta_logo.png";
 import white_paper from "../Assets/white_paper.jpg"
 import brochers_logo from "../Assets/brochers.png"
-import ppt_logo from "../Assets/ppt_to_pdf.jpg"
+import ppt_logo from "../Assets/high-quality-ppt-to-pdf-conversion (2).png";
 
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
@@ -61,7 +61,7 @@ const Mrm = () => {
             >
               <span className="colorAndFont">
                 MRM for handling the complex models
-                <img src={ppt_logo} className="doc-logo" alt="" style={{width:"25px"}}/>
+                <img src={ppt_logo} alt="" className="ppt-logo" />
               </span>
             </a>
           </div>
