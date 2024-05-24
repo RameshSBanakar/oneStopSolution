@@ -17,7 +17,11 @@ const Home = () => {
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "greenyellow", marginTop: "3px",marginLeft:"27px" }}
+            style={{
+              backgroundColor: "greenyellow",
+              marginTop: "3px",
+              marginLeft: "27px",
+            }}
           ></div>
           <span className="legendtext">Pdf</span>
         </div>
@@ -70,6 +74,15 @@ const Home = () => {
             Videos
           </div>
         </div>
+        <div style={{ display: "flex" }}>
+          <div
+            className="legendsubdiv"
+            style={{ backgroundColor: "rgb(221, 21, 154)", marginTop: "3px" }}
+          ></div>
+          <div className="legendtext" style={{ marginTop: "0px" }}>
+            Events
+          </div>
+        </div>
 
         <div
           style={{
@@ -102,7 +115,11 @@ const Home = () => {
           </div>
           <span
             className="legendtext"
-            style={{ marginLeft: "13px", marginTop: "3px", marginRight:"18px" }}
+            style={{
+              marginLeft: "13px",
+              marginTop: "3px",
+              marginRight: "18px",
+            }}
           >
             Ppt to Pdf{" "}
           </span>
@@ -139,8 +156,8 @@ const Home = () => {
           <Ml />
         </div>
         <div className="firstROw">
-          <Ansers />
           <Komvos />
+          <Ansers />
         </div>
         <div className="firstROw">
           <Spdrm />

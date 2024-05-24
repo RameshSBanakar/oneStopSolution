@@ -3,7 +3,7 @@ import React from "react";
 // import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
-
+import white_paper from "../Assets/white_paper.jpg";
 import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
@@ -118,14 +118,14 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="eventsFilesMarginLeft">
             <a
               onClick={() => handleDownload(SPDRM_VEHICLE_COLLISION)}
               download="Vehicle_collision_simulation_process_management_using_SPDRM"
             >
               <span className="colorAndFont">
                 Vehicle collision in Jiangling Motors in SPDRM{" "}
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={white_paper} className="pdf-logo" />
               </span>
             </a>
           </div>

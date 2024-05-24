@@ -39,9 +39,9 @@ const Pdm = () => {
 
       <div className="datadiv">
         <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="eventsFilesMarginLeft">
             <a
-              href={CAE_MODEL_GENERATION_PDM_AND_CAD}
+              // href={CAE_MODEL_GENERATION_PDM_AND_CAD}
               onClick={() => handleDownload(CAE_MODEL_GENERATION_PDM_AND_CAD)}
               download="cae_model_generation_pdm_and_cad"
             >
@@ -51,7 +51,7 @@ const Pdm = () => {
               </span>
             </a>
           </div>
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="eventsFilesMarginLeft">
             <a
               // href={STREAM_LINE_DATA_EXT_FROM_TC}
               onClick={() => handleDownload(STREAM_LINE_DATA_EXT_FROM_TC)}

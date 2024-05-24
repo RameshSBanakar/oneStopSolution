@@ -61,7 +61,7 @@ const Mrm = () => {
             >
               <div style={{ display: "flex" }}>
                 <div className="colorAndFont" style={{ marginTop: "6px" }}>
-                  MRM for handling the complex models
+                  MRM for handling  complex models
                 </div>
                 <div>
                   <img src={ppt_logo} alt="" className="ppt-logo" />
@@ -247,7 +247,7 @@ const Mrm = () => {
         </div>
 
         <div className="totirial">
-          <span style={{ fontWeight: "700", color: "red" }}>Playlist</span>
+          <span style={{ fontWeight: "700", color: "red" }}>MRM Playlist</span>
 
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a

@@ -24,6 +24,9 @@
 #pdfFilesMarginLeft {
     border-left: 4px solid greenyellow;
 }
+#eventsFilesMarginLeft {
+    border-left: 4px solid rgb(221, 21, 154);
+}
 
 #docFilesMarginLeft {
     border-left: 4px solid green;

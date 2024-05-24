@@ -2,7 +2,7 @@
     background-image: url("../Assets/backgroundImage.png");
 }
 .home{
- margin-left: 2.5%;
+ margin-left: 2%;
  margin-top: .5%;
  display: flex;
  width:97%;
@@ -18,8 +18,8 @@
     background-color: white;
     justify-content: space-between;
     display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
   
