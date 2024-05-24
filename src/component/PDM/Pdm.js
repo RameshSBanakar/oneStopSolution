@@ -38,7 +38,7 @@ const Pdm = () => {
       </div>
 
       <div className="datadiv">
-        <div className="pdfFilesdiv">
+        <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               href={CAE_MODEL_GENERATION_PDM_AND_CAD}

@@ -43,7 +43,7 @@ const Spdrm = () => {
         <img src={spderm_logo} alt="spderm_logo" />
       </div>
       <div className="datadiv">
-        <div className="pdfFilesdiv">
+        <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               // href={INTRODUCTION_TO_SPDRM}

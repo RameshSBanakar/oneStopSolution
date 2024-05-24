@@ -32,7 +32,7 @@ const Mrm = () => {
       <div className="datadiv">
       
        
-        <div className="linkDiv">
+        <div className="linkDiv" style={{marginTop:"-10px"}}>
           <div className="innerdivs" id="confluenceFilesMarginLeft">
             <a
               href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"

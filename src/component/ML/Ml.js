@@ -36,7 +36,7 @@ const Ml = () => {
       </div>
 
       <div className="datadiv">
-        <div className="pdfFilesdiv">
+        <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
             <img src={document_main} style={{ width: "25px" }} />
           </div> */}

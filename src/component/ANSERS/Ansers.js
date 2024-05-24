@@ -31,7 +31,7 @@ const Ansers = () => {
         <img src={ansers_log} alt="ansers_logo" />
       </div>
       <div className="datadiv">
-        <div className="pdfFilesdiv">
+        <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               // href={ANSERS_BROCHERS}

@@ -52,7 +52,7 @@ const Mrm = () => {
       </div>
 
       <div className="datadiv">
-        <div className="pdfFilesdiv">
+        <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           <div className="innerdivs " id="pdfFilesMarginLeft">
             <a
               // href={INTRODUCTION_TO_MRM}
