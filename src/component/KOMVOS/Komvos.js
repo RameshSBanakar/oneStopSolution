@@ -11,7 +11,7 @@ import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 
 import brochers_logo from "../Assets/brochers.png";
-import ppt_logo from "../Assets/high-quality-ppt-to-pdf-conversion (2).png";
+import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
 
 import KOMVOS_INTRODUCTIOn_PDF from "../Assets/KOMVOS/20231016_introduction_to_KOMVOS.pdf";
 import KOMVOS_UI_WALKTHROUGH from "../Assets/KOMVOS/20220700_KOMVOS_UI_walkthrough.pdf";

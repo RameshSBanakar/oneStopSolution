@@ -11,7 +11,7 @@ import document_logo from "../Assets/document_logo.png";
 import beta_logo from "../Assets/beta_logo.png";
 import white_paper from "../Assets/white_paper.jpg"
 import brochers_logo from "../Assets/brochers.png"
-import ppt_logo from "../Assets/high-quality-ppt-to-pdf-conversion (2).png";
+import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
 
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";

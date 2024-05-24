@@ -8,7 +8,7 @@ import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import ppt_logo from "../Assets/high-quality-ppt-to-pdf-conversion (2).png";
+import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
 import brochers_logo from "../Assets/brochers.png";
 import video_logo from "../Assets/video1.jpg";
 
