@@ -5,13 +5,13 @@ import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import pdf_logo from "../Assets/pdf_logo.webp";
-import link_logo from "../Assets/link_logo.jpg";
+
 import youtube_logo from "../Assets/youtube_logo.png";
 import document_logo from "../Assets/document_logo.png";
 import beta_logo from "../Assets/beta_logo.png";
 import white_paper from "../Assets/white_paper.jpg"
 import brochers_logo from "../Assets/brochers.png"
-import ppt_logo from "../Assets/ppt_logo.png"
+import ppt_logo from "../Assets/ppt_to_pdf.jpg"
 
 
 import MRM_PDF from "../Assets/MRM/Modular_Model_and_Run_Management.pdf";
@@ -25,6 +25,8 @@ import MODULAR_RUN_MANGMENT_2 from "../Assets/MRM/modular_run_management.pdf";
 import SIMMANAGER_BETA_SUITE_INTRACTION from "../Assets/MRM/simmanager-beta_suite-interaction.pdf";
 import MODEL_COMPARISION_IN_ANSA_META from "../Assets/MRM/ansa_model_comparison.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+
 const Mrm = () => {
    const handleDownload = (pdf) => {
      window.open(pdf, "_blank");
@@ -59,7 +61,7 @@ const Mrm = () => {
             >
               <span className="colorAndFont">
                 MRM for handling the complex models
-                <img src={ppt_logo} className="doc-logo" alt="" />
+                <img src={ppt_logo} className="doc-logo" alt="" style={{width:"25px"}}/>
               </span>
             </a>
           </div>

@@ -8,7 +8,7 @@ import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import ppt_logo from "../Assets/ppt_logo.png";
+import ppt_logo from "../Assets/ppt_to_pdf.jpg";
 import brochers_logo from "../Assets/brochers.png";
 import video_logo from "../Assets/video1.jpg";
 
@@ -52,14 +52,17 @@ const Spdrm = () => {
             >
               <span className="colorAndFont">
                 Introduction to SPDRM
-                <img src={ppt_logo} className="doc-logo" />
+                <img
+                  src={ppt_logo}
+                  className="doc-logo"
+                  style={{ width: "25px" }}
+                />
               </span>
             </a>
           </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-            
               onClick={() => handleDownload(SPDRM_TUTORIAL)}
               download="spdrm_tutorial"
             >
@@ -72,7 +75,6 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-            
               onClick={() => handleDownload(SPDRM_BROCHER)}
               download="spderm_brochers"
             >
@@ -85,7 +87,6 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-             
               onClick={() => handleDownload(SPDRM_SYSTEM_REQUIREMENT)}
               download="spdrm_system_requirements"
             >
@@ -97,11 +98,7 @@ const Spdrm = () => {
           </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a
-            
-              onClick={() => handleDownload(SPDRM_QA)}
-              download="spdrm_qa"
-            >
+            <a onClick={() => handleDownload(SPDRM_QA)} download="spdrm_qa">
               <span className="colorAndFont">
                 SPDRM Q&A
                 <img src={pdf_logo} className="pdf-logo" />
@@ -111,7 +108,6 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-            
               onClick={() => handleDownload(SPDRM_SUPERIORITY)}
               download="spdrm_superiority"
             >
@@ -124,7 +120,6 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-            
               onClick={() => handleDownload(SPDRM_VEHICLE_COLLISION)}
               download="Vehicle_collision_simulation_process_management_using_SPDRM"
             >
@@ -198,7 +193,7 @@ const Spdrm = () => {
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a href={TC_SPDRM_VIDEO} download="tc_spdrm">
               <span className="colorAndFont">
-                TC SPDRM <img src={video_logo} className="pdf-logo" />
+                TC SPDRM <img src={video_logo} className="pdf-logo" alt="" style={{width:"25px"}}/>
               </span>
             </a>
           </div>
@@ -213,7 +208,7 @@ const Spdrm = () => {
             >
               <span className="colorAndFont">
                 SPDRM administrators guide
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={pdf_logo} className="pdf-logo" alt=""/>
               </span>
             </a>
           </div>
@@ -226,7 +221,7 @@ const Spdrm = () => {
             >
               <span className="colorAndFont">
                 SPDRM installation guide
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={pdf_logo} className="pdf-logo" alt=""/>
               </span>
             </a>
           </div>
@@ -238,7 +233,7 @@ const Spdrm = () => {
               download="spdrm_users_guide"
             >
               <span className="colorAndFont">
-                SPDRM user guide <img src={pdf_logo} className="pdf-logo" />
+                SPDRM user guide <img src={pdf_logo} className="pdf-logo" alt=""/>
               </span>
             </a>
           </div>

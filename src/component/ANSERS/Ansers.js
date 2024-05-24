@@ -8,13 +8,12 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 
 //all logos imported
 import ansers_log from "../Assets/ANSERS/logo_ansers.png";
-import link_main from "../Assets/link_main.jpg";
+
 import pdf_logo from "../Assets/pdf_logo.webp";
-import document_logo from "../Assets/document_logo.png";
+
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import static_youtube_logo from "../Assets/static_youtube_logo.png";
-import document_main from "../Assets/doument_main.png";
+
 import brochers_logo from "../Assets/brochers.png";
 
 import ANSERS_BROCHERS from "../Assets/ANSERS/ansers_brochure.pdf";

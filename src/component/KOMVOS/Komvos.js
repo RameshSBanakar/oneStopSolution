@@ -11,7 +11,7 @@ import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 
 import brochers_logo from "../Assets/brochers.png";
-import ppt_logo from "../Assets/ppt_logo.png";
+import ppt_logo from "../Assets/ppt_to_pdf.jpg";
 
 import KOMVOS_INTRODUCTIOn_PDF from "../Assets/KOMVOS/20231016_introduction_to_KOMVOS.pdf";
 import KOMVOS_UI_WALKTHROUGH from "../Assets/KOMVOS/20220700_KOMVOS_UI_walkthrough.pdf";
@@ -44,7 +44,12 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 Introduction to KOMVOS{" "}
-                <img src={ppt_logo} className="doc-logo" alt="" />
+                <img
+                  src={ppt_logo}
+                  className="doc-logo"
+                  alt=""
+                  style={{ width: "25px" }}
+                />
               </span>
             </a>
           </div>
@@ -56,7 +61,12 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 KOMVOS UI walkthrough{" "}
-                <img src={ppt_logo} className="doc-logo" alt="" />
+                <img
+                  src={ppt_logo}
+                  className="doc-logo"
+                  alt=""
+                  style={{ width: "25px" }}
+                />
               </span>
             </a>
           </div>
@@ -67,7 +77,8 @@ const Komvos = () => {
               download="komvos_userguide"
             >
               <span className="colorAndFont">
-                KOMVOS user guide <img src={pdf_logo} className="pdf-logo" alt=""/>
+                KOMVOS user guide{" "}
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -91,7 +102,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 KOMVOS system requirements{" "}
-                <img src={pdf_logo} className="pdf-logo" alt=""/>
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -102,7 +113,8 @@ const Komvos = () => {
               download="komvos_explained"
             >
               <span className="colorAndFont">
-                KOMVOS explained <img src={pdf_logo} className="pdf-logo" alt=""/>
+                KOMVOS explained{" "}
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -115,7 +127,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 KOMVOS Q&A
-                <img src={pdf_logo} className="pdf-logo" alt=""/>
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -128,7 +140,12 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 Re-intro KOMVOS as desktop client
-                <img src={ppt_logo} className="doc-logo" alt=""/>
+                <img
+                  src={ppt_logo}
+                  className="doc-logo"
+                  alt=""
+                  style={{ width: "25px" }}
+                />
               </span>
             </a>
           </div>
@@ -141,7 +158,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 KOMVOS short notes
-                <img src={document_logo} className="doc-logo" alt=""/>
+                <img src={document_logo} className="doc-logo" alt="" />
               </span>
             </a>
           </div>
@@ -158,7 +175,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 Model build simplified
-                <img src={pdf_logo} className="pdf-logo" alt=""/>
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -171,7 +188,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 Machine Learning in KOMVOS
-                <img src={pdf_logo} className="pdf-logo" alt=""/>
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -184,7 +201,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 KOMVOS - The innovative SDM platform{" "}
-                <img src={youtube_logo} className="youtube-logo" alt=""/>
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
@@ -196,7 +213,7 @@ const Komvos = () => {
             >
               <span className="colorAndFont">
                 KOMVOS Tutorials
-                <img src={youtube_logo} className="youtube-logo" alt=""/>
+                <img src={youtube_logo} className="youtube-logo" alt="" />
               </span>
             </a>
           </div>
