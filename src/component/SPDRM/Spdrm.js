@@ -51,7 +51,9 @@ const Spdrm = () => {
               download="introduction_to_SPDRM"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont">Introduction to SPDRM</div>
+                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                  Introduction to SPDRM
+                </div>
                 <div>
                   <img src={ppt_logo} className="ppt-logo" />
                 </div>
@@ -183,7 +185,9 @@ const Spdrm = () => {
           <div className="innerdivs" id="videoFilesMarginLeft">
             <a href={HM_FROM_SPDRM_VIDEO} download="edit_hm_from_spdrm">
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont">Edit HM from SPDRM</div>
+                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                  Edit HM from SPDRM
+                </div>
                 <div>
                   <img src={video_logo} style={{ width: "25px" }} />
                 </div>
@@ -194,7 +198,9 @@ const Spdrm = () => {
           <div className="innerdivs" id="videoFilesMarginLeft">
             <a href={TC_SPDRM_VIDEO} download="tc_spdrm">
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont">TC SPDRM </div>
+                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                  TC SPDRM{" "}
+                </div>
                 <div>
                   {" "}
                   <img

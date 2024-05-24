@@ -60,7 +60,7 @@ const Mrm = () => {
               download="MRM_for_handling_complex_models"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont">
+                <div className="colorAndFont" style={{ marginTop: "4px" }}>
                   MRM for handling the complex models
                 </div>
                 <div>

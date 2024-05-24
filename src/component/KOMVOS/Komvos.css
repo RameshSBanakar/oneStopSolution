@@ -153,12 +153,9 @@
 }
 
 .colorAndFont {
-
+   text-align: center;
     color: #63666A;
     font-weight: 500;
-
-
-
 }
 
 @media screen and (max-width: 1080px) {

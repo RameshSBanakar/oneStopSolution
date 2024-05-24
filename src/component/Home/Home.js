@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import white_paper from "../Assets/white_paper.jpg"
-import brocher from "../Assets/brochers.png"
+import white_paper from "../Assets/white_paper.jpg";
+import brocher from "../Assets/brochers.png";
 import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
 import Mrm from "../MRM/Mrm";
 import Mrm2 from "../MRM/Mrm2";
@@ -17,35 +17,39 @@ const Home = () => {
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "greenyellow" }}
+            style={{ backgroundColor: "greenyellow", marginTop: "3px" }}
           ></div>
           <span className="legendtext">Pdf</span>
         </div>
+
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "orange" }}
+            style={{ backgroundColor: "orange", marginTop: "3px" }}
           ></div>
           <span className="legendtext">Product site</span>
         </div>
+
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "red" }}
+            style={{ backgroundColor: "red", marginTop: "3px" }}
           ></div>
           <span className="legendtext">YouTube</span>
         </div>
+
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "blue" }}
+            style={{ backgroundColor: "blue", marginTop: "3px" }}
           ></div>
           <span className="legendtext">Confluence site</span>
         </div>
+
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "rgb(59, 240, 240)" }}
+            style={{ backgroundColor: "rgb(59, 240, 240)", marginTop: "3px" }}
           ></div>
           <span className="legendtext">Tutorials</span>
         </div>
@@ -53,16 +57,18 @@ const Home = () => {
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "green" }}
+            style={{ backgroundColor: "green", marginTop: "3px" }}
           ></div>
           <span className="legendtext">Documents</span>
         </div>
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "brown" }}
+            style={{ backgroundColor: "brown", marginTop: "3px" }}
           ></div>
-          <span className="legendtext">Videos</span>
+          <div className="legendtext" style={{ marginTop: "0px" }}>
+            Videos
+          </div>
         </div>
 
         <div
@@ -77,7 +83,10 @@ const Home = () => {
               style={{ width: "15px", marginRight: "4px" }}
             />
           </div>
-          <span className="legendtext" style={{ marginLeft: "6px" }}>
+          <span
+            className="legendtext"
+            style={{ marginLeft: "6px", marginTop: "3px" }}
+          >
             White papers
           </span>
         </div>
@@ -91,7 +100,10 @@ const Home = () => {
           <div className="legendsubdiv">
             <img src={ppt_logo} style={{ width: "23px", marginRight: "4px" }} />
           </div>
-          <span className="legendtext" style={{ marginLeft: "13px" }}>
+          <span
+            className="legendtext"
+            style={{ marginLeft: "13px", marginTop: "3px" }}
+          >
             Ppt to Pdf{" "}
           </span>
         </div>
@@ -105,24 +117,28 @@ const Home = () => {
           <div className="legendsubdiv">
             <img src={brocher} style={{ width: "15px", marginRight: "4px" }} />
           </div>
-          <span className="legendtext" style={{ marginLeft: "13px" }}>
+          <span
+            className="legendtext"
+            style={{
+              marginLeft: "13px",
+              marginRight: "10px",
+              marginTop: "3px",
+            }}
+          >
             Brochure
           </span>
         </div>
       </div>
       <div className="home">
         <div className="firstROw">
-          {" "}
           <Mrm />
           {/* <Conference/> */}
         </div>
         <div className="firstROw">
-          {" "}
           <Mrm2 />
           <Ml />
         </div>
         <div className="firstROw">
-          {" "}
           <Ansers />
           <Komvos />
         </div>

@@ -43,7 +43,9 @@ const Komvos = () => {
               download="introduction_to_komvos"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont">Introduction to KOMVOS </div>
+                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                  Introduction to KOMVOS{" "}
+                </div>
                 <div>
                   <img src={ppt_logo} className="ppt-logo" alt="" />
                 </div>
@@ -57,7 +59,9 @@ const Komvos = () => {
               download="komvos_ui_walkthrough"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont">KOMVOS UI walkthrough </div>
+                <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                  KOMVOS UI walkthrough{" "}
+                </div>
                 <div>
                   {" "}
                   <img src={ppt_logo} className="ppt-logo" alt="" />
