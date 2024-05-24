@@ -182,7 +182,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="videoFilesMarginLeft">
             <a href={HM_FROM_SPDRM_VIDEO} download="edit_hm_from_spdrm">
               <span className="colorAndFont">
                 Edit HM from SPDRM <img src={video_logo} className="pdf-logo" />
@@ -190,10 +190,16 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="videoFilesMarginLeft">
             <a href={TC_SPDRM_VIDEO} download="tc_spdrm">
               <span className="colorAndFont">
-                TC SPDRM <img src={video_logo} className="pdf-logo" alt="" style={{width:"25px"}}/>
+                TC SPDRM{" "}
+                <img
+                  src={video_logo}
+                  className="pdf-logo"
+                  alt=""
+                  style={{ width: "25px" }}
+                />
               </span>
             </a>
           </div>
@@ -208,7 +214,7 @@ const Spdrm = () => {
             >
               <span className="colorAndFont">
                 SPDRM administrators guide
-                <img src={pdf_logo} className="pdf-logo" alt=""/>
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -221,7 +227,7 @@ const Spdrm = () => {
             >
               <span className="colorAndFont">
                 SPDRM installation guide
-                <img src={pdf_logo} className="pdf-logo" alt=""/>
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -233,7 +239,8 @@ const Spdrm = () => {
               download="spdrm_users_guide"
             >
               <span className="colorAndFont">
-                SPDRM user guide <img src={pdf_logo} className="pdf-logo" alt=""/>
+                SPDRM user guide{" "}
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>

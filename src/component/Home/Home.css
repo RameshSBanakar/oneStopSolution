@@ -12,7 +12,15 @@
  /* flex-direction: column; */
  
 }
-
+.legendDiv{
+    width:99.5%;
+    height: 13px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+}
 
 .firstROw{
     /* border: 1px solid blue; */
@@ -20,6 +28,17 @@
     display: flex; 
     flex-direction: column;
 }
+.legendsubdiv{
+  width:8px;
+  height: 8px ;
+  margin-right: 2px;
+  
+ 
+}
+.legendtext{
+    font-size: 10px;
+}
+
 
 @media screen and (max-width: 650px) {
     .home{

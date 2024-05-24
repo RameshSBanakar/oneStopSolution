@@ -36,7 +36,7 @@ const Mrm = () => {
       <div className="imagediv">
         <img
           src={beta_logo}
-          alt="ansers_logo"
+          alt="beta_logo"
           style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
         />
         <div

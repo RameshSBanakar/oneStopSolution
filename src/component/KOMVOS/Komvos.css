@@ -48,10 +48,14 @@
 #whiteFilesMarginLeft {
     border-left: 4px solid brown;
 }
+#videoFilesMarginLeft{
+    border-left: 4px solid brown;
+}
 
 .imagediv img {
+    margin-left: 20px;
     width: 100px;
-    height: 40px;
+    height: 30px;
     margin-top: 3px;
     margin-left: 10px;
 }
@@ -102,6 +106,11 @@
 .link-logo {
     width: 17px;
 }
+/* .beta-logo{
+    width: 30px; 
+    height: 20px; 
+    padding-left: 80px;
+} */
 
 .pdfFilesdiv {
     border: 2px dashed blue;
