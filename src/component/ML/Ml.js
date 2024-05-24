@@ -1,4 +1,8 @@
 import React from "react";
+// import { Document, Page } from "react-pdf";
+import { pdfjs } from "react-pdf";
+import "@react-pdf-viewer/core/lib/styles/index.css";
+
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import document_main from "../Assets/doument_main.png";
@@ -7,7 +11,11 @@ import youtube_logo from "../Assets/youtube_logo.png";
 import static_youtube_logo from "../Assets/static_youtube_logo.png"
 import beta_logo from "../Assets/beta_logo.png";
 import ML_FASTNER from "../Assets/ML/ML_fasteners.pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const Ml = () => {
+   const handleDownload = (pdf) => {
+     window.open(pdf, "_blank");
+   };
   return (
     <div className="common">
       <div className="imagediv">
@@ -35,7 +43,11 @@ const Ml = () => {
           </div> */}
           {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={ML_FASTNER} download="ML_fasteners">
+            <a
+              // href={ML_FASTNER}
+              onClick={() => handleDownload(ML_FASTNER)}
+              download="ML_fasteners"
+            >
               <span className="colorAndFont">
                 ML fasteners <img src={pdf_logo} className="pdf-logo" />
               </span>
@@ -43,7 +55,6 @@ const Ml = () => {
           </div>
         </div>
         <div className="youtubeDiv">
-        
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
               href="https://www.youtube.com/watch?app=desktop&v=46cnjoS9zNM"
@@ -103,8 +114,6 @@ const Ml = () => {
               </span>
             </a>
           </div>
-
-
         </div>
       </div>
     </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Mrm.css";
+// import { Document, Page } from "react-pdf";
+import { pdfjs } from "react-pdf";
+import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
@@ -21,8 +24,11 @@ import MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING from "../Assets/MRM/multivaria
 import MODULAR_RUN_MANGMENT_2 from "../Assets/MRM/modular_run_management.pdf";
 import SIMMANAGER_BETA_SUITE_INTRACTION from "../Assets/MRM/simmanager-beta_suite-interaction.pdf";
 import MODEL_COMPARISION_IN_ANSA_META from "../Assets/MRM/ansa_model_comparison.pdf";
-
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const Mrm = () => {
+   const handleDownload = (pdf) => {
+     window.open(pdf, "_blank");
+   };
   return (
     <div className="common">
       <div className="imagediv">
@@ -47,8 +53,9 @@ const Mrm = () => {
         <div className="pdfFilesdiv">
           <div className="innerdivs " id="pdfFilesMarginLeft">
             <a
-              href={INTRODUCTION_TO_MRM}
-              download="Introduction_to_Modular_Model_and_Run_management"
+              // href={INTRODUCTION_TO_MRM}
+              onClick={() => handleDownload(INTRODUCTION_TO_MRM)}
+              download="MRM_for_handling_complex_models"
             >
               <span className="colorAndFont">
                 MRM for handling the complex models
@@ -58,7 +65,11 @@ const Mrm = () => {
           </div>
 
           <div className="innerdivs pdfFilesMarginLeft" id="pdfFilesMarginLeft">
-            <a href={MRM_PDF} download="Modular_Model_and_Run_Management">
+            <a
+              // href={MRM_PDF}
+              onClick={() => handleDownload(MRM_PDF)}
+              download="Modular_Model_and_Run_Management"
+            >
               <span className="colorAndFont">
                 Modular Model and Run Managment
                 <img src={pdf_logo} className="pdf-logo" alt="" />
@@ -67,7 +78,11 @@ const Mrm = () => {
           </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={DATA_MANAGMENT} download="Data_management">
+            <a
+              // href={DATA_MANAGMENT}
+              onClick={() => handleDownload(DATA_MANAGMENT)}
+              download="Data_management"
+            >
               <span className="colorAndFont">
                 Data Management
                 <img src={pdf_logo} className="pdf-logo" alt="" />
@@ -76,7 +91,11 @@ const Mrm = () => {
           </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={DATA_MANAGMENT_BROCHER} download="Data_managment_brochure">
+            <a
+              href={DATA_MANAGMENT_BROCHER}
+              onClick={() => handleDownload(DATA_MANAGMENT_BROCHER)}
+              download="Data_managment_brochure"
+            >
               <span className="colorAndFont">
                 Data Management brochure
                 <img src={brochers_logo} className="doc-logo" alt="" />
@@ -86,7 +105,10 @@ const Mrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              href={MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING}
+              // href={MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING}
+              onClick={() =>
+                handleDownload(MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING)
+              }
               download="multivariant_multidiscipline_ansa_modeling"
             >
               <span className="colorAndFont">
@@ -97,7 +119,11 @@ const Mrm = () => {
           </div>
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={MODULAR_RUN_MANGMENT_2} download="modular_run_management">
+            <a
+              // href={MODULAR_RUN_MANGMENT_2}
+              onClick={() => handleDownload(MODULAR_RUN_MANGMENT_2)}
+              download="modular_run_management"
+            >
               <span className="colorAndFont">
                 Modular run management
                 <img src={white_paper} className="doc-logo" />
@@ -107,7 +133,8 @@ const Mrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              href={SIMMANAGER_BETA_SUITE_INTRACTION}
+              // href={SIMMANAGER_BETA_SUITE_INTRACTION}
+              onClick={() => handleDownload(SIMMANAGER_BETA_SUITE_INTRACTION)}
               download="simmanager-beta_suite-interaction"
             >
               <span className="colorAndFont">
@@ -119,7 +146,8 @@ const Mrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              href={MODEL_COMPARISION_IN_ANSA_META}
+              // href={MODEL_COMPARISION_IN_ANSA_META}
+              onClick={() => handleDownload(MODEL_COMPARISION_IN_ANSA_META)}
               download="ansa_model_comparison"
             >
               <span className="colorAndFont">
@@ -131,7 +159,8 @@ const Mrm = () => {
 
           <div className="innerdivs" id="docFilesMarginLeft">
             <a
-              href={DIFFRENCE_BTW_FBDM_SBDM}
+              // href={DIFFRENCE_BTW_FBDM_SBDM}
+              onClick={() => handleDownload(DIFFRENCE_BTW_FBDM_SBDM)}
               download="diffrence_btw_FBDM_SBDM"
             >
               <span className="colorAndFont">
@@ -191,9 +220,7 @@ const Mrm = () => {
         </div>
 
         <div className="totirial">
-          <span style={{ fontWeight: "700", color: "red" }}>
-            Playlist
-          </span>
+          <span style={{ fontWeight: "700", color: "red" }}>Playlist</span>
 
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a

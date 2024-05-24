@@ -1,5 +1,11 @@
 import React from "react";
 import "./Ansers.css";
+
+// import { Document, Page } from "react-pdf";
+import { pdfjs } from "react-pdf";
+import "@react-pdf-viewer/core/lib/styles/index.css";
+
+
 //all logos imported
 import ansers_log from "../Assets/ANSERS/logo_ansers.png";
 import link_main from "../Assets/link_main.jpg";
@@ -13,20 +19,26 @@ import brochers_logo from "../Assets/brochers.png";
 
 import ANSERS_BROCHERS from "../Assets/ANSERS/ansers_brochure.pdf";
 import ANSERS_QA from "../Assets/ANSERS/ansers_qa.pdf";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 const Ansers = () => {
+   const handleDownload = (pdf) => {
+     window.open(pdf, "_blank");
+   };
   return (
     <div className="common">
       <div className="imagediv">
-        <img src={ansers_log} alt="ansers_logo" />
+        <img src={ansers_log} alt="ansers_logo"/>
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
-          {/* <div style={{ marginLeft: "-10px", marginTop: "-10px" }}>
-            <img src={document_main} style={{ width: "25px" }} />
-          </div> */}
-          {/* <spna style={{ fontWeight: "700", color: "blue" }}>Documents</spna> */}
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={ANSERS_BROCHERS} download="ansers_brochers">
+            <a
+              // href={ANSERS_BROCHERS}
+              onClick={() => handleDownload(ANSERS_BROCHERS)}
+              download="ansers_brochers"
+            >
               <span className="colorAndFont">
                 ANSERS brochure
                 <img src={brochers_logo} className="doc-logo" alt="" />
@@ -34,16 +46,19 @@ const Ansers = () => {
             </a>
           </div>
           <div className="innerdivs" id="pdfFilesMarginLeft">
-            <a href={ANSERS_QA} download="ansers_qa">
+            <a
+              href={ANSERS_QA}
+              onClick={() => handleDownload(ANSERS_QA)}
+              download="ansers_qa"
+            >
               <span className="colorAndFont">
                 ANSERS Q&A
-                <img src={pdf_logo} className="pdf-logo" />
+                <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
         </div>
         <div className="youtubeDiv">
-      
           <div className="innerdivs" id="youtubeFilesMarginLeft">
             <a
               href="https://www.youtube.com/watch?v=Titc8XDynk4&t=2s"
@@ -51,19 +66,18 @@ const Ansers = () => {
             >
               <span className="colorAndFont">
                 ANSERS:Introduction{" "}
-                <img src={youtube_logo} className="youtube-logo" />
+                <img src={youtube_logo} className="youtube-logo" alt=""/>
               </span>
             </a>
           </div>
         </div>
         <div className="linkDiv">
-        
           <div style={{ borderLeft: "5px solid orange" }}>
             <div className="innerdivs">
               <a href="https://www.beta-cae.com/ansers.htm" target="_blank">
                 <span className="colorAndFont">
-                  ANSERS product site{" "}
-                  <img src={link_logo} className="link-logo" />
+                  ANSERS product site
+                  <img src={link_logo} className="link-logo" alt="" />
                 </span>
               </a>
             </div>
