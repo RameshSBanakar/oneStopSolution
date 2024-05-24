@@ -165,7 +165,7 @@ const Komvos = () => {
           <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
             Tutorials
           </span>
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft">
             <a
               // href={MODELBUILD_SIMPLIFIED}
               onClick={() => handleDownload(MODELBUILD_SIMPLIFIED)}
@@ -178,7 +178,7 @@ const Komvos = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft">
             <a
               // href={MACHINE_LEARNING}
               onClick={() => handleDownload(MACHINE_LEARNING)}
