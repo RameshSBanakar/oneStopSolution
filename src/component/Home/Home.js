@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
-
+import white_paper from "../Assets/white_paper.jpg"
+import brocher from "../Assets/brochers.png"
+import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
 import Mrm from "../MRM/Mrm";
 import Mrm2 from "../MRM/Mrm2";
 import Spdrm from "../SPDRM/Spdrm";
@@ -61,6 +63,51 @@ const Home = () => {
             style={{ backgroundColor: "brown" }}
           ></div>
           <span className="legendtext">Videos</span>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            paddingTop: "0px",
+          }}
+        >
+          <div className="legendsubdiv">
+            <img
+              src={white_paper}
+              style={{ width: "15px", marginRight: "4px" }}
+            />
+          </div>
+          <span className="legendtext" style={{ marginLeft: "6px" }}>
+            White papers
+          </span>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            paddingTop: "0px",
+          }}
+        >
+          <div className="legendsubdiv">
+            <img src={ppt_logo} style={{ width: "23px", marginRight: "4px" }} />
+          </div>
+          <span className="legendtext" style={{ marginLeft: "13px" }}>
+            Ppt to Pdf{" "}
+          </span>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            paddingTop: "0px",
+          }}
+        >
+          <div className="legendsubdiv">
+            <img src={brocher} style={{ width: "15px", marginRight: "4px" }} />
+          </div>
+          <span className="legendtext" style={{ marginLeft: "13px" }}>
+            Brochers
+          </span>
         </div>
       </div>
       <div className="home">
