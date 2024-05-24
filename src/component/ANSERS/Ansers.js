@@ -28,7 +28,7 @@ const Ansers = () => {
   return (
     <div className="common">
       <div className="imagediv">
-        <img src={ansers_log} alt="ansers_logo"/>
+        <img src={ansers_log} alt="ansers_logo" />
       </div>
       <div className="datadiv">
         <div className="pdfFilesdiv">
@@ -63,10 +63,12 @@ const Ansers = () => {
               href="https://www.youtube.com/watch?v=Titc8XDynk4&t=2s"
               target="_black"
             >
-              <span className="colorAndFont">
-                ANSERS:Introduction{" "}
-                <img src={youtube_logo} className="youtube-logo" alt=""/>
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">ANSERS:Introduction </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
         </div>

@@ -57,15 +57,14 @@ const Pdm = () => {
               onClick={() => handleDownload(STREAM_LINE_DATA_EXT_FROM_TC)}
               download="stream_line_data_extraction_from_tc"
             >
-              <span className="colorAndFont">
-                Streamline data extraction from TC
-                <img
-                  src={ppt_logo}
-                  className="ppt-logo"
-                  alt=""
-                 
-                />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Streamline data extraction from TC
+                </div>
+                <div>
+                  <img src={ppt_logo} className="ppt-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 

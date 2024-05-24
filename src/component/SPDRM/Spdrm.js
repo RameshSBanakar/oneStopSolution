@@ -50,14 +50,12 @@ const Spdrm = () => {
               onClick={() => handleDownload(INTRODUCTION_TO_SPDRM)}
               download="introduction_to_SPDRM"
             >
-              <span className="colorAndFont">
-                Introduction to SPDRM
-                <img
-                  src={ppt_logo}
-                  className="ppt-logo"
-                  style={{ width: "25px" }}
-                />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">Introduction to SPDRM</div>
+                <div>
+                  <img src={ppt_logo} className="ppt-logo" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -184,23 +182,29 @@ const Spdrm = () => {
 
           <div className="innerdivs" id="videoFilesMarginLeft">
             <a href={HM_FROM_SPDRM_VIDEO} download="edit_hm_from_spdrm">
-              <span className="colorAndFont">
-                Edit HM from SPDRM <img src={video_logo} className="pdf-logo" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">Edit HM from SPDRM</div>
+                <div>
+                  <img src={video_logo} style={{ width: "25px" }} />
+                </div>
+              </div>
             </a>
           </div>
 
           <div className="innerdivs" id="videoFilesMarginLeft">
             <a href={TC_SPDRM_VIDEO} download="tc_spdrm">
-              <span className="colorAndFont">
-                TC SPDRM{" "}
-                <img
-                  src={video_logo}
-                  className="pdf-logo"
-                  alt=""
-                  style={{ width: "25px" }}
-                />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">TC SPDRM </div>
+                <div>
+                  {" "}
+                  <img
+                    src={video_logo}
+                    className="pdf-logo"
+                    alt=""
+                    style={{ width: "25px" }}
+                  />
+                </div>
+              </div>
             </a>
           </div>
         </div>

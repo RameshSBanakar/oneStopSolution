@@ -4,11 +4,10 @@ import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import pdf_logo from "../Assets/pdf_logo.webp";
-import link_logo from "../Assets/link_logo.jpg";
-import document_main from "../Assets/doument_main.png";
+
 
 import youtube_logo from "../Assets/youtube_logo.png";
-import static_youtube_logo from "../Assets/static_youtube_logo.png"
+
 import beta_logo from "../Assets/beta_logo.png";
 import ML_FASTNER from "../Assets/ML/ML_fasteners.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -60,10 +59,18 @@ const Ml = () => {
               href="https://www.youtube.com/watch?app=desktop&v=46cnjoS9zNM"
               target="_black"
             >
-              <span className="colorAndFont">
-                ML in feature detection for meshing{" "}
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div
+                style={{
+                  display: "flex",
+                }}
+              >
+                <div className="colorAndFont">
+                  ML in feature detection for meshing
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -72,10 +79,18 @@ const Ml = () => {
               href="https://www.youtube.com/watch?v=0JnzxLrmgLQ"
               target="_black"
             >
-              <span className="colorAndFont">
-                Training dataset and perform ML and Design{" "}
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div
+                style={{
+                  display: "flex",
+                }}
+              >
+                <div className="colorAndFont">
+                  Training dataset and perform ML and Design{" "}
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -84,10 +99,12 @@ const Ml = () => {
               href="https://www.youtube.com/watch?v=CbyqwVCM3xM"
               target="_black"
             >
-              <span className="colorAndFont">
-                ML in Feature Detection{" "}
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">ML in Feature Detection </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -96,10 +113,14 @@ const Ml = () => {
               href="https://www.youtube.com/watch?app=desktop&v=WshD4GT6ycc"
               target="_black"
             >
-              <span className="colorAndFont">
-                Model Parameterization in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Model Parameterization in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -108,10 +129,14 @@ const Ml = () => {
               href="https://www.youtube.com/watch?app=desktop&v=_OBhv8WXFqc"
               target="_black"
             >
-              <span className="colorAndFont">
-                SEAT:optimize design of car-body-structure by ML{" "}
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  SEAT:optimize design of car-body-structure by ML{" "}
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
         </div>

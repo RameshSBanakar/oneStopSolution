@@ -42,15 +42,12 @@ const Komvos = () => {
               onClick={() => handleDownload(KOMVOS_INTRODUCTIOn_PDF)}
               download="introduction_to_komvos"
             >
-              <span className="colorAndFont">
-                Introduction to KOMVOS{" "}
-                <img
-                  src={ppt_logo}
-                  className="ppt-logo"
-                  alt=""
-                 
-                />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">Introduction to KOMVOS </div>
+                <div>
+                  <img src={ppt_logo} className="ppt-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
           <div className="innerdivs" id="pdfFilesMarginLeft">
@@ -59,15 +56,13 @@ const Komvos = () => {
               onClick={() => handleDownload(KOMVOS_UI_WALKTHROUGH)}
               download="komvos_ui_walkthrough"
             >
-              <span className="colorAndFont">
-                KOMVOS UI walkthrough{" "}
-                <img
-                  src={ppt_logo}
-                  className="ppt-logo"
-                  alt=""
-                 
-                />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">KOMVOS UI walkthrough </div>
+                <div>
+                  {" "}
+                  <img src={ppt_logo} className="ppt-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
           <div className="innerdivs" id="pdfFilesMarginLeft">
@@ -138,15 +133,14 @@ const Komvos = () => {
               onClick={() => handleDownload(REINTRO_KOMVOS_AS_DESKTOP_CLIENT)}
               download="reintroduce KOMVOS as a simulation data and process managemenet desktop client"
             >
-              <span className="colorAndFont">
-                Re-intro KOMVOS as desktop client
-                <img
-                  src={ppt_logo}
-                  className="ppt-logo"
-                  alt=""
-                 
-                />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Re-intro KOMVOS as desktop client
+                </div>
+                <div>
+                  <img src={ppt_logo} className="ppt-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -199,10 +193,14 @@ const Komvos = () => {
               href="https://www.youtube.com/embed/mq4HrOafuO0?rel=0"
               target="_black"
             >
-              <span className="colorAndFont">
-                KOMVOS - The innovative SDM platform{" "}
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  KOMVOS - The innovative SDM platform{" "}
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -211,10 +209,13 @@ const Komvos = () => {
               href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUd96uYCP7pV_ekfM6JPvCvu"
               target="_black"
             >
-              <span className="colorAndFont">
-                KOMVOS Tutorials
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">KOMVOS Tutorials</div>
+                <div>
+                  {" "}
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -223,10 +224,12 @@ const Komvos = () => {
               href="https://www.youtube.com/embed/4NQksni1x1o?rel=0"
               target="_black"
             >
-              <span className="colorAndFont">
-                Machine Learning in KOMVOS{" "}
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">Machine Learning in KOMVOS </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
         </div>

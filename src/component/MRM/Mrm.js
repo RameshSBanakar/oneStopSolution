@@ -59,10 +59,14 @@ const Mrm = () => {
               onClick={() => handleDownload(INTRODUCTION_TO_MRM)}
               download="MRM_for_handling_complex_models"
             >
-              <span className="colorAndFont">
-                MRM for handling the complex models
-                <img src={ppt_logo} alt="" className="ppt-logo" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  MRM for handling the complex models
+                </div>
+                <div>
+                  <img src={ppt_logo} alt="" className="ppt-logo" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -72,10 +76,14 @@ const Mrm = () => {
               onClick={() => handleDownload(MRM_PDF)}
               download="Modular_Model_and_Run_Management"
             >
-              <span className="colorAndFont">
-                Modular Model and Run Managment
-                <img src={pdf_logo} className="pdf-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Modular Model and Run Managment
+                </div>
+                <div>
+                  <img src={pdf_logo} className="pdf-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -178,10 +186,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=F6XmKCHOj_M"
               target="_black"
             >
-              <span className="colorAndFont">
-                Model assembly and iterations management
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Model assembly and iterations management
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -190,10 +202,14 @@ const Mrm = () => {
               href="https://www.youtube.com/playlist?list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ"
               target="_black"
             >
-              <span className="colorAndFont">
-                Modular Run Management in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Modular Run Management in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
           <div className="innerdivs" id="youtubeFilesMarginLeft">
@@ -201,10 +217,15 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=9nSnRavh_Fc"
               target="_black"
             >
-              <span className="colorAndFont">
-                Model Assembly to Loadcase Set-up
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Model Assembly to Loadcase Set-up
+                </div>
+                <div>
+                  {" "}
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -213,10 +234,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=67lnE2tJLes"
               target="_black"
             >
-              <span className="colorAndFont">
-                Simulation Process_Data Management at CEVT
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Simulation Process_Data Management at CEVT
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
         </div>
@@ -229,10 +254,12 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=f2q2BPy9zw4&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=1"
               target="_black"
             >
-              <span className="colorAndFont">
-                Elevated Includes Management
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">Elevated Includes Management</div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -241,10 +268,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=NVcDgnDtxnM&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=2"
               target="_black"
             >
-              <span className="colorAndFont">
-                Model Validation and Verification in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Model Validation and Verification in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
           <div className="innerdivs" id="youtubeFilesMarginLeft">
@@ -252,10 +283,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=ETYY07pNv90&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=3"
               target="_black"
             >
-              <span className="colorAndFont">
-                Key features of modular Model Assembly in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Key features of modular Model Assembly in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -264,10 +299,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=ASU_YbaPZ9Q&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=4"
               target="_black"
             >
-              <span className="colorAndFont">
-                How to assemble modular models in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  How to assemble modular models in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -276,10 +315,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=ASU_YbaPZ9Q&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=4"
               target="_black"
             >
-              <span className="colorAndFont">
-                How to assemble modular models in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  How to assemble modular models in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -288,10 +331,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=-dnn9ImZfMc&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=5"
               target="_black"
             >
-              <span className="colorAndFont">
-                Introduction to Loadcase setup in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Introduction to Loadcase setup in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -300,10 +347,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=GFStod6LtxI&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=6"
               target="_black"
             >
-              <span className="colorAndFont">
-                Regular Loadcases setup in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Regular Loadcases setup in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -312,10 +363,14 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=0ezvZvJN_vk&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=7"
               target="_black"
             >
-              <span className="colorAndFont">
-                Loadcase Header Loadcases setup in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Loadcase Header Loadcases setup in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
 
@@ -324,16 +379,18 @@ const Mrm = () => {
               href="https://www.youtube.com/watch?v=A4oFIwxfBwU&list=PL4Kh_GLK2cUfKxCiLdlqqJ43eCYEQhHKZ&index=8"
               target="_black"
             >
-              <span className="colorAndFont">
-                Target Points Loadcases setup in ANSA
-                <img src={youtube_logo} className="youtube-logo" alt="" />
-              </span>
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Target Points Loadcases setup in ANSA
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
             </a>
           </div>
         </div>
       </div>
-
-      <div></div>
     </div>
     // </div>
     // </div>
