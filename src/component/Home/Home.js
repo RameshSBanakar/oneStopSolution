@@ -17,7 +17,7 @@ const Home = () => {
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
-            style={{ backgroundColor: "greenyellow", marginTop: "3px" }}
+            style={{ backgroundColor: "greenyellow", marginTop: "3px",marginLeft:"27px" }}
           ></div>
           <span className="legendtext">Pdf</span>
         </div>
@@ -102,7 +102,7 @@ const Home = () => {
           </div>
           <span
             className="legendtext"
-            style={{ marginLeft: "13px", marginTop: "3px" }}
+            style={{ marginLeft: "13px", marginTop: "3px", marginRight:"18px" }}
           >
             Ppt to Pdf{" "}
           </span>
