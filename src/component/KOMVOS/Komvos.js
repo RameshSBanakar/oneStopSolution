@@ -48,7 +48,7 @@ const Komvos = () => {
                   src={ppt_logo}
                   className="ppt-logo"
                   alt=""
-                  style={{ width: "25px" }}
+                 
                 />
               </span>
             </a>
@@ -65,7 +65,7 @@ const Komvos = () => {
                   src={ppt_logo}
                   className="ppt-logo"
                   alt=""
-                  style={{ width: "25px" }}
+                 
                 />
               </span>
             </a>
@@ -142,9 +142,9 @@ const Komvos = () => {
                 Re-intro KOMVOS as desktop client
                 <img
                   src={ppt_logo}
-                  className="doc-logo"
+                  className="ppt-logo"
                   alt=""
-                  style={{ width: "25px" }}
+                 
                 />
               </span>
             </a>

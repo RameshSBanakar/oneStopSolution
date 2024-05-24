@@ -63,7 +63,7 @@ const Pdm = () => {
                   src={ppt_logo}
                   className="ppt-logo"
                   alt=""
-                  style={{ width: "25px" }}
+                 
                 />
               </span>
             </a>
