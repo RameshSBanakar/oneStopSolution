@@ -46,7 +46,7 @@ const Ansers = () => {
           </div>
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              href={ANSERS_QA}
+              // href={ANSERS_QA}
               onClick={() => handleDownload(ANSERS_QA)}
               download="ansers_qa"
             >
