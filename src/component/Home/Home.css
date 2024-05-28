@@ -15,7 +15,7 @@
 .legendDiv{
     position: fixed;
     margin-top: 30px;
-    width: 100%;
+    width: 30%;
     width:98.6%;
     height: 15px;
     background-color: white;
@@ -31,7 +31,7 @@
 
 .firstROw{
     /* border: 1px solid blue; */
-    margin-top: 4%;
+    margin-top: 1.5%;
     width:100%;
     display: flex; 
     flex-direction: column;

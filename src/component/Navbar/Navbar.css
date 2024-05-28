@@ -1,9 +1,9 @@
 /* Navbar */
 .navbar {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     position: fixed;
-    width: 100%;
+    width: 30%;
     /* padding: 20px 20px; */
     /* height:50px; */
 }
@@ -44,4 +44,35 @@
 .navbar__logo{
     padding-left: 12%;
 }
+}
+
+
+
+
+
+.main{
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.firstDiv{
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+} 
+.secondDiv {
+    width: 20%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.thirdDiv {
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
 }

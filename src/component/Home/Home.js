@@ -13,7 +13,7 @@ import Ml from "../ML/Ml";
 const Home = () => {
   return (
     <>
-      <div className="legendDiv">
+      {/* <div className="legendDiv">
         <div style={{ display: "flex" }}>
           <div
             className="legendsubdiv"
@@ -145,7 +145,7 @@ const Home = () => {
             Brochure
           </span>
         </div>
-      </div>
+      </div> */}
       <div className="home">
         <div className="firstROw">
           <Mrm />
