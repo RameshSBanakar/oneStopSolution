@@ -102,7 +102,7 @@ const Mrm = () => {
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              href={DATA_MANAGMENT_BROCHER}
+              // href={DATA_MANAGMENT_BROCHER}
               onClick={() => handleDownload(DATA_MANAGMENT_BROCHER)}
               download="Data_managment_brochure"
             >

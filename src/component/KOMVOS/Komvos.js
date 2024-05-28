@@ -95,7 +95,7 @@ const Komvos = () => {
           </div>
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
-              href={KOMVOS_SYSTEM_REQUIREMENT}
+              // href={KOMVOS_SYSTEM_REQUIREMENT}
               onClick={() => handleDownload(KOMVOS_SYSTEM_REQUIREMENT)}
               download="komvos_system_requirement"
             >
