@@ -30,62 +30,13 @@ import TC_SPDRM_VIDEO from "../Assets/SPDRM/TC-SPDRM.avi";
 
 
 import "./Spdrm.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const Spdrm = () => {
   const handleDownload = (pdf) => {
-    const newWindow = window.open(pdf, "_blank");
-    // newWindow.document.write(`
-    //   <html>
-    //     <head>
-    //       <title>PDF Viewer</title>
-    //       <link rel="icon" href="${window.location.origin}/beta_logo.png">
-    //       <style>
-    //         body {
-    //           margin: 0;
-    //           display: flex;
-    //           justify-content: center;
-    //           align-items: center;
-    //           height: 100vh;
-    //           background-color: #f0f0f0;
-    //         }
-    //         #pdfContainer {
-    //           width: 100%;
-    //           height: 100%;
-    //         }
-    //       </style>
-    //     </head>
-    //     <body>
-    //       <div id="pdfContainer"></div>
-    //       <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.js"></script>
-    //       <script>
-    //         (function() {
-    //           const loadingTask = pdfjsLib.getDocument('${pdf}');
-    //           loadingTask.promise.then(pdf => {
-    //             pdf.getPage(1).then(page => {
-    //               const scale = 1.5;
-    //               const viewport = page.getViewport({ scale: scale });
-    //               const canvas = document.createElement('canvas');
-    //               const context = canvas.getContext('2d');
-    //               canvas.height = viewport.height;
-    //               canvas.width = viewport.width;
-
-    //               const renderContext = {
-    //                 canvasContext: context,
-    //                 viewport: viewport
-    //               };
-    //               page.render(renderContext).promise.then(() => {
-    //                 document.getElementById('pdfContainer').appendChild(canvas);
-    //               });
-    //             });
-    //           });
-    //         })();
-    //       </script>
-    //     </body>
-    //   </html>
-    // `);
-    // newWindow.document.close();
+   window.open(pdf, "_blank");
+   
   };
   return (
     <div className="common">
