@@ -1,5 +1,5 @@
 import React from "react";
-
+import beta_logo from "../Assets/beta_logo.png"
 // import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
@@ -35,7 +35,57 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const Spdrm = () => {
   const handleDownload = (pdf) => {
-    window.open(pdf, "_blank");
+    const newWindow = window.open(pdf, "_blank");
+    // newWindow.document.write(`
+    //   <html>
+    //     <head>
+    //       <title>PDF Viewer</title>
+    //       <link rel="icon" href="${window.location.origin}/beta_logo.png">
+    //       <style>
+    //         body {
+    //           margin: 0;
+    //           display: flex;
+    //           justify-content: center;
+    //           align-items: center;
+    //           height: 100vh;
+    //           background-color: #f0f0f0;
+    //         }
+    //         #pdfContainer {
+    //           width: 100%;
+    //           height: 100%;
+    //         }
+    //       </style>
+    //     </head>
+    //     <body>
+    //       <div id="pdfContainer"></div>
+    //       <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.js"></script>
+    //       <script>
+    //         (function() {
+    //           const loadingTask = pdfjsLib.getDocument('${pdf}');
+    //           loadingTask.promise.then(pdf => {
+    //             pdf.getPage(1).then(page => {
+    //               const scale = 1.5;
+    //               const viewport = page.getViewport({ scale: scale });
+    //               const canvas = document.createElement('canvas');
+    //               const context = canvas.getContext('2d');
+    //               canvas.height = viewport.height;
+    //               canvas.width = viewport.width;
+
+    //               const renderContext = {
+    //                 canvasContext: context,
+    //                 viewport: viewport
+    //               };
+    //               page.render(renderContext).promise.then(() => {
+    //                 document.getElementById('pdfContainer').appendChild(canvas);
+    //               });
+    //             });
+    //           });
+    //         })();
+    //       </script>
+    //     </body>
+    //   </html>
+    // `);
+    // newWindow.document.close();
   };
   return (
     <div className="common">
@@ -61,7 +111,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="pdfFilesMarginLeft">
+          <div className="innerdivs" id="tutorialsFilesMarginLeft">
             <a
               onClick={() => handleDownload(SPDRM_TUTORIAL)}
               download="spdrm_tutorial"
@@ -118,7 +168,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="eventsFilesMarginLeft">
+          <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
               onClick={() => handleDownload(SPDRM_VEHICLE_COLLISION)}
               download="Vehicle_collision_simulation_process_management_using_SPDRM"
