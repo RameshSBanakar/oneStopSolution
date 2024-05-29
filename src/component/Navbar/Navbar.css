@@ -46,16 +46,13 @@
 }
 }
 
-
-
-
-
 .main{
     display: flex;
     position: fixed;
     width: 100%;
 }
 .firstDiv{
+    padding-top: 4px;
     width: 40%;
     background-color: white;
     display: flex;
@@ -63,6 +60,7 @@
     padding-right: 10px;
 } 
 .secondDiv {
+    padding-bottom: 1px;
     width: 20%;
     background-color: black;
     color: white;
@@ -70,6 +68,7 @@
 }
 
 .thirdDiv {
+    padding-top: 4px;
     width: 40%;
     background-color: white;
     display: flex;
