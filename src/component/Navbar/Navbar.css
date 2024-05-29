@@ -52,7 +52,7 @@
     width: 100%;
 }
 .firstDiv{
-    padding-top: 5px;
+    padding-top: 3.5px;
     width: 40%;
     background-color: white;
     display: flex;
@@ -68,7 +68,7 @@
 }
 
 .thirdDiv {
-    padding-top: 5px;
+    padding-top: 3.5px;
     width: 40%;
     background-color: white;
     display: flex;
