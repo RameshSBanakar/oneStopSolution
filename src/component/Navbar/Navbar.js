@@ -57,13 +57,7 @@ const Navbar = () => {
           <span className="legendtext">Product site</span>
         </div>
 
-        <div style={{ display: "flex" }}>
-          <div
-            className="legendsubdiv"
-            style={{ backgroundColor: "orange", marginTop: "3px" }}
-          ></div>
-          <span className="legendtext">Product site</span>
-        </div>
+        
 
         <div style={{ display: "flex" }}>
           <div
