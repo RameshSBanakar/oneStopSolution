@@ -24,6 +24,7 @@ import MULTIVARIENT_MULTIDISCIPLINE_ANSA_MODELING from "../Assets/MRM/multivaria
 import MODULAR_RUN_MANGMENT_2 from "../Assets/MRM/modular_run_management.pdf";
 import SIMMANAGER_BETA_SUITE_INTRACTION from "../Assets/MRM/simmanager-beta_suite-interaction.pdf";
 import MODEL_COMPARISION_IN_ANSA_META from "../Assets/MRM/ansa_model_comparison.pdf";
+import FROM_INCLUDE_TO_MODEL_BROWSER from "../Assets/MRM/FromIncludesToModelBrowserContainers.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -61,7 +62,7 @@ const Mrm = () => {
             >
               <div style={{ display: "flex" }}>
                 <div className="colorAndFont" style={{ marginTop: "6px" }}>
-                  MRM for handling  complex models
+                  MRM for handling complex models
                 </div>
                 <div>
                   <img src={ppt_logo} alt="" className="ppt-logo" />
@@ -176,6 +177,19 @@ const Mrm = () => {
               <span className="colorAndFont">
                 Difference between FBDM & SBDM
                 <img src={document_logo} className="doc-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              // href={MODEL_COMPARISION_IN_ANSA_META}
+              onClick={() => handleDownload(FROM_INCLUDE_TO_MODEL_BROWSER)}
+              download="ansa_model_comparison"
+            >
+              <span className="colorAndFont">
+                From include to model browser
+                <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
           </div>
