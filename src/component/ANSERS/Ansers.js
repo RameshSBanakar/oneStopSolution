@@ -30,7 +30,7 @@ const Ansers = () => {
               download="ansers_brochers"
             >
               <span className="colorAndFont">
-                ANSERS brochure
+                Brochure
                 <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
@@ -42,7 +42,7 @@ const Ansers = () => {
               download="ansers_qa"
             >
               <span className="colorAndFont">
-                ANSERS Q&A
+                Question & Ansers
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -55,7 +55,7 @@ const Ansers = () => {
               target="_black"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont">ANSERS:Introduction </div>
+                <div className="colorAndFont">Introduction </div>
                 <div>
                   <img src={youtube_logo} className="youtube-logo" alt="" />
                 </div>
@@ -68,7 +68,7 @@ const Ansers = () => {
             <div className="innerdivs">
               <a href="https://www.beta-cae.com/ansers.htm" target="_blank">
                 <span className="colorAndFont">
-                  ANSERS product site
+                  Product Website
                   <img src={link_logo} className="link-logo" alt="" />
                 </span>
               </a>

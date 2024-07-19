@@ -41,7 +41,7 @@ const Komvos = () => {
             >
               <div style={{ display: "flex" }}>
                 <div className="colorAndFont" style={{ marginTop: "6px" }}>
-                  Introduction to KOMVOS{" "}
+                  Introduction{" "}
                 </div>
                 <div>
                   <img src={ppt_logo} className="ppt-logo" alt="" />
@@ -57,7 +57,7 @@ const Komvos = () => {
             >
               <div style={{ display: "flex" }}>
                 <div className="colorAndFont" style={{ marginTop: "6px" }}>
-                  KOMVOS UI walkthrough{" "}
+                 UI Walkthrough{" "}
                 </div>
                 <div>
                   {" "}
@@ -73,7 +73,7 @@ const Komvos = () => {
               download="komvos_userguide"
             >
               <span className="colorAndFont">
-                KOMVOS user guide{" "}
+               User Guide{" "}
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -85,7 +85,7 @@ const Komvos = () => {
               download="komvos_brochers"
             >
               <span className="colorAndFont">
-                KOMVOS brochure{" "}
+                Brochure{" "}
                 <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
@@ -97,7 +97,7 @@ const Komvos = () => {
               download="komvos_system_requirement"
             >
               <span className="colorAndFont">
-                KOMVOS system requirements{" "}
+                System requirements for Installation{" "}
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -122,7 +122,7 @@ const Komvos = () => {
               download="komvos_qa"
             >
               <span className="colorAndFont">
-                KOMVOS Q&A
+                Question & Answers
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -136,7 +136,7 @@ const Komvos = () => {
             >
               <div style={{ display: "flex" }}>
                 <div className="colorAndFont">
-                  Re-intro KOMVOS as desktop client
+                  Re-intro to the KOMVOS as desktop client
                 </div>
                 <div>
                   <img src={ppt_logo} className="ppt-logo" alt="" />
@@ -152,7 +152,7 @@ const Komvos = () => {
               download="komvos_short_notes"
             >
               <span className="colorAndFont">
-                KOMVOS short notes
+                Short Notes
                 <img src={document_logo} className="doc-logo" alt="" />
               </span>
             </a>
@@ -238,7 +238,7 @@ const Komvos = () => {
           <div className="innerdivs" id="productFilesMarginLeft">
             <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
               <span className="colorAndFont">
-                KOMVOS prdouct site
+                Product Website
                 <img src={link_logo} className="link-logo" alt="" />
               </span>
             </a>

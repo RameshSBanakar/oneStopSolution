@@ -53,7 +53,7 @@ const Spdrm = () => {
             >
               <div style={{ display: "flex" }}>
                 <div className="colorAndFont" style={{ marginTop: "6px" }}>
-                  Introduction to SPDRM
+                  Introduction
                 </div>
                 <div>
                   <img src={ppt_logo} className="ppt-logo" />
@@ -62,7 +62,7 @@ const Spdrm = () => {
             </a>
           </div>
 
-          <div className="innerdivs" id="tutorialsFilesMarginLeft">
+          {/* <div className="innerdivs" id="tutorialsFilesMarginLeft">
             <a
               onClick={() => handleDownload(SPDRM_TUTORIAL)}
               download="spdrm_tutorial"
@@ -72,7 +72,7 @@ const Spdrm = () => {
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
-          </div>
+          </div> */}
 
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a
@@ -80,7 +80,7 @@ const Spdrm = () => {
               download="spderm_brochers"
             >
               <span className="colorAndFont">
-                SPDRM brochure{" "}
+                Brochure{" "}
                 <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
@@ -92,7 +92,7 @@ const Spdrm = () => {
               download="spdrm_system_requirements"
             >
               <span className="colorAndFont">
-                SPDRM system requirements{" "}
+               System requirements For Installation{" "}
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
@@ -101,7 +101,7 @@ const Spdrm = () => {
           <div className="innerdivs" id="pdfFilesMarginLeft">
             <a onClick={() => handleDownload(SPDRM_QA)} download="spdrm_qa">
               <span className="colorAndFont">
-                SPDRM Q&A
+                Question & Ansers
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
@@ -113,7 +113,7 @@ const Spdrm = () => {
               download="spdrm_superiority"
             >
               <span className="colorAndFont">
-                SPDRM superiority
+               Superiority
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
@@ -224,7 +224,7 @@ const Spdrm = () => {
               download="spderm_administartor_guide"
             >
               <span className="colorAndFont">
-                SPDRM administrators guide
+                Administrator Guide
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -237,7 +237,7 @@ const Spdrm = () => {
               download="spdrm_installation_guide"
             >
               <span className="colorAndFont">
-                SPDRM installation guide
+                Installation Guide
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -250,7 +250,7 @@ const Spdrm = () => {
               download="spdrm_users_guide"
             >
               <span className="colorAndFont">
-                SPDRM user guide{" "}
+                User Guide{" "}
                 <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
@@ -261,7 +261,7 @@ const Spdrm = () => {
           <div className="innerdivs" id="productFilesMarginLeft">
             <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
               <span className="colorAndFont">
-                SPDRM product site
+               Product Website
                 <img src={link_logo} className="link-logo" alt="" />
               </span>
             </a>
