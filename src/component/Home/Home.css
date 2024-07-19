@@ -1,22 +1,18 @@
-.body{
+.body {
     background-image: url("../Assets/backgroundImage.png");
 }
-.home{
- margin-left: 2%;
 
- display: flex;
- width:97%;
- 
-
- /* border: 1px solid red; */
- /* flex-direction: column; */
- 
+.home {
+    margin-left: 2%;
+    display: flex;
+    width: 97%;
 }
-.legendDiv{
+
+.legendDiv {
     position: fixed;
     margin-top: 30px;
     width: 30%;
-    width:98.6%;
+    width: 98.6%;
     height: 15px;
     background-color: white;
     justify-content: space-between;
@@ -25,43 +21,68 @@
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-  
-    /* overflow-x: scroll; */
 }
 
-.firstROw{
-    /* border: 1px solid blue; */
+.firstROw {
     margin-top: 1.5%;
-    width:100%;
-    display: flex; 
+    width: 100%;
+    display: flex;
     flex-direction: column;
 }
-.legendsubdiv{
-  width:8px;
-  height: 8px ;
-  margin-right: 10px;
-  text-align: center;
- 
+
+.legendsubdiv {
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    text-align: center;
 }
-.legendtext{
+
+.legendtext {
     font-size: 10px;
 }
 
-
-@media screen and (max-width: 650px) {
-    .home{
-        display: flex;
-        flex-direction: column;;
-    }
-.firstROw {
-    margin-top: 13%;
-    width:100%;
+@media screen and (max-width: 1200px) {
+    .firstROw {
+        margin-top: 3%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
-        .legendDiv{
-            overflow-x: scroll;
-        }
-    
 }
 
+@media screen and (max-width: 1080px) {
+    .firstROw {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .firstROw {
+        margin-top: 7%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstROw {
+        margin-top: 13%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .legendDiv {
+        overflow-x: scroll;
+    }
+
+}

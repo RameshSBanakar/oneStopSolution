@@ -85,9 +85,9 @@
 
 }
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
     .imagediv {
-        width: 30%;
+        width: 40%;
     }
 }
 
@@ -103,5 +103,5 @@
         width: 95%;
         margin-top: 6%;
     }
-}
+} */
 

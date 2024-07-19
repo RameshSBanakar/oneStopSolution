@@ -16,7 +16,7 @@ const Ml = () => {
      window.open(pdf, "_blank");
    };
   return (
-    <div className="common">
+    <div className="common1">
       <div className="imagediv">
         <img
           src={beta_logo}

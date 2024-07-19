@@ -1,4 +1,4 @@
-.common {
+.common  {
     border: 1px solid black;
     width: 95%;
     margin-top: 6%;
@@ -8,6 +8,17 @@
     margin-right: 2%;
     font-size: 12px;
 
+}
+.common1{
+    border: 1px solid black;
+        width: 95%;
+        margin-top: 6%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px;
+        padding-left: 2%;
+        margin-right: 2%;
+        font-size: 12px;
+        background-color: white;
 }
 
 
@@ -160,23 +171,34 @@
     color: #63666A;
     font-weight: 500;
 }
+@media screen and (max-width: 1200px) {
+    .imagediv {
+        width: 50%;
+    }
+}
 
 @media screen and (max-width: 1080px) {
     .imagediv {
-        width: 30%;
+        width: 55%;
     }
 }
 
 @media screen and (max-width: 800px) {
     .imagediv {
-        width: 32%;
+        width: 65%;
     }
 }
 
 @media screen and (max-width: 650px) {
-
+    .imagediv {
+            width: 30%;
+        }
     .common {
         width: 95%;
+        margin-top: -2%;
+    }
+    .common1{
         margin-top: 6%;
+       
     }
 }

@@ -1,21 +1,12 @@
 import React from "react";
 import "./Ansers.css";
-
-// import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
-
-
-//all logos imported
 import ansers_log from "../Assets/ANSERS/logo_ansers.png";
-
 import pdf_logo from "../Assets/pdf_logo.webp";
-
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-
 import brochers_logo from "../Assets/brochers.png";
-
 import ANSERS_BROCHERS from "../Assets/ANSERS/ansers_brochure.pdf";
 import ANSERS_QA from "../Assets/ANSERS/ansers_qa.pdf";
 
@@ -26,7 +17,7 @@ const Ansers = () => {
      window.open(pdf, "_blank");
    };
   return (
-    <div className="common">
+    <div className="common1">
       <div className="imagediv">
         <img src={ansers_log} alt="ansers_logo" />
       </div>
