@@ -175,6 +175,23 @@
     .imagediv {
         width: 50%;
     }
+        .video-card {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+           
+            padding: 20px;
+            width: 700px;
+            height: 500px;
+    
+            background-color: rgb(230, 242, 247);
+    
+            border-radius: 5px;
+            /* Border color for the card */
+            box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+    
+            z-index: 10;
+        }
 }
 
 @media screen and (max-width: 1080px) {
@@ -187,6 +204,23 @@
     .imagediv {
         width: 65%;
     }
+         .video-card {
+             position: absolute;
+             top: 10%;
+             left: 5%;
+    
+             padding: 10px;
+             width: 700px;
+             height: 500px;
+    
+             background-color: rgb(230, 242, 247);
+    
+             border-radius: 5px;
+             /* Border color for the card */
+             box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+    
+             z-index: 10;
+         }
 }
 
 @media screen and (max-width: 650px) {
@@ -200,5 +234,22 @@
     .common1{
         margin-top: 6%;
        
+    }
+    .video-card {
+        position: absolute;
+        top: 10%;
+        left: 2%;
+
+        padding: 10px;
+        width: 550px;
+        height: 420px;
+
+        background-color: rgb(230, 242, 247);
+
+        border-radius: 5px;
+        /* Border color for the card */
+        box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+
+        z-index: 10;
     }
 }

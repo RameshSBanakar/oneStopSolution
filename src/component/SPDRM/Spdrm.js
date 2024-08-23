@@ -40,6 +40,10 @@ const Spdrm = () => {
     link: "",
     videoName: "",
   });
+  const setVideocardValues = (prop) => {
+    setVideoCard(prop);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   const handleDownload = (pdf) => {
     window.open(pdf, "_blank");
   };
@@ -55,8 +59,8 @@ const Spdrm = () => {
               <img
                 src={cross_icon}
                 className="crossIcon"
-                onClick={() =>
-                  setVideoCard({ state: false, link: "", videoName: "" })
+                onClick={() =>setVideocardValues({ state: false, link: "", videoName: "" })
+                  
                 }
               />
             </div>
@@ -218,12 +222,12 @@ const Spdrm = () => {
               <a
                 // href={HM_FROM_SPDRM_VIDEO}
                 download="edit_hm_from_spdrm"
-                onClick={() =>
-                  setVideoCard({
+                onClick={() =>setVideocardValues({
                     state: true,
                     link: HM_FROM_SPDRM_VIDEO,
                     videoName: "Edit HM from SPDRM",
                   })
+                  
                 }
               >
                 <div style={{ display: "flex" }}>
@@ -241,12 +245,13 @@ const Spdrm = () => {
               <a
                 // href={TC_SPDRM_VIDEO}
                 download="tc_spdrm"
-                onClick={() =>
-                  setVideoCard({
+                onClick={() =>setVideocardValues({
                     state: true,
                     link: TC_SPDRM_VIDEO,
                     videoName: "Team center SPDRM video",
                   })
+                  
+                  
                 }
               >
                 <div style={{ display: "flex" }}>

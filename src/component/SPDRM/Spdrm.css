@@ -110,12 +110,14 @@
     .imagediv {
         width: 30%;
     }
+    
 }
 
 @media screen and (max-width: 800px) {
     .imagediv {
         width: 32%;
     }
+     
 }
 
 @media screen and (max-width: 650px) {
@@ -124,6 +126,7 @@
         width: 95%;
         margin-top: 6%;
     }
+    
 }
 
 
@@ -135,12 +138,12 @@
     width:800px;
     height: 550px;
    
-    background-color: #fff;
+    background-color: rgb(230, 242, 247);
   
     border-radius: 5px;
     /* Border color for the card */
     box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
-   
+    
     z-index: 10;
 }
 
