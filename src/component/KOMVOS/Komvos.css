@@ -241,8 +241,8 @@
         left: 2%;
 
         padding: 10px;
-        width: 550px;
-        height: 420px;
+        width: 90%;
+        aspect-ratio:4/3;
 
         background-color: rgb(230, 242, 247);
 
