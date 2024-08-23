@@ -245,7 +245,7 @@ const Spdrm = () => {
                   setVideoCard({
                     state: true,
                     link: TC_SPDRM_VIDEO,
-                    videoName: "Team center video",
+                    videoName: "Team center SPDRM video",
                   })
                 }
               >
