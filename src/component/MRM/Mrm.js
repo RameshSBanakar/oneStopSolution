@@ -258,6 +258,22 @@ const Mrm = () => {
               </div>
             </a>
           </div>
+
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://youtu.be/F6XmKCHOj_M?si=NGxlxknJNhXZ26XG"
+              target="_black"
+            >
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  latest development for sim model assembly
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
 
         <div className="totirial">

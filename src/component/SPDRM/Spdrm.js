@@ -69,7 +69,6 @@ const Spdrm = () => {
           <div className="video-container">
             <video width="480" height="400" controls className="videotagstyle">
               <source src={videoCard.link} type="video/mp4" />
-              Your browser does not support the video tag.
             </video>
           </div>
         </div>
