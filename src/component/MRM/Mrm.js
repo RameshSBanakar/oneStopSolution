@@ -25,6 +25,7 @@ import MODULAR_RUN_MANGMENT_2 from "../Assets/MRM/modular_run_management.pdf";
 import SIMMANAGER_BETA_SUITE_INTRACTION from "../Assets/MRM/simmanager-beta_suite-interaction.pdf";
 import MODEL_COMPARISION_IN_ANSA_META from "../Assets/MRM/ansa_model_comparison.pdf";
 import FROM_INCLUDE_TO_MODEL_BROWSER from "../Assets/MRM/FromIncludesToModelBrowserContainers.pdf"
+import PART_BUILD from "../Assets/MRM/part_build.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -188,7 +189,20 @@ const Mrm = () => {
               download="ansa_model_comparison"
             >
               <span className="colorAndFont">
-                From include to model browser
+                From include to model browser(plugin)
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              // href={MODEL_COMPARISION_IN_ANSA_META}
+              onClick={() => handleDownload(PART_BUILD)}
+              download="ansa_model_comparison"
+            >
+              <span className="colorAndFont">
+                Part Build
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>
