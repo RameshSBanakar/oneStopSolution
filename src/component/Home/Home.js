@@ -153,11 +153,11 @@ const Home = () => {
         </div>
         <div className="firstROw">
           <Mrm2 />
-          <Ml />
+          <Ansers />
         </div>
         <div className="firstROw">
           <Komvos />
-          <Ansers />
+          <Ml />
         </div>
         <div className="firstROw">
           <Spdrm />
