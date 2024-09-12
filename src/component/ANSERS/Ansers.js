@@ -18,9 +18,13 @@ const Ansers = () => {
    };
   return (
     <div className="common1">
-      <div className="imagediv">
-        <img src={ansers_log} alt="ansers_logo" />
-      </div>
+      <a href="https://www.beta-cae.com/ansers.htm" target="_blank">
+        {" "}
+        <div className="imagediv">
+          <img src={ansers_log} alt="ansers_logo" />
+        </div>
+      </a>
+
       <div className="datadiv">
         <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           <div className="innerdivs" id="pdfFilesMarginLeft">
@@ -63,7 +67,7 @@ const Ansers = () => {
             </a>
           </div>
         </div>
-        <div className="linkDiv">
+        {/* <div className="linkDiv">
           <div style={{ borderLeft: "5px solid orange" }}>
             <div className="innerdivs">
               <a href="https://www.beta-cae.com/ansers.htm" target="_blank">
@@ -74,7 +78,7 @@ const Ansers = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

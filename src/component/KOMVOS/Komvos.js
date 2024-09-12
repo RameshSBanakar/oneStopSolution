@@ -28,9 +28,13 @@ const Komvos = () => {
    };
   return (
     <div className="common">
-      <div className="imagediv">
-        <img src={komvos_logo} />
-      </div>
+      <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
+        {" "}
+        <div className="imagediv">
+          <img src={komvos_logo} />
+        </div>
+      </a>
+
       <div className="datadiv">
         <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           <div className="innerdivs" id="pdfFilesMarginLeft">
@@ -57,7 +61,7 @@ const Komvos = () => {
             >
               <div style={{ display: "flex" }}>
                 <div className="colorAndFont" style={{ marginTop: "6px" }}>
-                 UI Walkthrough{" "}
+                  UI Walkthrough{" "}
                 </div>
                 <div>
                   {" "}
@@ -73,8 +77,7 @@ const Komvos = () => {
               download="komvos_userguide"
             >
               <span className="colorAndFont">
-               User Guide{" "}
-                <img src={pdf_logo} className="pdf-logo" alt="" />
+                User Guide <img src={pdf_logo} className="pdf-logo" alt="" />
               </span>
             </a>
           </div>
@@ -85,8 +88,7 @@ const Komvos = () => {
               download="komvos_brochers"
             >
               <span className="colorAndFont">
-                Brochure{" "}
-                <img src={brochers_logo} className="doc-logo" alt="" />
+                Brochure <img src={brochers_logo} className="doc-logo" alt="" />
               </span>
             </a>
           </div>
@@ -234,7 +236,7 @@ const Komvos = () => {
             </a>
           </div>
         </div>
-        <div className="linkDiv">
+        {/* <div className="linkDiv">
           <div className="innerdivs" id="productFilesMarginLeft">
             <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
               <span className="colorAndFont">
@@ -243,7 +245,7 @@ const Komvos = () => {
               </span>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

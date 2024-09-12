@@ -12,6 +12,7 @@ import STREAM_LINE_DATA_EXT_FROM_TC from "../Assets/PDM/Streamlining data extrac
 import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
 import ANSA_TC_SIM_WHITE_PAPER from "../Assets/PDM/ansa_tc_sim_white_paper.pdf"
 import TEAMCENTRE_UTILITIES_PLUGIN from "../Assets/PDM/TeamcenterUtilities.pdf"
+import CAD_DATA_TRANSLATOR from "../Assets/PDM/cad_data_translators.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const Pdm = () => {
    const handleDownload = (pdf) => {
@@ -19,23 +20,25 @@ const Pdm = () => {
    };
   return (
     <div className="common1">
-      <div className="imagediv">
-        <img
-          src={beta_logo}
-          alt="ansers_logo"
-          style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
-        />
-        <div
-          style={{
-            paddingLeft: "10px",
-            marginTop: "-10px",
-            fontSize: "16px",
-            fontWeight: "700",
-          }}
-        >
-          PDM TO CAE
+      <a href="https://www.beta-cae.com/translators.htm" target="_blank" style={{textDecoration:"none"}}>
+        <div className="imagediv">
+          <img
+            src={beta_logo}
+            alt="ansers_logo"
+            style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
+          />
+          <div
+            style={{
+              paddingLeft: "10px",
+              marginTop: "-10px",
+              fontSize: "16px",
+              fontWeight: "700",
+            }}
+          >
+            PDM TO CAE
+          </div>
         </div>
-      </div>
+      </a>
 
       <div className="datadiv">
         <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
@@ -89,6 +92,19 @@ const Pdm = () => {
             >
               <span className="colorAndFont">
                 Teamcentre utilities plugin{" "}
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              // href={TEAMCENTRE_UTILITIES_PLUGIN}
+              onClick={() => handleDownload(CAD_DATA_TRANSLATOR)}
+              download="TeamcenterUtilities"
+            >
+              <span className="colorAndFont">
+                CAD to ANSA Translators
                 <img src={pdf_logo} className="pdf-logo" />
               </span>
             </a>

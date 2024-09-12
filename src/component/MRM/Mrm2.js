@@ -2,13 +2,18 @@ import React,{useState} from "react";
 import "./Mrm.css";
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
-
+import pdf_logo from "../Assets/pdf_logo.webp";
+import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
 import link_logo from "../Assets/link_logo.jpg";
 import ASSEMBLY_VIDEO from "../Assets/MRM/AssemblySet.mp4"
 import video_logo from "../Assets/video1.jpg"
 import beta_logo from "../Assets/beta_logo.png";
 import cross_icon from "../Assets/cross_icon.png";
+import FROM_INCLUDE_TO_MODEL_BROWSER from "../Assets/MRM/FromIncludesToModelBrowserContainers.pdf";
+import PART_BUILD from "../Assets/MRM/part_build.pdf";
 
+import BUILD_FASTENER_LIBRARY from "../Assets/MRM/BuildFastenersLibrary.pdf";
+import AUTOMATIC_RECOG_FASTENER from "../Assets/MRM/fastener_library.pdf";
 const Mrm = () => {
    const [videoCard, setVideoCard] = useState({
      state: false,
@@ -49,25 +54,88 @@ const Mrm = () => {
         </div>
       )}
       <div className="common">
-        <div className="imagediv">
-          <img
-            src={beta_logo}
-            alt="ansers_logo"
-            style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
-          />
-          <div
-            style={{
-              paddingLeft: "30px",
-              marginTop: "-10px",
-              fontSize: "20px",
-              fontWeight: "700",
-            }}
-          >
-            MRM
+        <a
+          href="https://www.beta-cae.com/ansa.htm"
+          target="_blank"
+          style={{ textDecoration: "none" }}
+        >
+          <div className="imagediv">
+            <img
+              src={beta_logo}
+              alt="ansers_logo"
+              style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
+            />
+            <div
+              style={{
+                paddingLeft: "30px",
+                marginTop: "-10px",
+                fontSize: "20px",
+                fontWeight: "700",
+              }}
+            >
+              MRM
+            </div>
           </div>
-        </div>
+        </a>
 
         <div className="datadiv">
+          <div
+            className="pdfFilesdiv"
+            style={{ marginTop: "-10px", marginBottom: "15px" }}
+          >
+            <div className="innerdivs" id="pdfFilesMarginLeft">
+              <a
+                // href={MODEL_COMPARISION_IN_ANSA_META}
+                onClick={() => handleDownload(FROM_INCLUDE_TO_MODEL_BROWSER)}
+                download="ansa_model_comparison"
+              >
+                <span className="colorAndFont">
+                  From include to model browser(plugin)
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
+              </a>
+            </div>
+
+            <div className="innerdivs" id="pdfFilesMarginLeft">
+              <a
+                // href={MODEL_COMPARISION_IN_ANSA_META}
+                onClick={() => handleDownload(PART_BUILD)}
+                download="ansa_model_comparison"
+              >
+                <span className="colorAndFont">
+                  Part Build Process
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
+              </a>
+            </div>
+
+            <div className="innerdivs" id="pdfFilesMarginLeft">
+              <a
+                // href={MODEL_COMPARISION_IN_ANSA_META}
+                onClick={() => handleDownload(BUILD_FASTENER_LIBRARY)}
+                download="ansa_model_comparison"
+              >
+                <span className="colorAndFont">
+                  Build Fasteners Library
+                  <img src={pdf_logo} className="pdf-logo" />
+                </span>
+              </a>
+            </div>
+
+            {/* <div className="innerdivs" id="pdfFilesMarginLeft">
+              <a
+                // href={MODEL_COMPARISION_IN_ANSA_META}
+                onClick={() => handleDownload(AUTOMATIC_RECOG_FASTENER)}
+                download="ansa_model_comparison"
+              >
+                <span className="colorAndFont">
+                  Automatic Recognition of Fasteners
+                  <img src={ppt_logo} alt="" className="ppt-logo" />
+                </span>
+              </a>
+            </div> */}
+          </div>
+
           <div className="linkDiv" style={{ marginTop: "-10px" }}>
             <span style={{ fontWeight: "700", color: " blue" }}>
               Confluence docs
@@ -191,9 +259,9 @@ const Mrm = () => {
             </div>
           </div>
           <div className="totirial">
-            <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
+            {/* <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
               Tutorials
-            </span>
+            </span> */}
             <div className="innerdivs" id="tutorialsFilesMarginLeft">
               <a
                 href="https://kb.beta-cae.com/pages/viewpage.action?pageId=93693859"
@@ -265,34 +333,32 @@ const Mrm = () => {
               </a>
             </div>
 
-              <div className="innerdivs" id="videoFilesMarginLeft">
-                <a
-                  // href={HM_FROM_SPDRM_VIDEO}
-                  download="edit_hm_from_spdrm"
-                  onClick={() =>
-                    setVideocardValues({
-                      state: true,
-                      link: ASSEMBLY_VIDEO,
-                      videoName: "Edit HM from SPDRM",
-                    })
-                  }
-                >
-                  <div style={{ display: "flex" }}>
-                    <div className="colorAndFont" style={{ marginTop: "4px" }}>
-                      Assembly Set
-                    </div>
-                    <div>
-                      <img src={video_logo} style={{ width: "25px" }} />
-                    </div>
+            <div className="innerdivs" id="videoFilesMarginLeft">
+              <a
+                // href={HM_FROM_SPDRM_VIDEO}
+                download="edit_hm_from_spdrm"
+                onClick={() =>
+                  setVideocardValues({
+                    state: true,
+                    link: ASSEMBLY_VIDEO,
+                    videoName: "Edit HM from SPDRM",
+                  })
+                }
+              >
+                <div style={{ display: "flex" }}>
+                  <div className="colorAndFont" style={{ marginTop: "4px" }}>
+                    Assembly Set
                   </div>
-                </a>
-              </div>
+                  <div>
+                    <img src={video_logo} style={{ width: "25px" }} />
+                  </div>
+                </div>
+              </a>
             </div>
-
           </div>
         </div>
       </div>
-
+    </div>
 
     // </div>
   );

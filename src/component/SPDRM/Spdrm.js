@@ -59,8 +59,8 @@ const Spdrm = () => {
               <img
                 src={cross_icon}
                 className="crossIcon"
-                onClick={() =>setVideocardValues({ state: false, link: "", videoName: "" })
-                  
+                onClick={() =>
+                  setVideocardValues({ state: false, link: "", videoName: "" })
                 }
               />
             </div>
@@ -74,9 +74,11 @@ const Spdrm = () => {
         </div>
       )}
       <div className="common">
-        <div className="imagediv">
-          <img src={spderm_logo} alt="spderm_logo" />
-        </div>
+        <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
+          <div className="imagediv">
+            <img src={spderm_logo} alt="spderm_logo" />
+          </div>
+        </a>
         <div className="datadiv">
           <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
             <div className="innerdivs" id="pdfFilesMarginLeft">
@@ -221,12 +223,12 @@ const Spdrm = () => {
               <a
                 // href={HM_FROM_SPDRM_VIDEO}
                 download="edit_hm_from_spdrm"
-                onClick={() =>setVideocardValues({
+                onClick={() =>
+                  setVideocardValues({
                     state: true,
                     link: HM_FROM_SPDRM_VIDEO,
                     videoName: "Edit HM from SPDRM",
                   })
-                  
                 }
               >
                 <div style={{ display: "flex" }}>
@@ -244,13 +246,12 @@ const Spdrm = () => {
               <a
                 // href={TC_SPDRM_VIDEO}
                 download="tc_spdrm"
-                onClick={() =>setVideocardValues({
+                onClick={() =>
+                  setVideocardValues({
                     state: true,
                     link: TC_SPDRM_VIDEO,
                     videoName: "Team center SPDRM video",
                   })
-                  
-                  
                 }
               >
                 <div style={{ display: "flex" }}>
@@ -312,14 +313,6 @@ const Spdrm = () => {
           </div>
 
           <div className="linkDiv">
-            <div className="innerdivs" id="productFilesMarginLeft">
-              <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
-                <span className="colorAndFont">
-                  Product Website
-                  <img src={link_logo} className="link-logo" alt="" />
-                </span>
-              </a>
-            </div>
 
             <div className="innerdivs" id="confluenceFilesMarginLeft">
               <a

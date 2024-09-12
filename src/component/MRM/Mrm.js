@@ -27,6 +27,8 @@ import MODEL_COMPARISION_IN_ANSA_META from "../Assets/MRM/ansa_model_comparison.
 import FROM_INCLUDE_TO_MODEL_BROWSER from "../Assets/MRM/FromIncludesToModelBrowserContainers.pdf"
 import PART_BUILD from "../Assets/MRM/part_build.pdf"
 import ASSEMBLY_VIDEO from "../Assets/MRM/AssemblySet.mp4"
+import BUILD_FASTENER_LIBRARY from "../Assets/MRM/BuildFastenersLibrary.pdf"
+import AUTOMATIC_RECOG_FASTENER from "../Assets/MRM/fastener_library.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -71,23 +73,25 @@ const Mrm = () => {
         </div>
       )}
       <div className="common">
-        <div className="imagediv">
-          <img
-            src={beta_logo}
-            alt="beta_logo"
-            style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
-          />
-          <div
-            style={{
-              paddingLeft: "30px",
-              marginTop: "-10px",
-              fontSize: "20px",
-              fontWeight: "700",
-            }}
-          >
-            MRM
+        <a href="https://www.beta-cae.com/ansa.htm" target="_blank" style={{textDecoration:"none"}}>
+          <div className="imagediv">
+            <img
+              src={beta_logo}
+              alt="beta_logo"
+              style={{ width: "18px", height: "18px", paddingLeft: "80px" }}
+            />
+            <div
+              style={{
+                paddingLeft: "30px",
+                marginTop: "-10px",
+                fontSize: "20px",
+                fontWeight: "700",
+              }}
+            >
+              MRM
+            </div>
           </div>
-        </div>
+        </a>
 
         <div className="datadiv">
           <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
@@ -224,11 +228,11 @@ const Mrm = () => {
             <div className="innerdivs" id="pdfFilesMarginLeft">
               <a
                 // href={MODEL_COMPARISION_IN_ANSA_META}
-                onClick={() => handleDownload(FROM_INCLUDE_TO_MODEL_BROWSER)}
+                onClick={() => handleDownload(BUILD_FASTENER_LIBRARY)}
                 download="ansa_model_comparison"
               >
                 <span className="colorAndFont">
-                  From include to model browser(plugin)
+                  Build Fasteners Library
                   <img src={pdf_logo} className="pdf-logo" />
                 </span>
               </a>
@@ -237,12 +241,12 @@ const Mrm = () => {
             <div className="innerdivs" id="pdfFilesMarginLeft">
               <a
                 // href={MODEL_COMPARISION_IN_ANSA_META}
-                onClick={() => handleDownload(PART_BUILD)}
+                onClick={() => handleDownload(AUTOMATIC_RECOG_FASTENER)}
                 download="ansa_model_comparison"
               >
                 <span className="colorAndFont">
-                  Part Build
-                  <img src={pdf_logo} className="pdf-logo" />
+                  Automatic Recognition of Fasteners
+                  <img src={ppt_logo} alt="" className="ppt-logo" />
                 </span>
               </a>
             </div>

@@ -90,8 +90,8 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 1px;
+    text-align: center;
 }
-
 .innerdivs:hover {
     cursor: pointer;
 }
@@ -114,7 +114,8 @@
 
 .ppt-logo {
     width: 40px;
-    height: 25px
+    height: 25px;
+    
 }
 
 .link-logo {
