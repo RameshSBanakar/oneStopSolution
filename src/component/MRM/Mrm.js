@@ -334,9 +334,9 @@ const Mrm = () => {
           </div>
 
           <div className="totirial">
-            <span style={{ fontWeight: "700", color: "red" }}>
+            {/* <span style={{ fontWeight: "700", color: "red" }}>
               MRM Playlist
-            </span>
+            </span> */}
 
             <div className="innerdivs" id="youtubeFilesMarginLeft">
               <a

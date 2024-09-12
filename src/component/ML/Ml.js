@@ -4,10 +4,10 @@ import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import pdf_logo from "../Assets/pdf_logo.webp";
-
+import white_paper from "../Assets/white_paper.jpg";
 
 import youtube_logo from "../Assets/youtube_logo.png";
-
+import OCCUPANT_SAFETY_PREDICTION from "../Assets/ML/occupant_safety_prediction.pdf"
 import beta_logo from "../Assets/beta_logo.png";
 import ML_FASTNER from "../Assets/ML/ML_fasteners.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -48,7 +48,21 @@ const Ml = () => {
               download="ML_fasteners"
             >
               <span className="colorAndFont">
-                ML fasteners <img src={pdf_logo} className="pdf-logo" />
+                Embedded clips recognition by ML
+                <img src={pdf_logo} className="pdf-logo" />
+              </span>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="pdfFilesMarginLeft">
+            <a
+              // href={ML_FASTNER}
+              onClick={() => handleDownload(OCCUPANT_SAFETY_PREDICTION)}
+              download="ML_fasteners"
+            >
+              <span className="colorAndFont">
+                Occupant Safety Prediction{" "}
+                <img src={white_paper} className="doc-logo" />
               </span>
             </a>
           </div>

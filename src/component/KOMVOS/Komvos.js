@@ -161,9 +161,9 @@ const Komvos = () => {
           </div>
         </div>
         <div className="totirial">
-          <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
+          {/* <span style={{ fontWeight: "700", color: " rgb(59, 240, 240)" }}>
             Tutorials
-          </span>
+          </span> */}
           <div className="innerdivs" id="tutorialsFilesMarginLeft">
             <a
               // href={MODELBUILD_SIMPLIFIED}

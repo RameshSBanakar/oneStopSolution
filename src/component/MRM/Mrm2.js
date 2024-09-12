@@ -137,9 +137,9 @@ const Mrm = () => {
           </div>
 
           <div className="linkDiv" style={{ marginTop: "-10px" }}>
-            <span style={{ fontWeight: "700", color: " blue" }}>
+            {/* <span style={{ fontWeight: "700", color: " blue" }}>
               Confluence docs
-            </span>
+            </span> */}
             <div className="innerdivs" id="confluenceFilesMarginLeft">
               <a
                 href="https://kb.beta-cae.com/pages/viewpage.action?pageId=55018831"

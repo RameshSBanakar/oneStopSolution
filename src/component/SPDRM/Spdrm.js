@@ -272,7 +272,7 @@ const Spdrm = () => {
             </div>
           </div>
           <div className="guides">
-            <span style={{ fontWeight: "700", color: "brown" }}>Guides</span>
+            {/* <span style={{ fontWeight: "700", color: "brown" }}>Guides</span> */}
             <div className="innerdivs" id="pdfFilesMarginLeft">
               <a
                 // href={SPDRM_ADM_GUIDE}
