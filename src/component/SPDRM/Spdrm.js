@@ -8,9 +8,9 @@ import spderm_logo from "../Assets/SPDRM/logo_cropped_spdrm.png";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
-import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
+import ppt_logo from "../Assets/ppt_to_pdf.png";
 import brochers_logo from "../Assets/brochers.png";
-import video_logo from "../Assets/video1.jpg";
+import video_logo from "../Assets/videopng.png";
 import cross_icon from "../Assets/cross_icon.png";
 
 import SPDRM_BROCHER from "../Assets/SPDRM/spdrm_brochure.pdf";
@@ -88,12 +88,19 @@ const Spdrm = () => {
                 download="introduction_to_SPDRM"
               >
                 <div style={{ display: "flex" }}>
-                  <div className="colorAndFont" style={{ marginTop: "6px" }}>
+                  <div className="colorAndFont" style={{textAlign:"center"}}>
                     Introduction
                   </div>
-                  <div>
-                    <img src={ppt_logo} className="ppt-logo" />
-                  </div>
+                  <img
+                    src={ppt_logo}
+                    alt=""
+                    className="ppt-logo"
+                    style={{
+                      width: "28px",
+                      height: "13px",
+                      margin: "1px",
+                    }}
+                  />
                 </div>
               </a>
             </div>
@@ -236,7 +243,10 @@ const Spdrm = () => {
                     Edit HM from SPDRM
                   </div>
                   <div>
-                    <img src={video_logo} style={{ width: "25px" }} />
+                    <img
+                      src={video_logo}
+                      style={{ width: "15px", marginLeft: "5px" }}
+                    />
                   </div>
                 </div>
               </a>
@@ -262,9 +272,7 @@ const Spdrm = () => {
                     {" "}
                     <img
                       src={video_logo}
-                      className="pdf-logo"
-                      alt=""
-                      style={{ width: "25px" }}
+                      style={{ width: "15px", marginLeft: "5px" }}
                     />
                   </div>
                 </div>
@@ -313,7 +321,6 @@ const Spdrm = () => {
           </div>
 
           <div className="linkDiv">
-
             <div className="innerdivs" id="confluenceFilesMarginLeft">
               <a
                 href="https://kb.beta-cae.com/display/SS/SPDRM"

@@ -6,7 +6,7 @@ import pdf_logo from "../Assets/pdf_logo.webp";
 import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
 import link_logo from "../Assets/link_logo.jpg";
 import ASSEMBLY_VIDEO from "../Assets/MRM/AssemblySet.mp4"
-import video_logo from "../Assets/video1.jpg"
+import video_logo from "../Assets/videopng.png"
 import beta_logo from "../Assets/beta_logo.png";
 import cross_icon from "../Assets/cross_icon.png";
 import FROM_INCLUDE_TO_MODEL_BROWSER from "../Assets/MRM/FromIncludesToModelBrowserContainers.pdf";
@@ -350,7 +350,10 @@ const Mrm = () => {
                     Assembly Set
                   </div>
                   <div>
-                    <img src={video_logo} style={{ width: "25px" }} />
+                    <img
+                      src={video_logo}
+                      style={{ width: "15px", marginLeft: "5px" }}
+                    />
                   </div>
                 </div>
               </a>

@@ -7,7 +7,7 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 import pdf_logo from "../Assets/pdf_logo.webp";
 import white_paper from "../Assets/white_paper.jpg"
 import beta_logo from "../Assets/beta_logo.png"
-import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
+import ppt_logo from "../Assets/ppt_to_pdf.png";
 import STREAM_LINE_DATA_EXT_FROM_TC from "../Assets/PDM/Streamlining data extraction from.pdf"
 import CAE_MODEL_GENERATION_PDM_AND_CAD from "../Assets/PDM/renault_cae_model_generation.pdf"
 import ANSA_TC_SIM_WHITE_PAPER from "../Assets/PDM/ansa_tc_sim_white_paper.pdf"
@@ -20,7 +20,11 @@ const Pdm = () => {
    };
   return (
     <div className="common1">
-      <a href="https://www.beta-cae.com/translators.htm" target="_blank" style={{textDecoration:"none"}}>
+      <a
+        href="https://www.beta-cae.com/translators.htm"
+        target="_blank"
+        style={{ textDecoration: "none" }}
+      >
         <div className="imagediv">
           <img
             src={beta_logo}
@@ -61,12 +65,19 @@ const Pdm = () => {
               download="stream_line_data_extraction_from_tc"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ marginTop: "6px" }}>
+                <div className="colorAndFont" style={{ textAlign:"center",paddingTop:"2px",paddingBottom:"2px" }}>
                   Streamline data extraction from TC
                 </div>
-                <div>
-                  <img src={ppt_logo} className="ppt-logo" alt="" />
-                </div>
+                <img
+                  src={ppt_logo}
+                  alt=""
+                  className="ppt-logo"
+                  style={{
+                    width: "28px",
+                    height: "13px",
+                    margin: "1px",
+                  }}
+                />
               </div>
             </a>
           </div>

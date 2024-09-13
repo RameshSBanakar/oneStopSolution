@@ -9,7 +9,7 @@ import document_logo from "../Assets/document_logo.png";
 import link_logo from "../Assets/link_logo.jpg";
 import youtube_logo from "../Assets/youtube_logo.png";
 import brochers_logo from "../Assets/brochers.png";
-import ppt_logo from "../Assets/PowerPoint-to-PDF-Icon-5-1.png";
+import ppt_logo from "../Assets/ppt_to_pdf.png";
 import KOMVOS_INTRODUCTIOn_PDF from "../Assets/KOMVOS/20231016_introduction_to_KOMVOS.pdf";
 import KOMVOS_UI_WALKTHROUGH from "../Assets/KOMVOS/20220700_KOMVOS_UI_walkthrough.pdf";
 import KOMVOS_USERGUIDE from "../Assets/KOMVOS/KOMVOS_User_Guide.pdf";
@@ -43,13 +43,27 @@ const Komvos = () => {
               onClick={() => handleDownload(KOMVOS_INTRODUCTIOn_PDF)}
               download="introduction_to_komvos"
             >
-              <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ marginTop: "6px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  paddingTop: "1px",
+                  paddingBottom: "1px",
+                }}
+              >
+                <div className="colorAndFont" style={{ textAlign: "center" }}>
                   Introduction{" "}
                 </div>
-                <div>
-                  <img src={ppt_logo} className="ppt-logo" alt="" />
-                </div>
+
+                <img
+                  src={ppt_logo}
+                  alt=""
+                  className="ppt-logo"
+                  style={{
+                    width: "28px",
+                    height: "13px",
+                    margin: "1px",
+                  }}
+                />
               </div>
             </a>
           </div>
@@ -60,13 +74,20 @@ const Komvos = () => {
               download="komvos_ui_walkthrough"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ marginTop: "6px" }}>
+                <div className="colorAndFont" style={{ textAlign: "center" }}>
                   UI Walkthrough{" "}
                 </div>
-                <div>
-                  {" "}
-                  <img src={ppt_logo} className="ppt-logo" alt="" />
-                </div>
+
+                <img
+                  src={ppt_logo}
+                  alt=""
+                  className="ppt-logo"
+                  style={{
+                    width: "28px",
+                    height: "13px",
+                    margin: "1px",
+                  }}
+                />
               </div>
             </a>
           </div>
@@ -140,9 +161,16 @@ const Komvos = () => {
                 <div className="colorAndFont">
                   Re-intro to the KOMVOS as desktop client
                 </div>
-                <div>
-                  <img src={ppt_logo} className="ppt-logo" alt="" />
-                </div>
+                <img
+                  src={ppt_logo}
+                  alt=""
+                  className="ppt-logo"
+                  style={{
+                    width: "28px",
+                    height: "13px",
+                    margin: "1px",
+                  }}
+                />
               </div>
             </a>
           </div>
