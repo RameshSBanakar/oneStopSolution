@@ -113,18 +113,7 @@ const Mrm = () => {
               </a>
             </div>
 
-            <div className="innerdivs" id="pdfFilesMarginLeft">
-              <a
-                // href={MODEL_COMPARISION_IN_ANSA_META}
-                onClick={() => handleDownload(BUILD_FASTENER_LIBRARY)}
-                download="ansa_model_comparison"
-              >
-                <span className="colorAndFont">
-                  Build Fasteners Library
-                  <img src={pdf_logo} className="pdf-logo" />
-                </span>
-              </a>
-            </div>
+            
 
             {/* <div className="innerdivs" id="pdfFilesMarginLeft">
               <a
