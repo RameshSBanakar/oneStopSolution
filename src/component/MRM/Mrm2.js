@@ -329,12 +329,12 @@ const Mrm = () => {
             <div className="innerdivs" id="videoFilesMarginLeft">
               <a
                 // href={HM_FROM_SPDRM_VIDEO}
-                download="edit_hm_from_spdrm"
+                download="Assembly set"
                 onClick={() =>
                   setVideocardValues({
                     state: true,
                     link: ASSEMBLY_VIDEO,
-                    videoName: "Edit HM from SPDRM",
+                    videoName: "Assembly Set",
                   })
                 }
               >
