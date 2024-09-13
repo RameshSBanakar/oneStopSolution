@@ -1,6 +1,11 @@
 import React, {useState } from "react";
 import "./Mrm.css";
 // import { Document, Page } from "react-pdf";
+
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+
+
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
@@ -78,7 +83,7 @@ const Mrm = () => {
           target="_blank"
           style={{ textDecoration: "none" }}
         >
-          <div className="imagediv">
+          <div className="imagediv" id="ansasite">
             <img
               src={beta_logo}
               alt="beta_logo"
@@ -95,6 +100,7 @@ const Mrm = () => {
               MRM
             </div>
           </div>
+          <ReactTooltip anchorId="ansasite" content="ANSA Product page" />
         </a>
 
         <div className="datadiv">

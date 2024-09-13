@@ -1,5 +1,11 @@
 import React from 'react'
 
+
+
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+
+
 // import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
@@ -25,7 +31,7 @@ const Pdm = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="imagediv">
+        <div className="imagediv" id="my-button">
           <img
             src={beta_logo}
             alt="ansers_logo"
@@ -43,7 +49,10 @@ const Pdm = () => {
           </div>
         </div>
       </a>
-
+      <ReactTooltip
+        anchorId="my-button"
+        content="CAD to ANSA Translators page"
+      />
       <div className="datadiv">
         <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
           <div className="innerdivs" id="eventsFilesMarginLeft">
@@ -65,7 +74,14 @@ const Pdm = () => {
               download="stream_line_data_extraction_from_tc"
             >
               <div style={{ display: "flex" }}>
-                <div className="colorAndFont" style={{ textAlign:"center",paddingTop:"2px",paddingBottom:"2px" }}>
+                <div
+                  className="colorAndFont"
+                  style={{
+                    textAlign: "center",
+                    paddingTop: "2px",
+                    paddingBottom: "2px",
+                  }}
+                >
                   Streamline data extraction from TC
                 </div>
                 <img

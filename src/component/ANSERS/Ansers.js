@@ -1,5 +1,9 @@
 import React from "react";
 import "./Ansers.css";
+
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import ansers_log from "../Assets/ANSERS/logo_ansers.png";
@@ -20,9 +24,10 @@ const Ansers = () => {
     <div className="common1">
       <a href="https://www.beta-cae.com/ansers.htm" target="_blank">
         {" "}
-        <div className="imagediv">
+        <div className="imagediv" id="anserspage">
           <img src={ansers_log} alt="ansers_logo" />
         </div>
+        <ReactTooltip anchorId="anserspage" content="ANSERS Product page" />
       </a>
 
       <div className="datadiv">

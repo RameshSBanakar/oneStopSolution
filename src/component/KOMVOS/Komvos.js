@@ -1,6 +1,11 @@
 import React from "react";
 import "./Komvos.css";
 // import { Document, Page } from "react-pdf";
+
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+
+
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import komvos_logo from "../Assets/KOMVOS/logo_cropped_komvos.png";
@@ -30,9 +35,10 @@ const Komvos = () => {
     <div className="common">
       <a href="https://www.beta-cae.com/komvos.htm" target="_blank">
         {" "}
-        <div className="imagediv">
+        <div className="imagediv" id="komvospage">
           <img src={komvos_logo} />
         </div>
+        <ReactTooltip anchorId="komvospage" content="KOMVOS Product page" />
       </a>
 
       <div className="datadiv">

@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import beta_logo from "../Assets/beta_logo.png";
 // import { Document, Page } from "react-pdf";
+
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+
 import { pdfjs } from "react-pdf";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import white_paper from "../Assets/white_paper.jpg";
@@ -75,9 +79,10 @@ const Spdrm = () => {
       )}
       <div className="common">
         <a href="https://www.beta-cae.com/spdrm.htm" target="_blank">
-          <div className="imagediv">
+          <div className="imagediv" id="spdrmpage">
             <img src={spderm_logo} alt="spderm_logo" />
           </div>
+          <ReactTooltip anchorId="spdrmpage" content="SPDRM Product page" />
         </a>
         <div className="datadiv">
           <div className="pdfFilesdiv" style={{ marginTop: "-10px" }}>
@@ -88,7 +93,7 @@ const Spdrm = () => {
                 download="introduction_to_SPDRM"
               >
                 <div style={{ display: "flex" }}>
-                  <div className="colorAndFont" style={{textAlign:"center"}}>
+                  <div className="colorAndFont" style={{ textAlign: "center" }}>
                     Introduction
                   </div>
                   <img
