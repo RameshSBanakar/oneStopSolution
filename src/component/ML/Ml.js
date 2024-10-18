@@ -153,6 +153,40 @@ const Ml = () => {
               </div>
             </a>
           </div>
+
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://youtu.be/t441TWuMhkU?si=1W8e-snZOOGcboPn"
+              target="_black"
+            >
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Machine Learning for design exploration
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="innerdivs" id="youtubeFilesMarginLeft">
+            <a
+              href="https://youtu.be/t441TWuMhkU?si=1W8e-snZOOGcboPn"
+              target="_black"
+            >
+              <div style={{ display: "flex" }}>
+                <div className="colorAndFont">
+                  Machine Learning for design exploration
+                </div>
+                <div>
+                  <img src={youtube_logo} className="youtube-logo" alt="" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          
         </div>
       </div>
     </div>
